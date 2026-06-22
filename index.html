@@ -1,282 +1,351 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
-  <script defer data-domain="kontela.github.io" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>
-  <title>kontela.github.io chat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erman Avsar</title>
+  <meta name="description" content="Erman Avsar - software engineer building AI products, archive/story-mining systems, and practical research tools.">
   <style>
-    /* Global Styles */
+    :root {
+      --ink: #1f2933;
+      --muted: #5f6c7b;
+      --line: #d9e2ec;
+      --soft: #f7f9fc;
+      --link: #1265d8;
+      --accent: #0f766e;
+      --paper: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
     body {
       margin: 0;
-      padding: 0;
-      background: linear-gradient(135deg, #0d0d0d, #1e1e1e);
-      color: #e0e0e0;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.62;
     }
-    header {
-      background-color: rgba(20, 20, 20, 0.9);
-      padding: 15px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2em;
-      letter-spacing: 1px;
-    }
-    header nav {
-      display: flex;
-      gap: 20px;
-    }
-    header nav a {
-      color: #a0a0a0;
+
+    a {
+      color: var(--link);
       text-decoration: none;
-      font-size: 1em;
-      transition: color 0.3s ease;
-      cursor: pointer;
-    }
-    header nav a.active,
-    header nav a:hover {
-      color: #ffffff;
     }
 
-    /* CTA line styling */
-    .cta-line {
-      text-align: center;
-      font-size: 1em;
-      color: #00aaff;
-      background-color: rgba(20, 20, 20, 0.8);
-      padding: 8px 0;
-      border-bottom: 1px solid #0088cc;
+    a:hover { text-decoration: underline; }
+
+    .page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 46px 28px 72px;
     }
 
-    /* Containers */
-    .container,
-    .cv-window {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: rgba(30, 30, 30, 0.95);
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 220px;
+      gap: 36px;
+      align-items: start;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--line);
     }
 
-    .cv-window {
-      display: none; /* hidden by default */
-      height: 600px; /* enough space for full‑page resume */
+    h1 {
+      margin: 0 0 10px;
+      font-size: 46px;
+      line-height: 1.04;
+      letter-spacing: 0;
     }
 
-    /* Chat styles (unchanged) */
+    .subtitle {
+      margin: 0 0 18px;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      font-size: 15px;
+    }
+
+    .portrait {
+      justify-self: end;
+      width: 180px;
+      aspect-ratio: 1;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--soft);
+    }
+
+    .portrait img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    section {
+      padding: 30px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 23px;
+      line-height: 1.25;
+    }
+
+    p { margin: 0 0 14px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .item {
+      padding: 0;
+    }
+
+    .item h3 {
+      margin: 0 0 5px;
+      font-size: 18px;
+      line-height: 1.35;
+    }
+
+    .item p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .chat-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--soft);
+      margin-top: 12px;
+    }
+
     .chat-window {
-      position: relative;
-      height: 400px;
+      min-height: 180px;
+      max-height: 320px;
       overflow-y: auto;
-      border: 1px solid #333;
-      padding: 15px;
-      margin-bottom: 20px;
-      background-color: #000;
-      border-radius: 4px;
-      box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+      padding: 16px;
+      background: #fff;
+      border-bottom: 1px solid var(--line);
     }
-    .chat-window .placeholder {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #666;
-      font-size: 1.2em;
-      text-align: center;
-      pointer-events: none;
+
+    .placeholder {
+      color: var(--muted);
     }
+
     .chat-message {
-      margin-bottom: 12px;
-      line-height: 1.5;
-      opacity: 0;
-      transform: translateY(10px);
-      animation: fadeInUp 0.4s forwards;
+      margin: 0 0 12px;
+      max-width: 88%;
     }
+
     .chat-message.user {
+      margin-left: auto;
+      color: #155e75;
       text-align: right;
-      color: #00ff7f;
     }
+
     .chat-message.ai {
-      text-align: left;
-      color: #1e90ff;
+      color: #334155;
     }
-    @keyframes fadeInUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
+
     .input-area {
       display: flex;
+      gap: 8px;
+      padding: 10px;
+      background: #fff;
     }
+
     .input-area input {
       flex: 1;
-      padding: 12px;
-      border: none;
-      border-radius: 4px;
-      background-color: #2a2a2a;
-      color: #e0e0e0;
-      font-size: 1em;
-      outline: none;
-      transition: background-color 0.3s ease;
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px 12px;
+      font: inherit;
     }
-    .input-area input:focus {
-      background-color: #3a3a3a;
-    }
+
     .input-area button {
-      padding: 12px 20px;
-      margin-left: 10px;
-      border: none;
-      background-color: #00aaff;
+      border: 0;
+      border-radius: 6px;
+      background: var(--ink);
       color: #fff;
-      border-radius: 4px;
+      padding: 10px 14px;
+      font: inherit;
       cursor: pointer;
-      font-size: 1em;
-      transition: background-color 0.3s ease;
-    }
-    .input-area button:hover {
-      background-color: #0088cc;
     }
 
     footer {
-      text-align: center;
-      padding: 15px;
-      color: #888;
-      font-size: 0.9em;
+      padding-top: 24px;
+      color: var(--muted);
+      font-size: 14px;
     }
-    @media (max-width: 600px) {
-      footer { display: none; }
+
+    @media (max-width: 780px) {
+      .page { padding: 28px 18px 56px; }
+      header {
+        grid-template-columns: 1fr;
+      }
+      .portrait {
+        justify-self: start;
+        width: 150px;
+      }
+      h1 { font-size: 38px; }
+      .grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>kontela.github.io</h1>
-    <nav>
-      <a id="chat-tab" class="active">Chat</a>
-      <a id="cv-tab">CV</a>
-      <a href="privacy.html">Privacy Policy</a>
-    </nav>
-  </header>
+  <main class="page">
+    <header>
+      <div>
+        <h1>Erman Avsar</h1>
+        <p class="subtitle">Software engineer building AI products, practical data systems, and archive/story-mining tools. I like projects where messy real-world information becomes something people can reason with.</p>
+        <div class="links">
+          <a href="Erman_Avsar_CV.pdf">CV</a>
+          <a href="mailto:ermanutku.avsar@hotmail.com">Email</a>
+          <a href="https://github.com/kontela">GitHub</a>
+          <a href="#work">Work</a>
+          <a href="#notes">Notes</a>
+          <a href="#chat">AI chat</a>
+        </div>
+      </div>
+      <div class="portrait">
+        <img src="profile_pic.jpg" alt="Erman Avsar">
+      </div>
+    </header>
 
-  <div class="cta-line">
-    Chat with my AI agent.
-  </div>
+    <section id="about">
+      <h2>About</h2>
+      <p>I work across product engineering, applied AI, data analysis, and fast prototypes. Recently I have been exploring agentic archive research: taking large official historical corpora, indexing them locally, and using AI to surface grounded story leads from first-hand records.</p>
+      <p>I care about useful interfaces, verifiable sources, and systems that help people inspect evidence instead of just generating summaries.</p>
+    </section>
 
-  <!-- Chat container (default visible) -->
-  <div class="container" id="chat-container">
-    <div class="chat-window" id="chat-window">
-      <div class="placeholder" id="placeholder">Get to know me by chatting with my AI version...</div>
-    </div>
-    <div class="input-area">
-      <input type="text" id="chat-input" placeholder="Type a message..." />
-      <button id="send-btn">Send</button>
-    </div>
-  </div>
+    <section id="work">
+      <h2>Selected Work</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>Historical archive story mining</h3>
+          <p>Local FRUS XML/SQLite pipeline for finding Turkish/Ottoman story threads across diplomatic records, with source links and document excerpts.</p>
+        </div>
+        <div class="item">
+          <h3>AI product analysis</h3>
+          <p>Review mining and KPI-style analysis for mobile products, turning public app feedback into product opportunities and discussion surfaces.</p>
+        </div>
+        <div class="item">
+          <h3>Personal AI chat</h3>
+          <p>A lightweight chat interface backed by a worker endpoint. It used to be the whole homepage; now it lives here as an optional experiment.</p>
+        </div>
+        <div class="item">
+          <h3>Older engineering projects</h3>
+          <p>IoT, transit tracking, backend/frontend prototypes, and university-era systems. Some are public on GitHub, others are private or archived.</p>
+        </div>
+      </div>
+    </section>
 
-  <!-- CV container (hidden by default) -->
-  <div class="cv-window" id="cv-window">
-    <iframe src="Erman_Avsar_CV.pdf" width="100%" height="100%" title="Erman Avsar Resume"></iframe>
-    <noscript>
-      <p style="text-align:center; padding-top:20px;">JavaScript is disabled. <a href="Erman_Avsar_CV.pdf" target="_blank">Open the résumé here</a>.</p>
-    </noscript>
-  </div>
+    <section id="notes">
+      <h2>Notes</h2>
+      <div class="list">
+        <div class="item">
+          <h3>Archive agents as research assistants</h3>
+          <p>Current experiment: can agents read across official archives and surface real, valuable historical story leads with citations?</p>
+          <div class="meta">Working note, not published yet</div>
+        </div>
+        <div class="item">
+          <h3>From product reviews to product strategy</h3>
+          <p>Using public review corpora to understand frustration patterns, missing workflows, and why users churn.</p>
+          <div class="meta">Project write-up planned</div>
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    <div>
-      <h4>Lastly, check out what ChatGPT thinks about me &rarr; <a href="https://chatgpt.com/share/68777f57-30b0-8001-8259-a41689aeffed" target="_blank">shared chat link</a></h4>
-    </div>
-    <p>&copy; Made by passion and pursuit of happiness.</p>
-  </footer>
+    <section id="chat">
+      <h2>AI Chat</h2>
+      <p>This is experimental and secondary now. It sends your message to my Cloudflare Worker chat endpoint and keeps the conversation only in this browser tab.</p>
+      <div class="chat-panel">
+        <div class="chat-window" id="chat-window">
+          <div class="placeholder" id="placeholder">Ask a question about my work, projects, or background.</div>
+        </div>
+        <div class="input-area">
+          <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off">
+          <button id="send-btn" type="button">Send</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Built as a simple static page on GitHub Pages. No analytics.</p>
+      <p><a href="privacy.html">Privacy</a></p>
+    </footer>
+  </main>
 
   <script>
-    // ============================
-    // Chat History and Rendering
-    // ============================
     let chatHistory = [];
 
-    const chatWindow  = document.getElementById('chat-window');
-    const chatInput   = document.getElementById('chat-input');
-    const sendBtn     = document.getElementById('send-btn');
+    const chatWindow = document.getElementById('chat-window');
+    const chatInput = document.getElementById('chat-input');
+    const sendBtn = document.getElementById('send-btn');
 
-    // Tab elements
-    const chatTab   = document.getElementById('chat-tab');
-    const cvTab     = document.getElementById('cv-tab');
-    const chatBox   = document.getElementById('chat-container');
-    const cvBox     = document.getElementById('cv-window');
-
-    // -----------------------------------------------
-    // Helper to append chat messages
-    // -----------------------------------------------
     function appendChatMessage(sender, text) {
       const placeholder = document.getElementById('placeholder');
       if (placeholder) placeholder.remove();
 
       const div = document.createElement('div');
       div.classList.add('chat-message', sender);
-
-      let t = text
-        .replace(/^### (.*)$/gm, '<h3>$1</h3>')
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\n/g, '<br>');
-
-      div.innerHTML = t;
+      div.textContent = text;
       chatWindow.appendChild(div);
       chatWindow.scrollTop = chatWindow.scrollHeight;
     }
 
-    // -----------------------------------------------
-    // Send message handler
-    // -----------------------------------------------
     async function sendMessage() {
       const text = chatInput.value.trim();
       if (!text) return;
-      chatHistory.push({ sender:'user', text });
+
+      chatHistory.push({ sender: 'user', text });
       appendChatMessage('user', text);
       chatInput.value = '';
 
       try {
-        const resp = await fetch("https://tiny-surf-d063.erman-lab.workers.dev/", {
-          method: "POST",
-          headers: { "Content-Type":"application/json" },
-          body: JSON.stringify({ history: chatHistory, message: text, app:"pursuit" })
+        const resp = await fetch('https://tiny-surf-d063.erman-lab.workers.dev/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ history: chatHistory, message: text, app: 'pursuit' })
         });
-        if (!resp.ok) { console.error(await resp.text()); return; }
+        if (!resp.ok) {
+          appendChatMessage('ai', 'The chat endpoint is not available right now.');
+          return;
+        }
         const data = await resp.json();
-        chatHistory.push({ sender:'ai', text: data.reply });
+        chatHistory.push({ sender: 'ai', text: data.reply });
         appendChatMessage('ai', data.reply);
-      } catch(err) { console.error('Error:', err); }
-    }
-
-    sendBtn.addEventListener('click', sendMessage);
-    chatInput.addEventListener('keypress', e => { if (e.key === 'Enter') sendMessage(); });
-
-    // -----------------------------------------------
-    // Tab switching logic
-    // -----------------------------------------------
-    function activateTab(tab) {
-      if (tab === 'chat') {
-        chatBox.style.display = 'block';
-        cvBox.style.display   = 'none';
-        chatTab.classList.add('active');
-        cvTab.classList.remove('active');
-      } else {
-        cvBox.style.display   = 'block';
-        chatBox.style.display = 'none';
-        cvTab.classList.add('active');
-        chatTab.classList.remove('active');
+      } catch (err) {
+        appendChatMessage('ai', 'The chat endpoint is not available right now.');
       }
     }
 
-    chatTab.addEventListener('click', () => activateTab('chat'));
-    cvTab.addEventListener('click',   () => activateTab('cv'));
+    sendBtn.addEventListener('click', sendMessage);
+    chatInput.addEventListener('keydown', event => {
+      if (event.key === 'Enter') sendMessage();
+    });
   </script>
 </body>
 </html>
