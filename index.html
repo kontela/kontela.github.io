@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <script defer data-domain="kontela.github.io" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>
+  <title>kontela.github.io chat</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0d0d0d, #1e1e1e);
+      color: #e0e0e0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+    header {
+      background-color: rgba(20, 20, 20, 0.9);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+    header nav {
+      display: flex;
+      gap: 20px;
+    }
+    header nav a {
+      color: #a0a0a0;
+      text-decoration: none;
+      font-size: 1em;
+      transition: color 0.3s ease;
+      cursor: pointer;
+    }
+    header nav a.active,
+    header nav a:hover {
+      color: #ffffff;
+    }
+
+    /* CTA line styling */
+    .cta-line {
+      text-align: center;
+      font-size: 1em;
+      color: #00aaff;
+      background-color: rgba(20, 20, 20, 0.8);
+      padding: 8px 0;
+      border-bottom: 1px solid #0088cc;
+    }
+
+    /* Containers */
+    .container,
+    .cv-window {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: rgba(30, 30, 30, 0.95);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+    }
+
+    .cv-window {
+      display: none; /* hidden by default */
+      height: 600px; /* enough space for full‑page resume */
+    }
+
+    /* Chat styles (unchanged) */
+    .chat-window {
+      position: relative;
+      height: 400px;
+      overflow-y: auto;
+      border: 1px solid #333;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #000;
+      border-radius: 4px;
+      box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    }
+    .chat-window .placeholder {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #666;
+      font-size: 1.2em;
+      text-align: center;
+      pointer-events: none;
+    }
+    .chat-message {
+      margin-bottom: 12px;
+      line-height: 1.5;
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeInUp 0.4s forwards;
+    }
+    .chat-message.user {
+      text-align: right;
+      color: #00ff7f;
+    }
+    .chat-message.ai {
+      text-align: left;
+      color: #1e90ff;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .input-area {
+      display: flex;
+    }
+    .input-area input {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      border-radius: 4px;
+      background-color: #2a2a2a;
+      color: #e0e0e0;
+      font-size: 1em;
+      outline: none;
+      transition: background-color 0.3s ease;
+    }
+    .input-area input:focus {
+      background-color: #3a3a3a;
+    }
+    .input-area button {
+      padding: 12px 20px;
+      margin-left: 10px;
+      border: none;
+      background-color: #00aaff;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+    .input-area button:hover {
+      background-color: #0088cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #888;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      footer { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>kontela.github.io</h1>
+    <nav>
+      <a id="chat-tab" class="active">Chat</a>
+      <a id="cv-tab">CV</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <div class="cta-line">
+    Chat with my AI agent.
+  </div>
+
+  <!-- Chat container (default visible) -->
+  <div class="container" id="chat-container">
+    <div class="chat-window" id="chat-window">
+      <div class="placeholder" id="placeholder">Get to know me by chatting with my AI version...</div>
+    </div>
+    <div class="input-area">
+      <input type="text" id="chat-input" placeholder="Type a message..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <!-- CV container (hidden by default) -->
+  <div class="cv-window" id="cv-window">
+    <iframe src="Erman_Avsar_CV.pdf" width="100%" height="100%" title="Erman Avsar Resume"></iframe>
+    <noscript>
+      <p style="text-align:center; padding-top:20px;">JavaScript is disabled. <a href="Erman_Avsar_CV.pdf" target="_blank">Open the résumé here</a>.</p>
+    </noscript>
+  </div>
+
+  <footer>
+    <div>
+      <h4>Lastly, check out what ChatGPT thinks about me &rarr; <a href="https://chatgpt.com/share/68777f57-30b0-8001-8259-a41689aeffed" target="_blank">shared chat link</a></h4>
+    </div>
+    <p>&copy; Made by passion and pursuit of happiness.</p>
+  </footer>
+
+  <script>
+    // ============================
+    // Chat History and Rendering
+    // ============================
+    let chatHistory = [];
+
+    const chatWindow  = document.getElementById('chat-window');
+    const chatInput   = document.getElementById('chat-input');
+    const sendBtn     = document.getElementById('send-btn');
+
+    // Tab elements
+    const chatTab   = document.getElementById('chat-tab');
+    const cvTab     = document.getElementById('cv-tab');
+    const chatBox   = document.getElementById('chat-container');
+    const cvBox     = document.getElementById('cv-window');
+
+    // -----------------------------------------------
+    // Helper to append chat messages
+    // -----------------------------------------------
+    function appendChatMessage(sender, text) {
+      const placeholder = document.getElementById('placeholder');
+      if (placeholder) placeholder.remove();
+
+      const div = document.createElement('div');
+      div.classList.add('chat-message', sender);
+
+      let t = text
+        .replace(/^### (.*)$/gm, '<h3>$1</h3>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\n/g, '<br>');
+
+      div.innerHTML = t;
+      chatWindow.appendChild(div);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+    }
+
+    // -----------------------------------------------
+    // Send message handler
+    // -----------------------------------------------
+    async function sendMessage() {
+      const text = chatInput.value.trim();
+      if (!text) return;
+      chatHistory.push({ sender:'user', text });
+      appendChatMessage('user', text);
+      chatInput.value = '';
+
+      try {
+        const resp = await fetch("https://tiny-surf-d063.erman-lab.workers.dev/", {
+          method: "POST",
+          headers: { "Content-Type":"application/json" },
+          body: JSON.stringify({ history: chatHistory, message: text, app:"pursuit" })
+        });
+        if (!resp.ok) { console.error(await resp.text()); return; }
+        const data = await resp.json();
+        chatHistory.push({ sender:'ai', text: data.reply });
+        appendChatMessage('ai', data.reply);
+      } catch(err) { console.error('Error:', err); }
+    }
+
+    sendBtn.addEventListener('click', sendMessage);
+    chatInput.addEventListener('keypress', e => { if (e.key === 'Enter') sendMessage(); });
+
+    // -----------------------------------------------
+    // Tab switching logic
+    // -----------------------------------------------
+    function activateTab(tab) {
+      if (tab === 'chat') {
+        chatBox.style.display = 'block';
+        cvBox.style.display   = 'none';
+        chatTab.classList.add('active');
+        cvTab.classList.remove('active');
+      } else {
+        cvBox.style.display   = 'block';
+        chatBox.style.display = 'none';
+        cvTab.classList.add('active');
+        chatTab.classList.remove('active');
+      }
+    }
+
+    chatTab.addEventListener('click', () => activateTab('chat'));
+    cvTab.addEventListener('click',   () => activateTab('cv'));
+  </script>
+</body>
+</html>
