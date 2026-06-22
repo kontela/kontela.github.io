@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#1f2933}
+.title{font-size:26px;font-weight:700}
+.subtitle{font-size:14px;fill:#52606d}
+.axis{stroke:#9aa5b1;stroke-width:1}
+.grid{stroke:#d9e2ec;stroke-width:1}
+.bar{fill:#2f80ed}
+.bar:hover{fill:#d64545}
+.tick{font-size:11px;fill:#52606d}
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="72" y="36" class="title">FRUS documents matching turk*</text>
+<text x="72" y="58" class="subtitle">Yearly count across local FRUS XML index. Total dated matches: 13,720</text>
+<line x1="72" y1="628.0" x2="1368" y2="628.0" class="grid"/>
+<text x="60" y="632.0" text-anchor="end" class="tick">0</text>
+<line x1="72" y1="514.8" x2="1368" y2="514.8" class="grid"/>
+<text x="60" y="518.8" text-anchor="end" class="tick">100</text>
+<line x1="72" y1="401.6" x2="1368" y2="401.6" class="grid"/>
+<text x="60" y="405.6" text-anchor="end" class="tick">200</text>
+<line x1="72" y1="288.4" x2="1368" y2="288.4" class="grid"/>
+<text x="60" y="292.4" text-anchor="end" class="tick">300</text>
+<line x1="72" y1="175.3" x2="1368" y2="175.3" class="grid"/>
+<text x="60" y="179.3" text-anchor="end" class="tick">400</text>
+<line x1="72" y1="62.1" x2="1368" y2="62.1" class="grid"/>
+<text x="60" y="66.1" text-anchor="end" class="tick">500</text>
+<line x1="72" y1="70" x2="72" y2="628" class="axis"/>
+<line x1="72" y1="628" x2="1368" y2="628" class="axis"/>
+<rect x="72.84" y="626.87" width="7.65" height="1.13" class="bar"><title>1851: 1 documents</title></rect>
+<text x="76.7" y="648" text-anchor="middle" class="tick">1851</text>
+<rect x="110.13" y="626.87" width="7.65" height="1.13" class="bar"><title>1855: 1 documents</title></rect>
+<rect x="156.75" y="626.87" width="7.65" height="1.13" class="bar"><title>1860: 1 documents</title></rect>
+<text x="160.6" y="648" text-anchor="middle" class="tick">1860</text>
+<rect x="166.08" y="615.55" width="7.65" height="12.45" class="bar"><title>1861: 11 documents</title></rect>
+<rect x="175.40" y="607.63" width="7.65" height="20.37" class="bar"><title>1862: 18 documents</title></rect>
+<rect x="184.72" y="595.18" width="7.65" height="32.82" class="bar"><title>1863: 29 documents</title></rect>
+<rect x="194.05" y="591.78" width="7.65" height="36.22" class="bar"><title>1864: 32 documents</title></rect>
+<rect x="203.37" y="605.36" width="7.65" height="22.64" class="bar"><title>1865: 20 documents</title></rect>
+<rect x="212.70" y="589.52" width="7.65" height="38.48" class="bar"><title>1866: 34 documents</title></rect>
+<rect x="222.02" y="595.18" width="7.65" height="32.82" class="bar"><title>1867: 29 documents</title></rect>
+<rect x="231.34" y="589.52" width="7.65" height="38.48" class="bar"><title>1868: 34 documents</title></rect>
+<rect x="240.67" y="625.74" width="7.65" height="2.26" class="bar"><title>1869: 2 documents</title></rect>
+<rect x="249.99" y="611.02" width="7.65" height="16.98" class="bar"><title>1870: 15 documents</title></rect>
+<text x="253.8" y="648" text-anchor="middle" class="tick">1870</text>
+<rect x="259.31" y="598.57" width="7.65" height="29.43" class="bar"><title>1871: 26 documents</title></rect>
+<rect x="268.64" y="600.84" width="7.65" height="27.16" class="bar"><title>1872: 24 documents</title></rect>
+<rect x="277.96" y="594.04" width="7.65" height="33.96" class="bar"><title>1873: 30 documents</title></rect>
+<rect x="287.29" y="586.12" width="7.65" height="41.88" class="bar"><title>1874: 37 documents</title></rect>
+<rect x="296.61" y="604.23" width="7.65" height="23.77" class="bar"><title>1875: 21 documents</title></rect>
+<rect x="305.93" y="605.36" width="7.65" height="22.64" class="bar"><title>1876: 20 documents</title></rect>
+<rect x="315.26" y="560.09" width="7.65" height="67.91" class="bar"><title>1877: 60 documents</title></rect>
+<rect x="324.58" y="581.59" width="7.65" height="46.41" class="bar"><title>1878: 41 documents</title></rect>
+<rect x="333.90" y="592.91" width="7.65" height="35.09" class="bar"><title>1879: 31 documents</title></rect>
+<rect x="343.23" y="586.12" width="7.65" height="41.88" class="bar"><title>1880: 37 documents</title></rect>
+<text x="347.1" y="648" text-anchor="middle" class="tick">1880</text>
+<rect x="352.55" y="603.10" width="7.65" height="24.90" class="bar"><title>1881: 22 documents</title></rect>
+<rect x="361.88" y="588.39" width="7.65" height="39.61" class="bar"><title>1882: 35 documents</title></rect>
+<rect x="371.20" y="578.20" width="7.65" height="49.80" class="bar"><title>1883: 44 documents</title></rect>
+<rect x="380.52" y="580.46" width="7.65" height="47.54" class="bar"><title>1884: 42 documents</title></rect>
+<rect x="389.85" y="586.12" width="7.65" height="41.88" class="bar"><title>1885: 37 documents</title></rect>
+<rect x="399.17" y="620.08" width="7.65" height="7.92" class="bar"><title>1886: 7 documents</title></rect>
+<rect x="408.49" y="596.31" width="7.65" height="31.69" class="bar"><title>1887: 28 documents</title></rect>
+<rect x="417.82" y="565.75" width="7.65" height="62.25" class="bar"><title>1888: 55 documents</title></rect>
+<rect x="427.14" y="600.84" width="7.65" height="27.16" class="bar"><title>1889: 24 documents</title></rect>
+<rect x="436.47" y="597.44" width="7.65" height="30.56" class="bar"><title>1890: 27 documents</title></rect>
+<text x="440.3" y="648" text-anchor="middle" class="tick">1890</text>
+<rect x="445.79" y="616.68" width="7.65" height="11.32" class="bar"><title>1891: 10 documents</title></rect>
+<rect x="455.11" y="573.67" width="7.65" height="54.33" class="bar"><title>1892: 48 documents</title></rect>
+<rect x="464.44" y="530.66" width="7.65" height="97.34" class="bar"><title>1893: 86 documents</title></rect>
+<rect x="473.76" y="528.40" width="7.65" height="99.60" class="bar"><title>1894: 88 documents</title></rect>
+<rect x="483.08" y="463.88" width="7.65" height="164.12" class="bar"><title>1895: 145 documents</title></rect>
+<rect x="492.41" y="521.61" width="7.65" height="106.39" class="bar"><title>1896: 94 documents</title></rect>
+<rect x="501.73" y="595.18" width="7.65" height="32.82" class="bar"><title>1897: 29 documents</title></rect>
+<rect x="511.05" y="598.57" width="7.65" height="29.43" class="bar"><title>1898: 26 documents</title></rect>
+<rect x="520.38" y="613.29" width="7.65" height="14.71" class="bar"><title>1899: 13 documents</title></rect>
+<rect x="529.70" y="613.29" width="7.65" height="14.71" class="bar"><title>1900: 13 documents</title></rect>
+<text x="533.5" y="648" text-anchor="middle" class="tick">1900</text>
+<rect x="539.03" y="589.52" width="7.65" height="38.48" class="bar"><title>1901: 34 documents</title></rect>
+<rect x="548.35" y="586.12" width="7.65" height="41.88" class="bar"><title>1902: 37 documents</title></rect>
+<rect x="557.67" y="578.20" width="7.65" height="49.80" class="bar"><title>1903: 44 documents</title></rect>
+<rect x="567.00" y="577.07" width="7.65" height="50.93" class="bar"><title>1904: 45 documents</title></rect>
+<rect x="576.32" y="582.73" width="7.65" height="45.27" class="bar"><title>1905: 40 documents</title></rect>
+<rect x="585.64" y="557.83" width="7.65" height="70.17" class="bar"><title>1906: 62 documents</title></rect>
+<rect x="594.97" y="569.14" width="7.65" height="58.86" class="bar"><title>1907: 52 documents</title></rect>
+<rect x="604.29" y="595.18" width="7.65" height="32.82" class="bar"><title>1908: 29 documents</title></rect>
+<rect x="613.62" y="575.94" width="7.65" height="52.06" class="bar"><title>1909: 46 documents</title></rect>
+<rect x="622.94" y="613.29" width="7.65" height="14.71" class="bar"><title>1910: 13 documents</title></rect>
+<text x="626.8" y="648" text-anchor="middle" class="tick">1910</text>
+<rect x="632.26" y="620.08" width="7.65" height="7.92" class="bar"><title>1911: 7 documents</title></rect>
+<rect x="641.59" y="571.41" width="7.65" height="56.59" class="bar"><title>1912: 50 documents</title></rect>
+<rect x="650.91" y="609.89" width="7.65" height="18.11" class="bar"><title>1913: 16 documents</title></rect>
+<rect x="660.23" y="452.56" width="7.65" height="175.44" class="bar"><title>1914: 155 documents</title></rect>
+<rect x="669.56" y="432.19" width="7.65" height="195.81" class="bar"><title>1915: 173 documents</title></rect>
+<rect x="678.88" y="484.26" width="7.65" height="143.74" class="bar"><title>1916: 127 documents</title></rect>
+<rect x="688.21" y="466.15" width="7.65" height="161.85" class="bar"><title>1917: 143 documents</title></rect>
+<rect x="697.53" y="374.47" width="7.65" height="253.53" class="bar"><title>1918: 224 documents</title></rect>
+<rect x="706.85" y="264.68" width="7.65" height="363.32" class="bar"><title>1919: 321 documents</title></rect>
+<rect x="716.18" y="564.62" width="7.65" height="63.38" class="bar"><title>1920: 56 documents</title></rect>
+<text x="720.0" y="648" text-anchor="middle" class="tick">1920</text>
+<rect x="725.50" y="562.35" width="7.65" height="65.65" class="bar"><title>1921: 58 documents</title></rect>
+<rect x="734.82" y="469.54" width="7.65" height="158.46" class="bar"><title>1922: 140 documents</title></rect>
+<rect x="744.15" y="365.41" width="7.65" height="262.59" class="bar"><title>1923: 232 documents</title></rect>
+<rect x="753.47" y="564.62" width="7.65" height="63.38" class="bar"><title>1924: 56 documents</title></rect>
+<rect x="762.80" y="589.52" width="7.65" height="38.48" class="bar"><title>1925: 34 documents</title></rect>
+<rect x="772.12" y="561.22" width="7.65" height="66.78" class="bar"><title>1926: 59 documents</title></rect>
+<rect x="781.44" y="549.90" width="7.65" height="78.10" class="bar"><title>1927: 69 documents</title></rect>
+<rect x="790.77" y="534.06" width="7.65" height="93.94" class="bar"><title>1928: 83 documents</title></rect>
+<rect x="800.09" y="570.28" width="7.65" height="57.72" class="bar"><title>1929: 51 documents</title></rect>
+<rect x="809.41" y="582.73" width="7.65" height="45.27" class="bar"><title>1930: 40 documents</title></rect>
+<text x="813.2" y="648" text-anchor="middle" class="tick">1930</text>
+<rect x="818.74" y="599.70" width="7.65" height="28.30" class="bar"><title>1931: 25 documents</title></rect>
+<rect x="828.06" y="605.36" width="7.65" height="22.64" class="bar"><title>1932: 20 documents</title></rect>
+<rect x="837.39" y="589.52" width="7.65" height="38.48" class="bar"><title>1933: 34 documents</title></rect>
+<rect x="846.71" y="509.16" width="7.65" height="118.84" class="bar"><title>1934: 105 documents</title></rect>
+<rect x="856.03" y="564.62" width="7.65" height="63.38" class="bar"><title>1935: 56 documents</title></rect>
+<rect x="865.36" y="552.17" width="7.65" height="75.83" class="bar"><title>1936: 67 documents</title></rect>
+<rect x="874.68" y="535.19" width="7.65" height="92.81" class="bar"><title>1937: 82 documents</title></rect>
+<rect x="884.00" y="498.97" width="7.65" height="129.03" class="bar"><title>1938: 114 documents</title></rect>
+<rect x="893.33" y="416.34" width="7.65" height="211.66" class="bar"><title>1939: 187 documents</title></rect>
+<rect x="902.65" y="371.07" width="7.65" height="256.93" class="bar"><title>1940: 227 documents</title></rect>
+<text x="906.5" y="648" text-anchor="middle" class="tick">1940</text>
+<rect x="911.98" y="189.98" width="7.65" height="438.02" class="bar"><title>1941: 387 documents</title></rect>
+<rect x="921.30" y="332.59" width="7.65" height="295.41" class="bar"><title>1942: 261 documents</title></rect>
+<rect x="930.62" y="175.26" width="7.65" height="452.74" class="bar"><title>1943: 400 documents</title></rect>
+<rect x="939.95" y="274.86" width="7.65" height="353.14" class="bar"><title>1944: 312 documents</title></rect>
+<rect x="949.27" y="185.45" width="7.65" height="442.55" class="bar"><title>1945: 391 documents</title></rect>
+<rect x="958.59" y="360.88" width="7.65" height="267.12" class="bar"><title>1946: 236 documents</title></rect>
+<rect x="967.92" y="285.05" width="7.65" height="342.95" class="bar"><title>1947: 303 documents</title></rect>
+<rect x="977.24" y="347.30" width="7.65" height="280.70" class="bar"><title>1948: 248 documents</title></rect>
+<rect x="986.57" y="329.19" width="7.65" height="298.81" class="bar"><title>1949: 264 documents</title></rect>
+<rect x="995.89" y="245.44" width="7.65" height="382.56" class="bar"><title>1950: 338 documents</title></rect>
+<text x="999.7" y="648" text-anchor="middle" class="tick">1950</text>
+<rect x="1005.21" y="70.00" width="7.65" height="558.00" class="bar"><title>1951: 493 documents</title></rect>
+<rect x="1014.54" y="340.51" width="7.65" height="287.49" class="bar"><title>1952: 254 documents</title></rect>
+<rect x="1023.86" y="291.84" width="7.65" height="336.16" class="bar"><title>1953: 297 documents</title></rect>
+<rect x="1033.18" y="236.38" width="7.65" height="391.62" class="bar"><title>1954: 346 documents</title></rect>
+<rect x="1042.51" y="268.07" width="7.65" height="359.93" class="bar"><title>1955: 318 documents</title></rect>
+<rect x="1051.83" y="334.85" width="7.65" height="293.15" class="bar"><title>1956: 259 documents</title></rect>
+<rect x="1061.16" y="309.95" width="7.65" height="318.05" class="bar"><title>1957: 281 documents</title></rect>
+<rect x="1070.48" y="317.87" width="7.65" height="310.13" class="bar"><title>1958: 274 documents</title></rect>
+<rect x="1079.80" y="395.97" width="7.65" height="232.03" class="bar"><title>1959: 205 documents</title></rect>
+<rect x="1089.13" y="451.43" width="7.65" height="176.57" class="bar"><title>1960: 156 documents</title></rect>
+<text x="1092.9" y="648" text-anchor="middle" class="tick">1960</text>
+<rect x="1098.45" y="502.37" width="7.65" height="125.63" class="bar"><title>1961: 111 documents</title></rect>
+<rect x="1107.77" y="408.42" width="7.65" height="219.58" class="bar"><title>1962: 194 documents</title></rect>
+<rect x="1117.10" y="493.31" width="7.65" height="134.69" class="bar"><title>1963: 119 documents</title></rect>
+<rect x="1126.42" y="313.35" width="7.65" height="314.65" class="bar"><title>1964: 278 documents</title></rect>
+<rect x="1135.75" y="519.34" width="7.65" height="108.66" class="bar"><title>1965: 96 documents</title></rect>
+<rect x="1145.07" y="521.61" width="7.65" height="106.39" class="bar"><title>1966: 94 documents</title></rect>
+<rect x="1154.39" y="448.04" width="7.65" height="179.96" class="bar"><title>1967: 159 documents</title></rect>
+<rect x="1163.72" y="534.06" width="7.65" height="93.94" class="bar"><title>1968: 83 documents</title></rect>
+<rect x="1173.04" y="505.76" width="7.65" height="122.24" class="bar"><title>1969: 108 documents</title></rect>
+<rect x="1182.36" y="449.17" width="7.65" height="178.83" class="bar"><title>1970: 158 documents</title></rect>
+<text x="1186.2" y="648" text-anchor="middle" class="tick">1970</text>
+<rect x="1191.69" y="468.41" width="7.65" height="159.59" class="bar"><title>1971: 141 documents</title></rect>
+<rect x="1201.01" y="493.31" width="7.65" height="134.69" class="bar"><title>1972: 119 documents</title></rect>
+<rect x="1210.34" y="536.32" width="7.65" height="91.68" class="bar"><title>1973: 81 documents</title></rect>
+<rect x="1219.66" y="386.92" width="7.65" height="241.08" class="bar"><title>1974: 213 documents</title></rect>
+<rect x="1228.98" y="418.61" width="7.65" height="209.39" class="bar"><title>1975: 185 documents</title></rect>
+<rect x="1238.31" y="514.82" width="7.65" height="113.18" class="bar"><title>1976: 100 documents</title></rect>
+<rect x="1247.63" y="520.47" width="7.65" height="107.53" class="bar"><title>1977: 95 documents</title></rect>
+<rect x="1256.95" y="505.76" width="7.65" height="122.24" class="bar"><title>1978: 108 documents</title></rect>
+<rect x="1266.28" y="491.05" width="7.65" height="136.95" class="bar"><title>1979: 121 documents</title></rect>
+<rect x="1275.60" y="460.49" width="7.65" height="167.51" class="bar"><title>1980: 148 documents</title></rect>
+<text x="1279.4" y="648" text-anchor="middle" class="tick">1980</text>
+<rect x="1284.93" y="595.18" width="7.65" height="32.82" class="bar"><title>1981: 29 documents</title></rect>
+<rect x="1294.25" y="604.23" width="7.65" height="23.77" class="bar"><title>1982: 21 documents</title></rect>
+<rect x="1303.57" y="615.55" width="7.65" height="12.45" class="bar"><title>1983: 11 documents</title></rect>
+<rect x="1312.90" y="599.70" width="7.65" height="28.30" class="bar"><title>1984: 25 documents</title></rect>
+<rect x="1322.22" y="618.95" width="7.65" height="9.05" class="bar"><title>1985: 8 documents</title></rect>
+<rect x="1331.54" y="609.89" width="7.65" height="18.11" class="bar"><title>1986: 16 documents</title></rect>
+<rect x="1340.87" y="612.15" width="7.65" height="15.85" class="bar"><title>1987: 14 documents</title></rect>
+<rect x="1350.19" y="604.23" width="7.65" height="23.77" class="bar"><title>1988: 21 documents</title></rect>
+<rect x="1359.52" y="626.87" width="7.65" height="1.13" class="bar"><title>1989: 1 documents</title></rect>
+<text x="1363.3" y="648" text-anchor="middle" class="tick">1989</text>
+<text x="700.0" y="692" text-anchor="middle" class="subtitle">Year</text>
+<text x="20" y="360.0" transform="rotate(-90 20 360.0)" text-anchor="middle" class="subtitle">Matching documents</text>
+</svg>
