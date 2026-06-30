@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What the Clay Still Hides — CDLI Story Leads</title>
+<style>
+  :root{
+    --bg:#14110e; --card:#1e1a16; --ink:#ece4d8; --mut:#a99c89;
+    --acc:#d9a441; --line:#3a332b; --quote:#231f1a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:Georgia,"Times New Roman",serif;line-height:1.6}
+  header{padding:54px 22px 30px;text-align:center;
+    background:radial-gradient(120% 100% at 50% 0,#2a231b 0,#14110e 70%);
+    border-bottom:1px solid var(--line)}
+  header h1{font-size:36px;margin:0 0 8px;letter-spacing:.5px}
+  header .sub{color:var(--mut);max-width:720px;margin:0 auto;font-size:15px}
+  .stats{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:24px auto 0;max-width:820px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;
+        padding:10px 18px;min-width:130px;font-family:Arial,sans-serif}
+  .stat .n{font-size:1.3rem;font-weight:700;color:var(--acc)}
+  .stat .l{font-size:.72rem;text-transform:uppercase;letter-spacing:.5px;color:var(--mut)}
+  .wrap{max-width:920px;margin:0 auto;padding:30px 20px 80px}
+  .intro{color:var(--mut);font-size:15px;border-left:3px solid var(--acc);
+    padding:6px 0 6px 16px;margin:8px 0 38px}
+  .intro b{color:var(--ink)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:24px 26px;margin:0 0 22px;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+  .card h3{font-size:20px;margin:0 0 4px;color:var(--ink)}
+  .tags{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 14px;font-family:Arial,sans-serif}
+  .tag{font-size:11px;letter-spacing:.4px;color:var(--bg);background:var(--acc);
+    padding:3px 9px;border-radius:20px;font-weight:700;text-transform:uppercase}
+  .tag.alt{background:#3a332b;color:var(--mut)}
+  .trans{font-size:15.5px;margin:0 0 12px}
+  .quote{background:var(--quote);border-left:3px solid var(--acc);border-radius:6px;
+    padding:10px 14px;margin:10px 0;font-size:14.5px;color:#d8ccb8;font-style:italic}
+  .why{margin-top:14px;background:#241d14;border-radius:8px;padding:12px 15px;
+    font-size:14px;color:#e7d8bf}
+  .why b{color:var(--acc)}
+  .meta{font-family:Arial,sans-serif;font-size:12px;color:var(--mut);margin-top:14px}
+  .meta a{color:var(--acc);text-decoration:none}
+  .meta a:hover{text-decoration:underline}
+  h2.section{font-size:14px;letter-spacing:2px;text-transform:uppercase;
+    color:var(--acc);border-bottom:1px solid var(--line);padding-bottom:8px;
+    margin:46px 0 8px;font-family:Arial,sans-serif}
+  p.section-note{color:var(--mut);font-size:14px;margin:0 0 20px}
+  footer{color:var(--mut);font-size:13px;text-align:center;padding:40px 20px 60px;
+    border-top:1px solid var(--line);max-width:920px;margin:0 auto}
+  footer a{color:var(--acc)}
+</style>
+</head>
+<body>
+<header>
+  <h1>What the Clay Still Hides</h1>
+  <p class="sub">41 story leads pulled from ~135,000 transliterated cuneiform texts in the
+  Cuneiform Digital Library Initiative (CDLI) — ten parallel agents, one per genre, each
+  reading the 300 most complete texts in their genre and reporting back what's genuinely
+  interesting, citable, and grounded in the source. Every claim below links to its tablet's
+  page on <a href="https://cdli.earth" style="color:var(--acc)">cdli.earth</a>.</p>
+  <div class="stats">
+    <div class="stat"><div class="n">353,283</div><div class="l">Catalogued objects</div></div>
+    <div class="stat"><div class="n">135,255</div><div class="l">Transliterated texts</div></div>
+    <div class="stat"><div class="n">~3,000</div><div class="l">Close-read by agents</div></div>
+    <div class="stat"><div class="n">41</div><div class="l">Leads surfaced here</div></div>
+  </div>
+</header>
+<div class="wrap">
+
+<p class="intro">Method: a scripted triage pass ranked every genre's texts by transliteration
+completeness (free, no LLM cost), keeping the top 300 per genre (or the full set, for genres
+smaller than that). Ten parallel agents then each read one genre's curated set directly off
+the source data and wrote up what stood out — translating untranslated Akkadian/Sumerian
+themselves where needed, with confidence flagged per item. Where a tablet already carries a
+published scholarly translation (a <code>#tr.en</code> line in the source), that's marked
+<b>high confidence</b>; everything else is a working render, not a citation-grade edition —
+treat accordingly.</p>
+
+<h2 class="section">I &middot; The Genre Blind Spot</h2>
+<p class="section-note">CDLI's own <code>genre</code> field is simply blank for entire famous
+archives — meaning anyone filtering the catalogue by genre never sees them at all. This is the
+single most useful finding of the sweep: not a hidden tablet, but a hole in how the whole
+corpus gets searched.</p>
+
+<div class="card">
+  <h3>Untagged: the Amarna letters, the Kanesh merchants, the medical canon</h3>
+  <div class="tags"><span class="tag">Structural finding</span><span class="tag alt">Unclassified bucket</span></div>
+  <p class="trans">Inside just the top-300 "Unclassified" (blank-genre) records: <b>85 are
+  Amarna letters</b> (the 14th-century BC Egypt/Near-East diplomatic archive), <b>123 are
+  Old Assyrian Kanesh</b> merchant-trade tablets, <b>44 are BAM medical texts</b>, and
+  <b>34 are Neo-Babylonian Larsa loan receipts</b>. Four entire, independently famous and
+  well-studied archives — sitting with no genre tag at all.</p>
+  <div class="why"><b>Why it matters:</b> a genre-filtered search of CDLI for "Letter" or
+  "Scientific" silently misses these. It's a classification gap, not noise.</div>
+  <div class="meta">Source: 300-record Unclassified triage sample · cdli.earth genre search</div>
+</div>
+
+<div class="card">
+  <h3>A governor's unanswered pleas — the Rib-Hadda letters</h3>
+  <div class="tags"><span class="tag">Letter</span><span class="tag alt">Byblos</span><span class="tag alt">Amarna · 14th c. BC</span></div>
+  <p class="trans">At least 21 separate letters in the curated sample alone are from
+  Rib-Hadda, vassal governor of Byblos, repeatedly prostrating himself "7 times and 7 times"
+  to Pharaoh while begging for military aid against the advancing Amurru/Habiru threat.</p>
+  <div class="why"><b>Why it matters:</b> read in chronological order, these trace one real
+  person's escalating desperation as his city's situation worsens — a known dramatic arc in
+  Amarna scholarship, invisible to anyone genre-filtering CDLI for "Letter."</div>
+  <div class="meta">e.g. EA 137 · <a href="https://cdli.earth/artifacts/271021">P271021 →</a> · Translation confidence: low (formulaic openings clear; substance needs published EA editions)</div>
+</div>
+
+<div class="card">
+  <h3>The opening letter of the Amarna archive</h3>
+  <div class="tags"><span class="tag">Letter</span><span class="tag alt">Akhetaten</span><span class="tag alt">14th c. BC</span></div>
+  <p class="trans">EA 001 — Pharaoh Amenhotep III writing to Kadašman-Enlil I of Babylon. The
+  foundational document of one of the most-cited diplomatic archives in ancient history,
+  carrying no genre tag at all.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/270887">P270887 →</a> · Translation confidence: medium</div>
+</div>
+
+<div class="card">
+  <h3>"What shall I do for myself about this?" — a clay foot's lament</h3>
+  <div class="tags"><span class="tag">Anomaly</span><span class="tag alt">Umma</span><span class="tag alt">ED IIIa · ~2500 BC</span></div>
+  <p class="trans">An inscribed clay model foot, carrying a first-person plaintive line:
+  <span class="quote" style="display:inline;padding:2px 8px">a-na ma-szi-ak — "What shall I
+  do for myself about this?"</span> An unusual object type paired with an unusually emotional
+  first-person register for this early a period.</p>
+  <div class="why"><b>Why it matters:</b> flagged here as a genuine anomaly worth a
+  specialist's look, not a confirmed significant find — exactly the kind of object easy to
+  miss in a "uncertain"-genre bucket of mostly fragmentary economic texts.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/252039">P252039 →</a> · CUSAS 17,009</div>
+</div>
+
+<h2 class="section">II &middot; Ledgers of the Dead</h2>
+<p class="section-note">"Administrative" is the largest genre by far (95,794 texts) and the
+one historians skip fastest — routine ration and labor bookkeeping. Buried in it: a coherent
+cluster of death-rosters tying captive-laborer mortality to named, datable Ur III military
+campaigns.</p>
+
+<div class="card">
+  <h3>"Barley rations of the captives" — a death-roster of 40 names</h3>
+  <div class="tags"><span class="tag">Administrative</span><span class="tag alt">Umma</span><span class="tag alt">Ur III · ~2100–2000 BC</span></div>
+  <p class="trans">Forty-plus lines, each reading <i>usz2 [Name]</i> — "dead: [Name]." Most
+  names are foreign-sounding, not local Sumerian (<i>hu-ru-ut, ar-bi2-al, tab-ba-u3</i>). The
+  closing line ties the whole list explicitly to <i>sze-ba nam-ra-ak</i> — "barley rations of
+  the captives."</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/131753">P131753 →</a> · TCL 5, 6039 · Translation confidence: medium</div>
+</div>
+
+<div class="card">
+  <h3>Captive women and their children, dying together</h3>
+  <div class="tags"><span class="tag">Administrative</span><span class="tag alt">Girsu</span><span class="tag alt">Ur III</span></div>
+  <p class="trans">Another death-roster, headed <i>geme2 nam-ra-ak-me</i> — "they are captive
+  female workers." Roughly 30 entries, several recording <i>dumu-ni</i> ("her child") dying
+  alongside the mother.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/135732">P135732 →</a> · TUT 159 · Translation confidence: medium</div>
+</div>
+
+<div class="card">
+  <h3>Death tolls tied to named wars</h3>
+  <div class="tags"><span class="tag">Administrative</span><span class="tag alt">Puzriš-Dagan</span><span class="tag alt">Ur III</span></div>
+  <p class="trans">Repeated <i>ba-usz2</i> ("died") entries interleaved with <i>nam-ra kur
+  mar-tu</i> ("booty/captives from the Amorite land") and <i>nam-ra-ak szimaszgi</i>
+  ("captives from Šimaški") — directly linking the deaths to specific, datable Ur III
+  campaigns against the Amorites and Šimaški.</p>
+  <div class="why"><b>Why it matters:</b> taken together, this cluster chains a real
+  narrative — campaign, captives marched to Umma/Girsu/Drehem, assigned to forced labor
+  gangs, dead within months — out of tablets filed as routine bookkeeping.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/126167">P126167 →</a> · PDT 2, 0802 · Translation confidence: medium</div>
+</div>
+
+<div class="card">
+  <h3>The ox that "fled" — a herder's sworn alibi</h3>
+  <div class="tags"><span class="tag">Administrative</span><span class="tag alt">Umma</span><span class="tag alt">Ur III</span></div>
+  <p class="trans">A three-year-old ox died at the threshing floor under a herder named
+  Akišare. The account records his sworn oath that it had instead escaped — <i>nam-erim2-bi
+  ba-da-zah3 su-su a-ki-szar</i>, "its oath: it fled, Akišare must repay."</p>
+  <div class="why"><b>Why it matters:</b> a real glimpse of oath-based liability procedure
+  for a single missing animal, embedded inside an otherwise dry account.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/208768">P208768 →</a> · BM 105329 · Translation confidence: high</div>
+</div>
+
+<h2 class="section">III &middot; The Birth of Classification</h2>
+<p class="section-note">"Lexical" texts — ancient word lists — are usually dismissed as dry
+reference material. They're actually the earliest evidence of humans systematically
+categorizing the world, centuries before literature or law appear in the same corpus.</p>
+
+<div class="card">
+  <h3>The oldest dictionary bridging two unrelated languages</h3>
+  <div class="tags"><span class="tag">Lexical</span><span class="tag alt">Ebla</span><span class="tag alt">~2350–2250 BC</span></div>
+  <p class="trans">A bilingual glossary pairing Sumerian logograms with Eblaite (early West
+  Semitic) pronunciations. Sumerian is a language isolate; Eblaite is Semitic, like Akkadian
+  and Hebrew. Scribes in Ebla — in modern Syria, far from Sumer — built this cross-language
+  reference tool roughly 700 years before the famous Sumerian-Akkadian bilinguals usually
+  cited as the earliest of their kind.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/218313">P218313 →</a> · Translation confidence: high on the structural claim</div>
+</div>
+
+<div class="card">
+  <h3>A curriculum that traveled 700km and 500 years</h3>
+  <div class="tags"><span class="tag">Lexical</span><span class="tag alt">Šuruppak &amp; Ebla</span><span class="tag alt">2900–2250 BC</span></div>
+  <p class="trans">The "ED Officials" word list appears nearly verbatim at two sites half a
+  millennium and 700km apart — opening with the same sequence (<i>ukkin</i> "assembly,"
+  <i>gal5-la2</i> "bailiff," <i>lagar</i>, <i>kisal</i>, <i>en-nun</i> "watch"...).</p>
+  <div class="why"><b>Why it matters:</b> direct material evidence of a standardized scribal
+  curriculum carried from southern Mesopotamia to Syria — children in Ebla drilled on the
+  same official-titles list as children centuries earlier in Sumer.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/499153">P499153 →</a> vs. <a href="https://cdli.earth/artifacts/218312">P218312 →</a> · Translation confidence: high on the match</div>
+</div>
+
+<div class="card">
+  <h3>The oldest gazetteer in human history</h3>
+  <div class="tags"><span class="tag">Lexical</span><span class="tag alt">ED period</span><span class="tag alt">~2900–2700 BC</span></div>
+  <p class="trans">A scribal list of city names — Ur, Nippur, Larsa, Uruk, Adab, Kesh,
+  Zabalam, Eresh — from roughly 4,700 years ago. A trainee-scribe "top cities of Sumer"
+  list; whether the ordering reflects size, religious importance, or travel route is an open
+  question the underlying data could support investigating.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/499077">P499077 →</a> · Translation confidence: high on city identifications</div>
+</div>
+
+<div class="card">
+  <h3>Insurance-grade sheep accounting, 4,000 years ago</h3>
+  <div class="tags"><span class="tag">Lexical</span><span class="tag alt">Nippur / Kisurra</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="trans">The Ur5-ra encyclopedic word list devotes dozens of entries to sheep,
+  categorized by exact cause of loss: "sheep eaten by a god," "sheep eaten by a lion," "sheep
+  separated from the herd," "fallen sheep." Lost livestock gets coded by cause exactly the
+  way a modern insurance claim would be.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/461397">P461397 →</a> · Translation confidence: high</div>
+</div>
+
+<h2 class="section">IV &middot; Medicine and Magic</h2>
+<p class="section-note">Almost the entire Scientific/medical genre (298 of 300 curated texts)
+has never been officially translated into English — this is the genre where original
+deep-linked reading adds the most real value, since most of it isn't accessible anywhere
+else online.</p>
+
+<div class="card">
+  <h3>An epilepsy cure, half pharmacology, half spell</h3>
+  <div class="tags"><span class="tag">Scientific</span><span class="tag alt">Assur</span><span class="tag alt">Neo-Assyrian</span></div>
+  <p class="trans">A head-ailment compendium treats <i>antašubbû</i> ("the falling sickness,"
+  epilepsy, attributed to demonic attack) with a seven-plant mixture drunk in beer or wine
+  "while reciting the incantation 'Ea has cast it down.'"</p>
+  <div class="why"><b>Why it matters:</b> one recipe shows the dual-track Mesopotamian
+  medical logic in a single act — real multi-plant pharmacology bound to a ritual invocation
+  of the god of wisdom and magic.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/285254">P285254 →</a> · BAM 2, 159 · Translation confidence: medium</div>
+</div>
+
+<div class="card">
+  <h3>A household first-aid manual — toothache treated on the wrong side, on purpose</h3>
+  <div class="tags"><span class="tag">Scientific</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="trans">A sequence of ~20 prescriptions: jaundice cured with liquorice root left
+  "under the stars" overnight; a dog bite treated explicitly "to prevent the puppies from
+  being engendered" inside the victim (a folk rabies theory); and a toothache remedy poured
+  onto the side of the face <i>opposite</i> the pain — sympathetic logic, not anatomy.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/285464">P285464 →</a> · BAM 4, 393 · Translation confidence: high (official translation)</div>
+</div>
+
+<div class="card">
+  <h3>"Hand of a Ghost" — a named diagnosis for chronic illness</h3>
+  <div class="tags"><span class="tag">Scientific</span><span class="tag alt">Assur</span><span class="tag alt">Neo-Assyrian</span></div>
+  <p class="trans">A patient with a swollen belly who talks deliriously "like a screaming
+  wagon" is diagnosed: the illness has become chronic — it is <i>ŠU-GIDIM-MA</i>, "Hand of a
+  Ghost" — a formally recognized diagnostic category attributing chronic disease to a
+  ghost's affliction, treated with an elaborate aromatic potion.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/369126">P369126 →</a> · BAM 2, 168 / KAR 157 · Translation confidence: medium</div>
+</div>
+
+<div class="card">
+  <h3>The last gasp of cuneiform medicine, 400 BC</h3>
+  <div class="tags"><span class="tag">Scientific</span><span class="tag alt">Babylon</span><span class="tag alt">Achaemenid</span></div>
+  <p class="trans">The latest-dated text in the entire sweep: a counter-witchcraft ritual,
+  25 plants against "evil sorcery, curse, and oath," followed by an incantation spoken in the
+  voice of "the night-watch, sister of Marduk."</p>
+  <div class="why"><b>Why it matters:</b> the same witchcraft-affliction framework
+  documented a thousand years earlier was still in active use at the very end of cuneiform's
+  productive life — roughly contemporary with classical Greece.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/480845">P480845 →</a> · JMC 26, 001-032 · Translation confidence: low-medium</div>
+</div>
+
+<h2 class="section">V &middot; Letters Across Four Millennia</h2>
+<p class="section-note">The Letter genre skews toward two well-studied archives (Mari royal
+correspondence, Kanesh merchant trade), so the value here isn't novelty — it's that over a
+third of this curated set already carries publication-quality translation.</p>
+
+<div class="card">
+  <h3>A goddess, speaking through a woman in trance, threatens the king</h3>
+  <div class="tags"><span class="tag">Letter</span><span class="tag alt">Mari</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="quote">"Zimri-Lim, if you disregard me, I myself over you am bursting (with
+  love); your enemies..."</p>
+  <p class="trans">Queen Šibtu reports to King Zimri-Lim that a woman named Aḫātum went into
+  ecstatic trance in the temple of Annunītum and spoke as the goddess herself.</p>
+  <div class="why"><b>Why it matters:</b> direct evidence of how Mari's court used religious
+  ecstatics as a political-intelligence and legitimacy channel.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/349972">P349972 →</a> · ARM 10, 008 · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>"My garments only get worse, yours improve"</h3>
+  <div class="tags"><span class="tag">Letter</span><span class="tag alt">Larsa</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="trans">Iddin-Sin writes to Zinu: "The garments of others year for year are
+  improving, but as for you, my garments year for year you reduce!" A blunt, petty domestic
+  complaint about textile favoritism — could pass for a modern family text message.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/387407">P387407 →</a> · TCL 18, 111 · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>"If you are my brother, by his side stand! Please!"</h3>
+  <div class="tags"><span class="tag">Letter</span><span class="tag alt">Larsa</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="trans">Batūlum writes to Lu-gisa, begging him to protect her sister's son: "By his
+  side, stand! ... Please!" — short, urgent, and emotionally raw.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/292856">P292856 →</a> · BIN 07, 032 · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>The oldest battle report in the set</h3>
+  <div class="tags"><span class="tag">Letter</span><span class="tag alt">Girsu</span><span class="tag alt">ED IIIb · ~2500–2340 BC</span></div>
+  <p class="trans">Lu-ena reports to his superior Enentarzi: 600 Elamites' property carried
+  off from Lagash, a battle fought, "in Elam defeat was placed," 540 Elamites further
+  mentioned. A field report roughly 4,500 years old.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/247594">P247594 →</a> · RA 006, 139 · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>The gourmet who shared his bandicoots</h3>
+  <div class="tags"><span class="tag">Letter</span><span class="tag alt">Larsa</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="quote">"Just one for my own repast I kept back, and it tasted excellent! How good
+  they were had I but k[nown]..."</p>
+  <p class="trans">Šamaš-nāṣir tells Nūr-Šamaš that of seven bandicoots received as a gift, he
+  sent six onward and kept one for himself — and regretted not keeping more. A rare, charming,
+  food-obsessed personal voice in the corpus.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/387309">P387309 →</a> · TCL 17, 013 · Translation confidence: high</div>
+</div>
+
+<h2 class="section">VI &middot; Court and Contract</h2>
+<p class="section-note">A recurring pattern across the strongest legal finds: nadītu
+priestesses appear as active legal and economic agents — buyers, landlords, manumitters —
+not bystanders.</p>
+
+<div class="card">
+  <h3>Fragments of one of the oldest known international treaties</h3>
+  <div class="tags"><span class="tag">Legal</span><span class="tag alt">Ebla</span><span class="tag alt">~2350–2250 BC</span></div>
+  <p class="trans">The Ebla–Abarsal treaty: a territorial-control register listing border
+  towns "in the hand of the lord of Ebla," and a fugitive-extradition clause naming
+  individuals handed over between the two polities.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/241971">P241971 →</a> &amp; <a href="https://cdli.earth/artifacts/242116">P242116 →</a> · ARET 13 · Translation confidence: low-medium</div>
+</div>
+
+<div class="card">
+  <h3>"She has broken the jar of her slavery"</h3>
+  <div class="tags"><span class="tag">Legal</span><span class="tag alt">Nippur</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="quote">"Ištar-utar, a female slave — Nuṭuptum, daughter of Ṣilli-šamaš, has set her
+  free, and her forehead has cleansed; she has broken the jar of her slavery."</p>
+  <p class="trans">A manumission document, witnessed and sealed by Nuṭuptum — herself a
+  nadītu priestess — freeing another woman.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/261082">P261082 →</a> · PBS 08/2, 137 · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>A divorce contract with equal penalties for husband and wife</h3>
+  <div class="tags"><span class="tag">Legal</span><span class="tag alt">Nippur</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="trans">Whichever spouse repudiates the other forfeits the same bridewealth and
+  pays the same additional penalty — symmetric terms, against the common assumption that
+  Old Babylonian divorce law was uniformly harsh on wives. Witnessed by two women.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/262072">P262072 →</a> · BE 06/2, 040 · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>A nadītu priestess as buyer and landlord</h3>
+  <div class="tags"><span class="tag">Legal</span><span class="tag alt">Nippur / Sippar</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="trans">In one contract, Lamassum (nadītu of Ninurta) buys a fractional
+  inheritance share of a house for 14 shekels; in another, Ribbatum (nadītu of Šamaš) rents
+  her own house out for a year. Independent female economic agency, in writing.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/262143">P262143 →</a> &amp; <a href="https://cdli.earth/artifacts/258594">P258594 →</a> · Translation confidence: high</div>
+</div>
+
+<h2 class="section">VII &middot; Kings, Gods, and Cracks in the Propaganda</h2>
+<p class="section-note">These are the canonical texts of Assyriology, not unknown material —
+but real human and procedural detail survives even inside formal royal monuments.</p>
+
+<div class="card">
+  <h3>The founding of the first empire</h3>
+  <div class="tags"><span class="tag">Royal/Monumental</span><span class="tag alt">Old Akkadian</span></div>
+  <p class="trans">Sargon of Akkad defeats Lugalzagesi of Uruk, parades him in a neck-stock
+  to the gate of the god Enlil at Nippur, and claims he "washed his weapons in the sea" —
+  symbolic dominion from the Persian Gulf. The founding text of the first multi-city
+  Mesopotamian empire.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/227509">P227509 →</a> · Translation confidence: medium</div>
+</div>
+
+<div class="card">
+  <h3>A king, anxious about a dream, sails to see a specialist</h3>
+  <div class="tags"><span class="tag">Royal/Monumental</span><span class="tag alt">Girsu</span><span class="tag alt">Lagash II</span></div>
+  <p class="quote">"My dream-interpreter, knowing on her own, may she make its meaning
+  visible for me."</p>
+  <p class="trans">Gudea Cylinder A: the god Ningirsu appears to Gudea in a dream
+  commanding him to build a temple. Gudea wakes unable to understand it, and sails by barge
+  to the goddess Nanše's temple specifically for a professional interpretation.</p>
+  <div class="why"><b>Why it matters:</b> unusually intimate, emotionally narrated content
+  for a royal building inscription.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/431881">P431881 →</a> · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>A king's land deed, carved as a monument</h3>
+  <div class="tags"><span class="tag">Royal/Monumental</span><span class="tag alt">Susa</span><span class="tag alt">Old Akkadian</span></div>
+  <p class="trans">The Manishtushu Obelisk isn't a glory inscription — it's a giant stone
+  real-estate ledger, naming dozens of land-sellers with exact prices paid in silver and
+  grain. A king turned an ordinary deed into a permanent monument.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/213189">P213189 →</a> · OIP 104, 040 · Translation confidence: high on the numerals</div>
+</div>
+
+<div class="card">
+  <h3>Death for a thief — unless her husband is alive to punish her himself</h3>
+  <div class="tags"><span class="tag">Royal/Monumental</span><span class="tag alt">Assur</span><span class="tag alt">Middle Assyrian</span></div>
+  <p class="trans">Middle Assyrian Laws Tablet A: a wife who steals from her sick or dead
+  husband's house is executed along with whoever received the goods. But if the husband is
+  alive and well, he personally punishes his wife instead, and the recipient loses his ears.</p>
+  <div class="why"><b>Why it matters:</b> far more procedurally specific than Hammurabi's
+  better-known code on comparable gender/property law.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/497998">P497998 →</a> · Translation confidence: high</div>
+</div>
+
+<h2 class="section">VIII &middot; School Days</h2>
+<p class="section-note">The real story in scribal-exercise tablets isn't any single text —
+it's the patterns across many copies: what got drilled, how often, and how far a fixed
+curriculum traveled.</p>
+
+<div class="card">
+  <h3>A proverb copied at least 16 times</h3>
+  <div class="tags"><span class="tag">School</span><span class="tag alt">Ur</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="quote">"A dog going to a banquet saw a bone and stopped: 'Where I go, more of
+  this — I will eat,' he said. The 'inheritance share' of a dog: bones are selected."</p>
+  <p class="trans">Sixteen separate student exemplars of this exact proverb survive in just
+  the top-300-by-completeness sample — clearly a flagship memorization piece at the Ur
+  scribal school.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/346310">P346310 →</a> · CDLI Literary 000799 · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>A curriculum text that outlived the empire that wrote it</h3>
+  <div class="tags"><span class="tag">School</span><span class="tag alt">Assur &amp; Sippar</span><span class="tag alt">Neo-Assyrian → Neo-Babylonian</span></div>
+  <p class="trans">The same lament/incantation composite text was copied by students in
+  Assur under the Assyrian empire, and again later by students in Sippar after Assyria's
+  fall — physical proof a fixed school text survived the collapse of the state that produced
+  it.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/381794">P381794 →</a> et al. · Translation confidence: low-medium</div>
+</div>
+
+<div class="card">
+  <h3>A line on inherited guilt, drilled as handwriting practice</h3>
+  <div class="tags"><span class="tag">School</span><span class="tag alt">Ur</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="quote">"A son who bears no guilt — his mother has not borne him on any day."</p>
+  <p class="trans">A wisdom-literature line asserting universal inherited human guilt,
+  copied by students as a literacy exercise nearly 3,700 years before comparable ideas
+  appear in later religious traditions.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/346414">P346414 →</a> · CDLI Literary 000823 · Translation confidence: medium-high</div>
+</div>
+
+<div class="card">
+  <h3>"Princess, daughter of Zali"</h3>
+  <div class="tags"><span class="tag">School</span><span class="tag alt">Provenience uncertain</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="trans">A student practices a name-and-filiation formula, then practices
+  rendering the same name as a seal impression — training in both scribal and sealing
+  conventions on one tablet.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/273863">P273863 →</a> · Education in the Earliest Schools 185 · Translation confidence: high</div>
+</div>
+
+<h2 class="section">IX &middot; The Canon, Deep-Linked</h2>
+<p class="section-note">Nothing here is unidentified — this is the standard Sumerian and
+Akkadian literary canon. The story is the traceability: every line of a famous myth pinned
+to the specific clay tablet, and sometimes the named student, that preserved it.</p>
+
+<div class="card">
+  <h3>A Mesopotamian sitcom, and the apprentice who copied it</h3>
+  <div class="tags"><span class="tag">Literary</span><span class="tag alt">Sultantepe</span><span class="tag alt">Neo-Assyrian</span></div>
+  <p class="trans">"The Poor Man of Nippur": a destitute man tricked and humiliated by a
+  corrupt mayor gets revenge in three escalating disguises. Its colophon names the actual
+  scribe-in-training who copied it: "Nabû-riḫtu-uṣur, apprentice, son of the academy."</p>
+  <div class="why"><b>Why it matters:</b> we know literally who transcribed a thousand-year-old
+  joke, and where he trained.</div>
+  <div class="meta"><a href="https://cdli.earth/artifacts/499186">P499186 →</a> tale · <a href="https://cdli.earth/artifacts/338355">P338355 →</a> colophon · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>The earliest evidence of bicameral political deliberation</h3>
+  <div class="tags"><span class="tag">Literary</span><span class="tag alt">Uruk</span><span class="tag alt">Old Babylonian copy</span></div>
+  <p class="trans">"Gilgamesh and Aga": before going to war, Gilgamesh consults first an
+  assembly of elders, then an assembly of fighting men — frequently cited as the earliest
+  textual evidence for a two-chamber deliberative body in Mesopotamian political history.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/432478">P432478 →</a> · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>The Babylonian "Job"</h3>
+  <div class="tags"><span class="tag">Literary</span><span class="tag alt">Neo-Assyrian</span></div>
+  <p class="trans">"Ludlul bēl nēmeqi" ("I will praise the lord of wisdom") — a man stripped
+  of status, health, and friends laments, then is restored by Marduk. The earliest sustained
+  literary meditation on undeserved suffering in the corpus.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/491222">P491222 →</a> · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>A drinking song — not a hymn, not a contract</h3>
+  <div class="tags"><span class="tag">Literary</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="quote">"The gakkul (vat), the gakkul (vat)! ... that puts us in a happy mood!"</p>
+  <p class="trans">A genuinely rare slice-of-life survival — celebratory, lighthearted, and
+  entirely secular against a corpus otherwise dominated by religion, law, and bureaucracy.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/478968">P478968 →</a> · Translation confidence: high</div>
+</div>
+
+<h2 class="section">X &middot; Stars, Numbers, Spirits</h2>
+<p class="section-note">Smaller genres (omen, astronomical, mathematical, ritual, votive) —
+fewer texts, but among the highest hit-rate of the whole sweep.</p>
+
+<div class="card">
+  <h3>Naming the five planets, distinct from the fixed stars</h3>
+  <div class="tags"><span class="tag">Astronomical</span><span class="tag alt">Neo-Babylonian</span></div>
+  <p class="trans">MUL.APIN Tablet 1 — named in its own colophon — lists ~70 stars and
+  constellations across three celestial "paths," gives a heliacal-rising calendar, and
+  singles out Jupiter, Venus, Mars, Saturn, and Mercury by name as objects that "keep
+  changing position and cross the sky." One of the foundational texts of Babylonian
+  astronomy.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/479385">P479385 →</a> · CT 33 · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>A worked area-calculation table, 600 years before "Old Babylonian math"</h3>
+  <div class="tags"><span class="tag">Mathematical</span><span class="tag alt">Zabalam</span><span class="tag alt">ED IIIb · ~2500 BC</span></div>
+  <p class="trans">A square-number land-area table — side lengths squared and converted to
+  area in land-survey units, with the arithmetic spelled out — predating the famous Old
+  Babylonian mathematical corpus by six to seven centuries.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/464229">P464229 →</a> · Translation confidence: high</div>
+</div>
+
+<div class="card">
+  <h3>Sargon of Akkad, used as a stock omen centuries after his death</h3>
+  <div class="tags"><span class="tag">Omen</span><span class="tag alt">Old Babylonian</span></div>
+  <p class="trans">A 673-line omen compendium opens with "weapon of Sargon" as a recurring
+  apodosis tied to palace-conspiracy and succession portents. A real historical king,
+  centuries dead, turned into a literary/divinatory archetype.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/293400">P293400 →</a> · YOS 10, 31 · Translation confidence: low</div>
+</div>
+
+<div class="card">
+  <h3>"May his spirits drink pure water" — a tomb curse and blessing</h3>
+  <div class="tags"><span class="tag">Private/Votive</span><span class="tag alt">Neo-Babylonian</span></div>
+  <p class="trans">A funerary inscription warning future viewers not to disturb the tomb,
+  blessing whoever restores or protects it instead — funerary anxiety about memory and
+  disturbance, structurally close to other ancient Near Eastern tomb curses.</p>
+  <div class="meta"><a href="https://cdli.earth/artifacts/498520">P498520 →</a> · Translation confidence: high</div>
+</div>
+
+</div>
+<footer>
+  Source: CDLI bulk dump (<code>cdli-gh/data</code>, frozen ~Oct 2023) + an added 920-record
+  pull from <a href="https://seal.huji.ac.il">SEAL</a> (Sources of Early Akkadian Literature,
+  ~72% non-overlapping with CDLI). Triage script and per-genre agent findings live on the
+  research droplet at <code>/root/ancient-sources-project/output/story_triage/</code> and
+  <code>/output/story_findings/</code>. Two CDLI catalogue genre-mislabels were caught in the
+  process (P519405 tagged "Astronomical," actually administrative; P252113 tagged
+  "Prayer/Incantation," actually behavioral omens) — a caveat for anyone trusting the
+  <code>genre</code> field downstream. Translations without an explicit "high confidence"
+  note are working renders for story-leads, not citation-grade editions.
+</footer>
+</body></html>
