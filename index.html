@@ -3,217 +3,187 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Erman Avsar</title>
-  <meta name="description" content="Erman Avsar - software engineer building AI products, archive/story-mining systems, and practical research tools.">
+  <title>ermanique</title>
+  <meta name="description" content="erman — software engineer, AI products, archive mining">
   <style>
     :root {
       --ink: #1f2933;
-      --muted: #5f6c7b;
+      --muted: #616e7c;
       --line: #d9e2ec;
-      --soft: #f7f9fc;
       --link: #1265d8;
-      --accent: #0f766e;
       --paper: #ffffff;
     }
 
-    * { box-sizing: border-box; }
+    * { box-sizing: border-box; margin: 0; }
 
     body {
-      margin: 0;
       background: var(--paper);
       color: var(--ink);
       font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      line-height: 1.62;
+      line-height: 1.6;
     }
-
-    a {
-      color: var(--link);
-      text-decoration: none;
-    }
-
-    a:hover { text-decoration: underline; }
 
     .page {
-      max-width: 1080px;
+      max-width: 640px;
       margin: 0 auto;
-      padding: 46px 28px 72px;
+      padding: 64px 24px 80px;
     }
 
-    header {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 220px;
-      gap: 36px;
-      align-items: start;
-      padding-bottom: 30px;
-      border-bottom: 1px solid var(--line);
-    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
     h1 {
-      margin: 0 0 10px;
-      font-size: 46px;
-      line-height: 1.04;
-      letter-spacing: 0;
+      font-size: 42px;
+      line-height: 1;
+      margin-bottom: 12px;
     }
 
-    .subtitle {
-      margin: 0 0 18px;
-      max-width: 720px;
+    .bio {
       color: var(--muted);
-      font-size: 18px;
+      font-size: 16px;
+      margin-bottom: 14px;
+      max-width: 480px;
     }
 
     .links {
       display: flex;
-      flex-wrap: wrap;
-      gap: 10px 16px;
-      font-size: 15px;
+      gap: 16px;
+      font-size: 14px;
+      margin-bottom: 48px;
     }
 
+    .links a { color: var(--muted); }
+    .links a:hover { color: var(--ink); }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 48px;
+    }
+
+    .header-text { flex: 1; }
+
     .portrait {
-      justify-self: end;
-      width: 180px;
-      aspect-ratio: 1;
-      border: 1px solid var(--line);
-      border-radius: 8px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
       overflow: hidden;
-      background: var(--soft);
+      flex-shrink: 0;
+      margin-left: 24px;
     }
 
     .portrait img {
-      display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
 
-    section {
-      padding: 30px 0;
+    h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .projects {
+      margin-bottom: 48px;
+    }
+
+    .project {
+      padding: 10px 0;
       border-bottom: 1px solid var(--line);
     }
 
-    h2 {
-      margin: 0 0 14px;
-      font-size: 23px;
-      line-height: 1.25;
+    .project:first-child {
+      border-top: 1px solid var(--line);
     }
 
-    p { margin: 0 0 14px; }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 22px;
+    .project a {
+      color: var(--ink);
+      font-weight: 500;
+      font-size: 15px;
     }
 
-    .item {
-      padding: 0;
-    }
-
-    .item h3 {
-      margin: 0 0 5px;
-      font-size: 18px;
-      line-height: 1.35;
-    }
-
-    .item p {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    .list {
-      display: grid;
-      gap: 16px;
-    }
-
-    .meta {
+    .project span {
       color: var(--muted);
       font-size: 14px;
     }
 
     footer {
-      padding-top: 24px;
+      padding-top: 32px;
       color: var(--muted);
-      font-size: 14px;
+      font-size: 13px;
     }
 
-    @media (max-width: 780px) {
-      .page { padding: 28px 18px 56px; }
-      header {
-        grid-template-columns: 1fr;
-      }
-      .portrait {
-        justify-self: start;
-        width: 150px;
-      }
-      h1 { font-size: 38px; }
-      .grid {
-        grid-template-columns: 1fr;
-      }
+    @media (max-width: 600px) {
+      .page { padding: 40px 18px 56px; }
+      h1 { font-size: 34px; }
     }
   </style>
 </head>
 <body>
   <main class="page">
-    <header>
-      <div>
-        <h1>Erman Avsar</h1>
-        <p class="subtitle">Software engineer building AI products, practical data systems, and archive/story-mining tools. I like projects where messy real-world information becomes something people can reason with.</p>
+    <div class="header">
+      <div class="header-text">
+        <h1>Erman</h1>
+        <p class="bio">Building AI products and archive-mining tools. I like turning messy historical records into something people can reason with.</p>
         <div class="links">
-          <a href="Erman_Avsar_CV.pdf">CV</a>
           <a href="https://github.com/kontela">GitHub</a>
-          <a href="#work">Work</a>
-          <a href="#notes">Notes</a>
+          <a href="https://x.com/ermanique">X</a>
         </div>
       </div>
       <div class="portrait">
-        <img src="profile_pic.jpg" alt="Erman Avsar">
+        <img src="profile_pic.jpg" alt="">
       </div>
-    </header>
+    </div>
 
-    <section id="about">
-      <h2>About</h2>
-      <p>I work across product engineering, applied AI, data analysis, and fast prototypes. Recently I have been exploring agentic archive research: taking large official historical corpora, indexing them locally, and using AI to surface grounded story leads from first-hand records.</p>
-      <p>I care about useful interfaces, verifiable sources, and systems that help people inspect evidence instead of just generating summaries.</p>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <a href="research/hansard-turkey.html">Turkey in Hansard</a>
+        <span> — 200 years of Turkey/Ottoman mentions in UK Parliament</span>
+      </div>
+      <div class="project">
+        <a href="research/hansard-newzealand.html">New Zealand in Hansard</a>
+        <span> — NZ across two centuries of British debate</span>
+      </div>
+      <div class="project">
+        <a href="research/frus-turkish-all-eras.html">Turkish/Ottoman FRUS Dossier</a>
+        <span> — US diplomatic cables on Turkey, all eras</span>
+      </div>
+      <div class="project">
+        <a href="research/voices-from-the-archive.html">Voices from the Archive</a>
+        <span> — 45 stories surfaced from ancient source corpora</span>
+      </div>
+      <div class="project">
+        <a href="research/cdli-stories.html">CDLI Tablet Stories</a>
+        <span> — narrative threads from Sumerian/Akkadian tablets</span>
+      </div>
+      <div class="project">
+        <a href="research/hansard-mosul.html">The Mosul Question in Hansard</a>
+        <span> — British parliamentary debates on Mosul, 1918–1926</span>
+      </div>
+      <div class="project">
+        <a href="research/ataturk-digest.html">Atatürk Speeches Digest</a>
+        <span> — AI-structured digest of key addresses</span>
+      </div>
+      <div class="project">
+        <a href="research/ankara-story-leads.html">Ankara / Angora / Ancyra</a>
+        <span> — story leads from travel accounts, epigraphy, and FRUS cables</span>
+      </div>
     </section>
 
-    <section id="work">
-      <h2>Selected Work</h2>
-      <div class="grid">
-        <div class="item">
-          <h3>Historical archive story mining</h3>
-          <p>Local archive pipelines for finding story threads across diplomatic records, ancient tablets, and historical source corpora, with links back to the evidence.</p>
-          <p class="meta"><a href="research/frus-turkish-all-eras.html">Turkish/Ottoman FRUS dossier</a> · <a href="research/frus-turkish-all-eras_tr.html" lang="tr">Türkçe</a> · <a href="research/cdli-stories.html">CDLI tablet stories</a> · <a href="research/ataturk-digest.html">Atatürk speeches digest</a> · <a href="research/hansard-turkey.html">Turkey/Ottoman in Hansard (1803–2004)</a> · <a href="research/hansard-mosul.html">Mosul Question in Hansard (1918–1926)</a> · <a href="research/hansard-newzealand.html">New Zealand in Hansard (1803–2004)</a> · <a href="research/voices-from-the-archive.html">Voices from the Archive — 45 stories from ancient sources</a></p>
-        </div>
-        <div class="item">
-          <h3>AI product analysis</h3>
-          <p>Review mining and KPI-style analysis for mobile products, turning public app feedback into product opportunities and discussion surfaces.</p>
-        </div>
-        <div class="item">
-          <h3>Older engineering projects</h3>
-          <p>IoT, transit tracking, backend/frontend prototypes, and university-era systems. Some are public on GitHub, others are private or archived.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="notes">
-      <h2>Notes</h2>
-      <div class="list">
-        <div class="item">
-          <h3>Archive agents as research assistants</h3>
-          <p>Current experiment: can agents read across official archives and surface real, valuable historical story leads with citations?</p>
-          <div class="meta">Working note, not published yet</div>
-        </div>
-        <div class="item">
-          <h3>From product reviews to product strategy</h3>
-          <p>Using public review corpora to understand frustration patterns, missing workflows, and why users churn.</p>
-          <div class="meta">Project write-up planned</div>
-        </div>
+    <section class="projects">
+      <h2>Writing</h2>
+      <div class="project">
+        <span>Coming soon</span>
       </div>
     </section>
 
     <footer>
-      <p>Built as a simple static page on GitHub Pages. No analytics.</p>
-      <p><a href="privacy.html">Privacy</a></p>
+      <a href="privacy.html">Privacy</a>
     </footer>
   </main>
 </body>
