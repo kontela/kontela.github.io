@@ -3,272 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Erman Reads</title>
-  <meta name="description" content="Archive-led reads, source trails, and historical dossiers">
+  <title>Erman Reads — Following questions across history, science & technology</title>
+  <meta name="description" content="Weekend investigations with AI agents: reading across archives, data and the systems shaping the world around us.">
   <style>
-    :root {
-      --ink: #1f2933;
-      --muted: #616e7c;
-      --line: #d9e2ec;
-      --link: #1265d8;
-      --paper: #ffffff;
-    }
-
-    * { box-sizing: border-box; margin: 0; }
-
-    body {
-      background: var(--paper);
-      color: var(--ink);
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      line-height: 1.6;
-    }
-
-    .page {
-      max-width: 640px;
-      margin: 0 auto;
-      padding: 64px 24px 80px;
-    }
-
-    a { color: var(--link); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    h1 {
-      font-size: 42px;
-      line-height: 1;
-      margin-bottom: 12px;
-    }
-
-    .bio {
-      color: var(--muted);
-      font-size: 16px;
-      margin-bottom: 14px;
-      max-width: 480px;
-    }
-
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: start;
-      margin-bottom: 48px;
-    }
-
-    .header-text { flex: 1; }
-
-    .portrait {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      overflow: hidden;
-      flex-shrink: 0;
-      margin-left: 24px;
-    }
-
-    .portrait img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    h2 {
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin-bottom: 16px;
-    }
-
-    .projects {
-      margin-bottom: 48px;
-    }
-
-    .featured-video {
-      margin: 0 0 48px;
-      padding: 20px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: #f8fafc;
-    }
-
-    .featured-video h2 {
-      margin-bottom: 10px;
-    }
-
-    .featured-video p {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 16px;
-      max-width: 520px;
-    }
-
-    .video-frame {
-      position: relative;
-      width: 100%;
-      padding-top: 56.25%;
-      border-radius: 14px;
-      overflow: hidden;
-      background: #111827;
-      box-shadow: 0 10px 30px rgba(31, 41, 51, 0.12);
-    }
-
-    .video-frame a {
-      position: absolute;
-      inset: 0;
-      display: block;
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .video-thumb {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      filter: saturate(0.92) contrast(0.98);
-    }
-
-    .video-overlay {
-      position: absolute;
-      inset: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(to top, rgba(17, 24, 39, 0.56), rgba(17, 24, 39, 0.12));
-    }
-
-    .play-badge {
-      width: 88px;
-      height: 88px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.92);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-      display: grid;
-      place-items: center;
-      transform: translateY(6px);
-    }
-
-    .play-badge svg {
-      margin-left: 4px;
-    }
-
-    .video-caption {
-      position: absolute;
-      left: 18px;
-      right: 18px;
-      bottom: 16px;
-      color: #fff;
-      font-size: 14px;
-      font-weight: 600;
-      letter-spacing: 0.01em;
-      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
-    }
-
-    .project {
-      padding: 10px 0;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .project:first-child {
-      border-top: 1px solid var(--line);
-    }
-
-    .project a {
-      color: var(--ink);
-      font-weight: 500;
-      font-size: 15px;
-    }
-
-    .project span {
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    footer {
-      padding-top: 32px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    @media (max-width: 600px) {
-      .page { padding: 40px 18px 56px; }
-      h1 { font-size: 34px; }
-    }
+    :root { --ink:#18211f; --muted:#65716e; --line:#dce4df; --paper:#f7f8f5; --card:#fff; --green:#176b55; --blue:#305b92; }
+    * { box-sizing:border-box; margin:0; }
+    body { background:var(--paper); color:var(--ink); font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:inherit; text-decoration:none; } a:hover .card-title, .text-link:hover { text-decoration:underline; }
+    .page { max-width:1080px; margin:auto; padding:64px 28px 80px; }
+    .topline { display:flex; justify-content:space-between; align-items:center; margin-bottom:82px; color:var(--muted); font-size:13px; }
+    .brand { color:var(--ink); font-size:15px; font-weight:700; letter-spacing:-.02em; }
+    .intro { max-width:790px; margin-bottom:64px; }
+    .eyebrow { color:var(--green); font-size:12px; font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
+    h1 { max-width:800px; margin:14px 0 22px; font-size:clamp(42px,7vw,76px); line-height:1.02; letter-spacing:-.065em; font-weight:650; }
+    .lede { max-width:680px; color:#495651; font-size:19px; line-height:1.55; }
+    .section-head { display:flex; justify-content:space-between; align-items:end; margin-bottom:20px; }
+    h2 { font-size:14px; text-transform:uppercase; letter-spacing:.11em; color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    .card { min-height:230px; display:flex; flex-direction:column; justify-content:space-between; padding:27px 28px 24px; border:1px solid var(--line); border-radius:13px; background:var(--card); transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease; }
+    .card:hover { transform:translateY(-3px); border-color:#b8c8c0; box-shadow:0 12px 32px #16231d0c; }
+    .card.history { background:#fbf8f2; border-color:#e8dfd0; }
+    .card.space { background:#f2f6fb; border-color:#d8e1ee; }
+    .card .eyebrow { color:var(--muted); }
+    .card.space .eyebrow { color:var(--blue); }
+    .card.history .eyebrow { color:#89613d; }
+    .card-title { display:block; margin:15px 0 9px; font-size:29px; line-height:1.13; letter-spacing:-.045em; font-weight:620; }
+    .card p { max-width:440px; color:var(--muted); font-size:15px; }
+    .card-foot { display:flex; justify-content:space-between; align-items:center; margin-top:28px; font-size:13px; color:var(--muted); }
+    .arrow { color:var(--ink); font-size:20px; }
+    .more { margin-top:76px; padding-top:25px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:24px; color:var(--muted); font-size:14px; }
+    .more a { color:var(--ink); }
+    @media(max-width:650px) { .page{padding:34px 19px 52px}.topline{margin-bottom:66px}.intro{margin-bottom:46px}.grid{grid-template-columns:1fr;gap:12px}.card{min-height:205px;padding:23px}.card-title{font-size:26px}.more{margin-top:56px;flex-direction:column} }
+    @media(prefers-reduced-motion:reduce) { *,*::before,*::after{scroll-behavior:auto!important;transition:none!important} }
   </style>
 </head>
 <body>
   <main class="page">
-    <div class="header">
-      <div class="header-text">
-        <h1>Erman Reads</h1>
-        <p class="bio">Archive-led historical reads, source trails, and dossiers from records that are usually too scattered to follow in one sitting.</p>
-      </div>
-      <div class="portrait">
-        <img src="profile_pic.jpg" alt="">
-      </div>
-    </div>
-
-    <section class="featured-video" aria-labelledby="featured-video-title">
-      <h2 id="featured-video-title">How I use AI agents and Archive.org</h2>
-      <p>A walkthrough of the workflow, using the Alexander Mosaic as the live example.</p>
-      <div class="video-frame">
-        <a href="https://youtu.be/zxKdNCLdi-M" target="_blank" rel="noreferrer" aria-label="Watch How I use AI agents and Archive.org on YouTube">
-          <img
-            class="video-thumb"
-            src="https://i.ytimg.com/vi/zxKdNCLdi-M/hqdefault.jpg"
-            alt=""
-          >
-          <div class="video-overlay" aria-hidden="true">
-            <div class="play-badge">
-              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M9 7.5L16.5 12L9 16.5V7.5Z" fill="#111827"></path>
-              </svg>
-            </div>
-            <div class="video-caption">Watch on YouTube</div>
-          </div>
+    <nav class="topline" aria-label="Main"><a class="brand" href="/">Erman Reads</a><span>Independent investigations · made with AI agents</span></nav>
+    <header class="intro">
+      <p class="eyebrow">Questions worth a weekend</p>
+      <h1>Read widely.<br>Follow the evidence.</h1>
+      <p class="lede">I like to read, dig, and connect dots that haven’t been connected before. On weekends, I work with AI agents to follow a question through archives, public data, and the systems around us.</p>
+    </header>
+    <section aria-labelledby="investigations">
+      <div class="section-head"><h2 id="investigations">Investigations</h2><span class="eyebrow">Choose a trail</span></div>
+      <div class="grid">
+        <a class="card space" href="/take-off/">
+          <div><span class="eyebrow">Space · Launches · Networks</span><span class="card-title">From Surf Beach to Starlink</span><p>Follow one launch from the California coast to orbit, then explore the missions, payloads, and business behind SpaceX.</p></div>
+          <div class="card-foot"><span>Story + interactive data</span><span class="arrow" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="card history" href="/history/">
+          <div><span class="eyebrow">Archives · History · Languages</span><span class="card-title">History, found in the record</span><p>Historical investigations built from parliamentary debates, diplomatic papers, ancient tablets, and scattered archives.</p></div>
+          <div class="card-foot"><span>Browse historical reads</span><span class="arrow" aria-hidden="true">↗</span></div>
         </a>
       </div>
-      <p style="margin-top: 12px;">Direct link: <a href="https://youtu.be/zxKdNCLdi-M" target="_blank" rel="noreferrer">open on YouTube</a>.</p>
     </section>
-
-    <section class="projects">
-      <h2>Reads</h2>
-      <div class="project">
-        <a href="research/cdli-top10-dossier.html">Unrecorded Tablet Connections</a>
-        <span> — ten candidate links between published cuneiform tablets, found by full-corpus text comparison</span>
-      </div>
-      <div class="project">
-        <a href="research/hansard-turkey.html">Turkey in Hansard</a>
-        <span> — 200 years of Turkey/Ottoman mentions in UK Parliament</span>
-      </div>
-      <div class="project">
-        <a href="research/hansard-newzealand.html">New Zealand in Hansard</a>
-        <span> — NZ across two centuries of British debate</span>
-      </div>
-      <div class="project">
-        <a href="research/frus-turkish-all-eras.html">Turkish/Ottoman FRUS Dossier</a>
-        <span> — US diplomatic cables on Turkey, all eras</span>
-      </div>
-      <div class="project">
-        <a href="research/voices-from-the-archive.html">Voices from the Archive</a>
-        <span> — 45 stories surfaced from ancient source corpora</span>
-      </div>
-      <div class="project">
-        <a href="research/cdli-stories.html">CDLI Tablet Stories</a>
-        <span> — narrative threads from Sumerian/Akkadian tablets</span>
-      </div>
-      <div class="project">
-        <a href="research/hansard-mosul.html">The Mosul Question in Hansard</a>
-        <span> — British parliamentary debates on Mosul, 1918–1926</span>
-      </div>
-      <div class="project">
-        <a href="research/ataturk-digest.html">Atatürk Speeches Digest</a>
-        <span> — AI-structured digest of key addresses</span>
-      </div>
-      <div class="project">
-        <a href="research/ankara-story-leads.html">Ankara / Angora / Ancyra</a>
-        <span> — story leads from travel accounts, epigraphy, and FRUS cables</span>
-      </div>
-    </section>
-
+    <footer class="more"><span>Curious about the process? <a class="text-link" href="https://youtu.be/zxKdNCLdi-M" target="_blank" rel="noreferrer">How I use AI agents and Archive.org ↗</a></span><span><a href="/privacy.html">Privacy</a></span></footer>
   </main>
 </body>
 </html>
