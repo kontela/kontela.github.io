@@ -47,26 +47,26 @@
 
     .header {
       display: flex;
-      justify-content: space-between;
-      align-items: start;
+      flex-direction: column;
+      gap: 24px;
+      align-items: stretch;
       margin-bottom: 48px;
     }
 
     .header-text { flex: 1; }
 
     .portrait {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
+      width: 100%;
+      border-radius: 12px;
       overflow: hidden;
       flex-shrink: 0;
-      margin-left: 24px;
+
     }
 
     .portrait img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+      height: auto;
+      display: block;
     }
 
     h2 {
@@ -113,7 +113,7 @@
     }
 
     @media (max-width: 420px) {
-      .portrait { width: 76px; height: 76px; margin-left: 16px; }
+      .header { gap: 20px; }
       h1 { font-size: 31px; }
     }
   </style>
@@ -126,7 +126,7 @@
         <p class="bio">A personal research site using AI agents to explore archives and public sources.</p>
       </div>
       <div class="portrait">
-        <img src="erman-golden-gate.jpg" alt="Erman at the Golden Gate Bridge" width="480" height="480">
+        <img src="erman-golden-gate.jpg" alt="Erman at the Golden Gate Bridge" width="1440" height="1080">
       </div>
     </div>
 
