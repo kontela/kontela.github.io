@@ -102,6 +102,27 @@
       font-size: 14px;
     }
 
+    .focus-music h2 { margin-bottom: 8px; }
+
+    .focus-music p { margin-bottom: 16px; }
+
+    .focus-music iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      height: auto;
+      border: 0;
+      border-radius: 12px;
+      background: #f3f4f6;
+    }
+
+    .focus-music .music-credit {
+      margin-top: 12px;
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
     footer {
       padding-top: 32px;
       color: var(--muted);
@@ -146,6 +167,21 @@
         <a href="/moto-la-outreach/">LA Moto Outreach</a>
         <span> — researching motorcycle YouTube creators for potential collaborations with a friend’s visor art</span>
       </div>
+    </section>
+
+    <section class="focus-music" aria-labelledby="focus-music-title">
+      <h2 id="focus-music-title">On repeat</h2>
+      <p>Music for reading, working, and getting absorbed.</p>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/MP6_cO8H7ok?rel=0"
+        title="What's the best that could happen? — 1 hour of focus and work music"
+        width="752" height="423"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <p class="music-credit">An Anthropic-inspired mix I made with Stable Audio 3 on <a href="https://fal.ai/">fal.ai</a>. <a href="https://www.youtube.com/watch?v=MP6_cO8H7ok">Listen on YouTube</a>.</p>
     </section>
 
   </main>
