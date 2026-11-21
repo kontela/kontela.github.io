@@ -1,0 +1,3626 @@
+[
+  {
+    "campaign": "Acquire — Guest blog collaboration",
+    "stage": 1,
+    "subject": "Quick Question?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/acquire-guest-blog-collaboration",
+    "body_sha256": "25a52e2540814bf8a445537a1555701beb1be83c0e315cb864ebd4ef7df3de2b"
+  },
+  {
+    "campaign": "Acquire — Guest blog collaboration",
+    "stage": 2,
+    "subject": "Re: Quick Question?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/acquire-guest-blog-collaboration",
+    "body_sha256": "17cb20c4669d47990e11c8880541a847aa85d0a4a565d5c27a60b2f873b1d9ac"
+  },
+  {
+    "campaign": "Actonlytics — Agency partner network",
+    "stage": 1,
+    "subject": "{!company} and Actonlytics",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/actonlytics-agency-partner-network",
+    "body_sha256": "99417b63a05cdff33b1edc6dc24b479f2171b08e5cc80467338fa47658527128"
+  },
+  {
+    "campaign": "Adroll — AdRoll onboarding",
+    "stage": 1,
+    "subject": "{!first_name}, Welcome to AdRoll",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/adroll-adroll-onboarding",
+    "body_sha256": "111fc2b7c4ed59e3e593b55eba3d2c13af217c50ec085081181f0e47c5ad93cb"
+  },
+  {
+    "campaign": "Adroll — AdRoll onboarding",
+    "stage": 2,
+    "subject": "Setting up your AdRoll Account for Success",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/adroll-adroll-onboarding",
+    "body_sha256": "f121de987736da3db002c837e39bd4ce33c34e0240009139826fd1cb291849b8"
+  },
+  {
+    "campaign": "Adroll — AdRoll onboarding",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/adroll-adroll-onboarding",
+    "body_sha256": "b68ef0690eee2c9c29564ea067e2b21b189591fddafb9bcb074036a8b382b14a"
+  },
+  {
+    "campaign": "Adroll — AdRoll onboarding",
+    "stage": 4,
+    "subject": "{!first_name}, Just Tried Calling",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/adroll-adroll-onboarding",
+    "body_sha256": "160140f3c9f09d11252756a646a5b595c7c3c71c1d2e0915b15200af9b92a36c"
+  },
+  {
+    "campaign": "Adroll — AdRoll onboarding",
+    "stage": 5,
+    "subject": "Still Interested",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/adroll-adroll-onboarding",
+    "body_sha256": "f8787b1592081970c4350204df14601cb9a15ad886e4981e0c7f8b2480335db8"
+  },
+  {
+    "campaign": "Agile — SMB CRM automation",
+    "stage": 1,
+    "subject": "Be Honest... Are you really using your CRM?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/agile-smb-crm-automation",
+    "body_sha256": "30d77e81e98db3872b114564c02ae5eb1205c296659b720b674c6e57a0cc9805"
+  },
+  {
+    "campaign": "Agile — SMB CRM automation",
+    "stage": 2,
+    "subject": "Built with love for SMBs like {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/agile-smb-crm-automation",
+    "body_sha256": "800f454fe2dda92f69d69228894a3396729f07bafdca286579514d1d0dd8fcc8"
+  },
+  {
+    "campaign": "Agile — SMB CRM automation",
+    "stage": 3,
+    "subject": "How do you get a small sales team to sell like an army?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/agile-smb-crm-automation",
+    "body_sha256": "a436e4407ee276fb8f636064481dc407816ab90450bc80d726497291b3b744fe"
+  },
+  {
+    "campaign": "Agile — SMB CRM automation",
+    "stage": 4,
+    "subject": "Market and Sell Like the Fortune 500",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/agile-smb-crm-automation",
+    "body_sha256": "dfcb5a4d591ffd13da084137ff843e13ab383f8de4b87b0c78a6ff1a303e4fcf"
+  },
+  {
+    "campaign": "Agile — SMB CRM automation",
+    "stage": 5,
+    "subject": "Get it while it’s hot!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/agile-smb-crm-automation",
+    "body_sha256": "ca207a3e3432099c1475531f8376100b934c41033329e976268668d01fe14441"
+  },
+  {
+    "campaign": "AgileJS — Remote developer hiring",
+    "stage": 1,
+    "subject": "{!company} in Q4",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/agilejs-remote-developer-hiring",
+    "body_sha256": "ea33178276b7ca096ee9c9e0012a2ffe126bb9870521084b2e37f5305d6e856a"
+  },
+  {
+    "campaign": "AgileJS — Remote developer hiring",
+    "stage": 2,
+    "subject": "Re: {!company} in Q4",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/agilejs-remote-developer-hiring",
+    "body_sha256": "2a389bd862065fba6c1f0256b6fc41b57bc97bc218c833bbfcc61b5264107fbc"
+  },
+  {
+    "campaign": "Aircall — Post-event outreach",
+    "stage": 1,
+    "subject": "Aircall - SaaS Growth",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/aircall-post-event-outreach",
+    "body_sha256": "e3e2760fe0540efe0ea953270c72d7d401ecd329af8a17440eb88f90e23a790b"
+  },
+  {
+    "campaign": "alooma — Real-time data pipelines",
+    "stage": 1,
+    "subject": "Alooma x {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/alooma-real-time-data-pipelines",
+    "body_sha256": "098e6b24daf886f345357b10d287b22761fab92c7054a71675f6e9ae5ac1a61c"
+  },
+  {
+    "campaign": "alooma — Real-time data pipelines",
+    "stage": 2,
+    "subject": "Re Alooma x {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/alooma-real-time-data-pipelines",
+    "body_sha256": "73575267870b7ed4249ebc3117face14f738b185d75d3404f4ef2aae678a9bac"
+  },
+  {
+    "campaign": "Amplitude — Product analytics",
+    "stage": 1,
+    "subject": "your product goals",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/amplitude-product-analytics",
+    "body_sha256": "d423e277ebfa4e5ef8fcbc0b3948d8c5e26d301bf9d0497f5455e6df3cfe3b69"
+  },
+  {
+    "campaign": "Asana — Asana upgrade path",
+    "stage": 1,
+    "subject": "Your Asana Account",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/asana-asana-upgrade-path",
+    "body_sha256": "c1d5331f0e5f23675ef2b890488665d7dee5c2c620ee9d7c888981f3144b4e1a"
+  },
+  {
+    "campaign": "Asana — Asana upgrade path",
+    "stage": 2,
+    "subject": "Re: Your Asana Account",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/asana-asana-upgrade-path",
+    "body_sha256": "6757fc4efa8510d35d2051b69b9344656f1cfbb56b1fa2433a64c53fc7c68ed3"
+  },
+  {
+    "campaign": "Asana — Asana upgrade path",
+    "stage": 3,
+    "subject": "Re: Your Asana Account",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/asana-asana-upgrade-path",
+    "body_sha256": "c723efea2d4be3fc88874f208fe8e5264de2d28f40fa7e73aeb8eb7ddee80153"
+  },
+  {
+    "campaign": "Asana — Asana upgrade path",
+    "stage": 4,
+    "subject": "Re: Your Asana Account",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/asana-asana-upgrade-path",
+    "body_sha256": "5ba56ae9fcb05538b4364ef66d99cb035aed04eb217838c68323b30f24558de2"
+  },
+  {
+    "campaign": "Beacon Talent — Better hiring conversations",
+    "stage": 1,
+    "subject": "Asymmetry & wasted meetings",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/beacon-talent-better-hiring-conversations",
+    "body_sha256": "757caccb9dbc7fcfed8c98bca21f00093556bd26dcff842de611944f58040ca3"
+  },
+  {
+    "campaign": "Boolean — Customer feedback surveys",
+    "stage": 1,
+    "subject": "Feedback tool for {!company_name}",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/boolean-customer-feedback-surveys",
+    "body_sha256": "167bae7e11021f3946dfbe0f4348cb51c4f92d78dd3b24c722ba542821e4d1e2"
+  },
+  {
+    "campaign": "Boolean — Customer feedback surveys",
+    "stage": 2,
+    "subject": "Re: Feedback tool for {!company_name}",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/boolean-customer-feedback-surveys",
+    "body_sha256": "68fa8269ff73baa2686aa2548d5dc5baf27ce6ae8f737015396b37e3b884b1a9"
+  },
+  {
+    "campaign": "Boolean — Customer feedback surveys",
+    "stage": 3,
+    "subject": "Re: Feedback tool for {!company_name}",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/boolean-customer-feedback-surveys",
+    "body_sha256": "004896883b2caf2180209eeacd9b57dac775c99acd02a33883d79662965c2b9d"
+  },
+  {
+    "campaign": "Breakcold — Founder cold outreach",
+    "stage": 1,
+    "subject": "co-founder to co-founder",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/breakcold-founder-cold-outreach",
+    "body_sha256": "362e0467850299c83c6d401004b6d3cb545795010551bc794b5d89c71ddc15aa"
+  },
+  {
+    "campaign": "Callrail — Call tracking",
+    "stage": 1,
+    "subject": "time to talk?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/callrail-call-tracking",
+    "body_sha256": "cc7e4676de4e68ba89ac305c817b029515e1736b9e198ed9c335d7d12b48fed7"
+  },
+  {
+    "campaign": "Callrail — Call tracking",
+    "stage": 2,
+    "subject": "Re: time to talk?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/callrail-call-tracking",
+    "body_sha256": "a2d71bcf2083aae1891c3a7ee54cac1a63dbf0ca912c70b0b7b1bba4ad4d5109"
+  },
+  {
+    "campaign": "Callrail — Call tracking",
+    "stage": 3,
+    "subject": "chat about call tracking?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/callrail-call-tracking",
+    "body_sha256": "25fbced5bf139fd9cb8589a9eb168b3567a1b17b007d41a86317be60bf6f9972"
+  },
+  {
+    "campaign": "Callrail — Call tracking",
+    "stage": 4,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/callrail-call-tracking",
+    "body_sha256": "ea3bee7cfc0ad5805a7c833ce76df50d17fd5147fac43e3791efa34f7bf83524"
+  },
+  {
+    "campaign": "Callrail — Call tracking",
+    "stage": 5,
+    "subject": "hey there",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/callrail-call-tracking",
+    "body_sha256": "8df316ed71c497794a8ef5f7f1c58744efd36258ea6d5c2c7f004e6d72e83170"
+  },
+  {
+    "campaign": "Captain401 — 401k benefits plan",
+    "stage": 1,
+    "subject": "401(k) with Captain401 (YC S15)",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/captain401-401k-benefits-plan",
+    "body_sha256": "84cd873704abc28cec78a15ed0e310999bfecddbca613f9340318e1f7afd54ed"
+  },
+  {
+    "campaign": "Captain401 — 401k benefits plan",
+    "stage": 2,
+    "subject": "Re: 401(k) with Captain401 (YC S15)",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/captain401-401k-benefits-plan",
+    "body_sha256": "ae2d9271fbe0edc36d3424f63ddac80247d8f91ffbac17b68f34e2961ef211ab"
+  },
+  {
+    "campaign": "Capterra — Review generation program",
+    "stage": 1,
+    "subject": "Capterra Reviews for {{coompany_name}} - {{first_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/capterra-review-generation-program",
+    "body_sha256": "950241c7f490ef911e41dacdce299ca823865fe27b3cac4b9f0e7928e913a90e"
+  },
+  {
+    "campaign": "Capterra — Review generation program",
+    "stage": 2,
+    "subject": "Re: Capterra Reviews for {{coompany_name}} - {{first_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/capterra-review-generation-program",
+    "body_sha256": "8525d26b48d39b27fd0acd61e7a170e5488b345560d77184837703516b49d41f"
+  },
+  {
+    "campaign": "Capterra — Review generation program",
+    "stage": 3,
+    "subject": "Re: Capterra Reviews for {{coompany_name}} - {{first_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/capterra-review-generation-program",
+    "body_sha256": "1c4d9cc04d0df73538a2f6addd662f5e073d8eb1320ac118b5f0956f71944abf"
+  },
+  {
+    "campaign": "Capterra — Review generation program",
+    "stage": 4,
+    "subject": "Re: Capterra Reviews for {{coompany_name}} - {{first_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/capterra-review-generation-program",
+    "body_sha256": "d161f536323c562c4b622e25bcbff18bbb09fb245fc2d6502ab25423fe236a10"
+  },
+  {
+    "campaign": "Carta — Cap table management",
+    "stage": 1,
+    "subject": "{!first_name} | Carta",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-cap-table-management",
+    "body_sha256": "2ab290f3708cea186ae7236d2c85e8ec99dab531bf4f420516ec30b40d866b21"
+  },
+  {
+    "campaign": "Carta — Cap table management",
+    "stage": 2,
+    "subject": "Re: {!first_name} | Carta",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-cap-table-management",
+    "body_sha256": "34f3c1b2bee223c3f0d3050e6bdb16c5a2c19d5dc66c24eb07fa7152635fd5c5"
+  },
+  {
+    "campaign": "Carta — Compensation benchmarking",
+    "stage": 1,
+    "subject": "Turn Compensation into a Competitive Advantage",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-compensation-benchmarking",
+    "body_sha256": "93ca0cdd828fdb333d2b391d817730855791ff4a8c8033dc0cc07ca60dcb9e74"
+  },
+  {
+    "campaign": "Carta — Compensation benchmarking",
+    "stage": 2,
+    "subject": "Re: Turn Compensation into a Competitive Advantage",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-compensation-benchmarking",
+    "body_sha256": "9b71e5cd4cf1a3e3513e9fb0680e81e5c2d4f99ae4cc4fdc649d3a69bc48e349"
+  },
+  {
+    "campaign": "Carta — Compensation benchmarking",
+    "stage": 3,
+    "subject": "Re: Turn Compensation into a Competitive Advantage",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-compensation-benchmarking",
+    "body_sha256": "91ba11992990269a409f0b8e0d86d0b717cc608bb7d652446426bbdc6457550b"
+  },
+  {
+    "campaign": "Carta — Compensation benchmarking",
+    "stage": 4,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-compensation-benchmarking",
+    "body_sha256": "8027b22722530fbece12b8dd60cc975e15df4760f4e60b9e3070ec271002b0d0"
+  },
+  {
+    "campaign": "Carta — Equity admin switch",
+    "stage": 1,
+    "subject": "More time for {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-equity-admin-switch",
+    "body_sha256": "ff69db75ef10d8b8c8f64967078c83263181e19cfada07a1901fb77724e9537d"
+  },
+  {
+    "campaign": "Carta — Equity admin switch",
+    "stage": 2,
+    "subject": "Re: More time for {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-equity-admin-switch",
+    "body_sha256": "deded71834ec7590f9953bf53852938727654d2aa69ae76871ff59d25ad877d1"
+  },
+  {
+    "campaign": "Carta — Equity admin switch",
+    "stage": 3,
+    "subject": "Re: More time for {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-equity-admin-switch",
+    "body_sha256": "786394008c9cb9c819b49f4a5a0ac232ea5456dc4d9f2e39cb65711973e9a44a"
+  },
+  {
+    "campaign": "Carta — Equity admin switch",
+    "stage": 4,
+    "subject": "How effective is {{company_name}}'s option plan?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-equity-admin-switch",
+    "body_sha256": "578898277c9aa7aab22cd718b8318db41ddda86e2f168244f064fb32160343ea"
+  },
+  {
+    "campaign": "Carta — Equity admin switch",
+    "stage": 5,
+    "subject": "Re: How effective is {{company_name}}'s option plan?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-equity-admin-switch",
+    "body_sha256": "89722b6400e4cc9adeb9ab24deae642c81d434ae9677cb70af249ebb6fdb41aa"
+  },
+  {
+    "campaign": "Carta — Equity admin switch",
+    "stage": 6,
+    "subject": "Any response would be appreciated",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-equity-admin-switch",
+    "body_sha256": "2d2067eb19bf8dd08031428f7de691d1176d301a2344aa85e6597eec3cc0d955"
+  },
+  {
+    "campaign": "Carta — Equity admin switch",
+    "stage": 7,
+    "subject": "When does it make sense to re-evaluate this?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/carta-equity-admin-switch",
+    "body_sha256": "dd16485ae46ee46b7f4bbe2ea5a7b536c4c48d5a5092feb6b064bd5fd773fdec"
+  },
+  {
+    "campaign": "Clearbit — Revenue data enrichment",
+    "stage": 1,
+    "subject": "{{first_name}} - Drive growth at {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/clearbit-revenue-data-enrichment",
+    "body_sha256": "2014096b7162ef3c94c2b21fd7c6f3fb12b686da74ed7662721fd4d364f8b2e3"
+  },
+  {
+    "campaign": "Clearbit — Revenue data enrichment",
+    "stage": 2,
+    "subject": "Re: {{first_name}} - Drive growth at {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/clearbit-revenue-data-enrichment",
+    "body_sha256": "af0b2d336e94dd7f82c39204b14a72541a79162b1f86479d974b6a8e0b9571e9"
+  },
+  {
+    "campaign": "Clearbit — Revenue data enrichment",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/clearbit-revenue-data-enrichment",
+    "body_sha256": "92cace52746e450fa3e60e479fb0a7d0da2f1e6171efeb014611a201e957ee3f"
+  },
+  {
+    "campaign": "Clearbit — Trial activation help",
+    "stage": 1,
+    "subject": "You signed up for a free trial but...",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/clearbit-trial-activation-help",
+    "body_sha256": "1f1e2d251aef17d35d3f981b0aca80b89f5e44779251969f5f64aed875cb7f25"
+  },
+  {
+    "campaign": "Clearbit — Visitor intelligence intro",
+    "stage": 1,
+    "subject": "Clearbit Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/clearbit-visitor-intelligence-intro",
+    "body_sha256": "d7553ebff664d7da3b33451776730ee28d0e4ccefebf2aa80c700b6ddb7f15a2"
+  },
+  {
+    "campaign": "Clearbit — Visitor intelligence intro",
+    "stage": 2,
+    "subject": "Re: Clearbit Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/clearbit-visitor-intelligence-intro",
+    "body_sha256": "95fe606671f34316159518733a1822645541d4ab3d1c41ffd21a2408859e95b2"
+  },
+  {
+    "campaign": "Clearbit — Visitor intelligence intro",
+    "stage": 3,
+    "subject": "Re: Clearbit Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/clearbit-visitor-intelligence-intro",
+    "body_sha256": "1edc5c2bbd3f99d29598b59176989303ca201fe60b712def91238d2e19bd32f6"
+  },
+  {
+    "campaign": "Clearbit — Visitor intelligence intro",
+    "stage": 4,
+    "subject": "Re: Clearbit Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/clearbit-visitor-intelligence-intro",
+    "body_sha256": "cdd093fcf98152e469ec206d31dae6a379eda6dadbf8d084b6287b58c02d285d"
+  },
+  {
+    "campaign": "Codementor — On-demand developers",
+    "stage": 1,
+    "subject": "{!company_name} Software",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/codementor-on-demand-developers",
+    "body_sha256": "4d1620c74a07d6c4e6f69713628f2f2eecd272dc5acb260b35a5dad0e9f689a2"
+  },
+  {
+    "campaign": "Codementor — On-demand developers",
+    "stage": 2,
+    "subject": "Re: {!company_name} Software",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/codementor-on-demand-developers",
+    "body_sha256": "9fddaf22d90f9c984594b380c874bda732aeccc8b17869b871c3a1bf43e566e4"
+  },
+  {
+    "campaign": "Codementor — On-demand developers",
+    "stage": 3,
+    "subject": "Re: {!company_name} Software",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/codementor-on-demand-developers",
+    "body_sha256": "eee764c41814a1c9e0c2a9202b493d248f4c18b132b24833074dbae462832060"
+  },
+  {
+    "campaign": "Codementor — On-demand developers",
+    "stage": 4,
+    "subject": "Re: {!company_name} Software",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/codementor-on-demand-developers",
+    "body_sha256": "fb734f7bdfc158fe715da6a6bea4b8960b7e1aeb2da0ea45218e56bd50901a9d"
+  },
+  {
+    "campaign": "Comparably — Employer brand profile",
+    "stage": 1,
+    "subject": "{!company} employee data",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/comparably-employer-brand-profile",
+    "body_sha256": "efa6f0f155475af9e4661819d71d2e91ac50b6bde6b5c2e71e7bf726b1abeaa8"
+  },
+  {
+    "campaign": "Comparably — Employer brand profile",
+    "stage": 2,
+    "subject": "Re: {!company} employee data",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/comparably-employer-brand-profile",
+    "body_sha256": "5d2d6610457c2359838e11eba537de8cfa1bb1749e863fb5a28cfbc40a64d923"
+  },
+  {
+    "campaign": "Conversific — Shopify lead generation",
+    "stage": 1,
+    "subject": "{!company_name} & Conversific",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/conversific-shopify-lead-generation",
+    "body_sha256": "af5ac4bee8d6912f186e1321df1d4e7dae7e9da9026e0eaee11ec2d9d4db6073"
+  },
+  {
+    "campaign": "Conversific — Shopify lead generation",
+    "stage": 2,
+    "subject": "Re: {!company_name} & Conversific",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/conversific-shopify-lead-generation",
+    "body_sha256": "cf6344a73da989356daca1a5ccd818affd748dd75d57e639790f52ff3a2e5e42"
+  },
+  {
+    "campaign": "Conversific — Shopify lead generation",
+    "stage": 3,
+    "subject": "Re: {!company_name} & Conversific",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/conversific-shopify-lead-generation",
+    "body_sha256": "a4e2a5bd73f0b29c819607f323c3840848bbee771524886d1eb8a6ea00790dc3"
+  },
+  {
+    "campaign": "Conversific — Shopify lead generation",
+    "stage": 4,
+    "subject": "Re: {!company_name} & Conversific",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/conversific-shopify-lead-generation",
+    "body_sha256": "fd3b6a3546911b8ad7fca0bc85e9fab6ff44475e86c8a515a426921513154121"
+  },
+  {
+    "campaign": "Conversific — Shopify lead generation",
+    "stage": 5,
+    "subject": "Re: {!company_name} & Conversific",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/conversific-shopify-lead-generation",
+    "body_sha256": "c1a01c24bca266b54a3a069b98cf8ace4a021824416ce6a9c40e7f43464f33b8"
+  },
+  {
+    "campaign": "CoreOS — Kubernetes containers",
+    "stage": 1,
+    "subject": "Docker Containers",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/coreos-kubernetes-containers",
+    "body_sha256": "a5efc0e30485f02325f5cd1b1d34c6d5fb92ce7b0cc6d4b9f7555f7f527c3e07"
+  },
+  {
+    "campaign": "CoreOS — Kubernetes containers",
+    "stage": 2,
+    "subject": "Re: Docker Containers",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/coreos-kubernetes-containers",
+    "body_sha256": "405412b7d4b74357e1bc7f7bce47720c54eb9e8322d16bfadd9173d34deb44e0"
+  },
+  {
+    "campaign": "CoreOS — Kubernetes containers",
+    "stage": 3,
+    "subject": "Docker Containers",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/coreos-kubernetes-containers",
+    "body_sha256": "b6c5b1fe1b25319e6b489aa73abc5f234c589f680ca9682300602471ba39a9c4"
+  },
+  {
+    "campaign": "Cover — Insurance cost audit",
+    "stage": 1,
+    "subject": "Insurance Help",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/cover-insurance-cost-audit",
+    "body_sha256": "aed69bfda190ff233a26b9d6c15ab2f137c2d371b16520fde03511ef870eab3a"
+  },
+  {
+    "campaign": "Cover — Insurance cost audit",
+    "stage": 2,
+    "subject": "Re: Insurance Help",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/cover-insurance-cost-audit",
+    "body_sha256": "660c09e28530a00efcb13d85e1db2ca193ea0e062854b4b6e2a89b75dcdd13fe"
+  },
+  {
+    "campaign": "Crema — Office coffee subscription",
+    "stage": 1,
+    "subject": "{!company_name} office coffee setup",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/crema-office-coffee-subscription",
+    "body_sha256": "9514a5d5c15b31a09a65c7963a8ebc68f017d0bcf608ce4d7767addc524e6b80"
+  },
+  {
+    "campaign": "Crema — Office coffee subscription",
+    "stage": 2,
+    "subject": "Re: {!company_name} office coffee setup",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/crema-office-coffee-subscription",
+    "body_sha256": "b0e56ca7af9723aa417c0cb845983316909abc692bc2683a414f915ace55d411"
+  },
+  {
+    "campaign": "Crema — Office coffee subscription",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/crema-office-coffee-subscription",
+    "body_sha256": "91ce58d32d0c2af43fd9906f32161d8d1537e22137e0ce18b3f14748c2e774e9"
+  },
+  {
+    "campaign": "Dashbot — Chatbot analytics",
+    "stage": 1,
+    "subject": "Analytics for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/dashbot-chatbot-analytics",
+    "body_sha256": "51922c3ea50fa42a41c3a6e5828e6921962ed8c467bc640369051ad5478eaaf1"
+  },
+  {
+    "campaign": "Dashbot — Chatbot analytics",
+    "stage": 2,
+    "subject": "Re: Analytics for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/dashbot-chatbot-analytics",
+    "body_sha256": "8b8910daed128123c063cad4dfd6a796c2705d95b50da6972df249c6d809e7fc"
+  },
+  {
+    "campaign": "Dashbot — Chatbot analytics",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/dashbot-chatbot-analytics",
+    "body_sha256": "eb956adc8ef3d6a16b7bf3add72ca0a37d9375583719f815cc326e0f2d740350"
+  },
+  {
+    "campaign": "Dashbot — Chatbot analytics",
+    "stage": 4,
+    "subject": "Re: Analytics for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/dashbot-chatbot-analytics",
+    "body_sha256": "2b82229d08218cb563a7b12422054f9b676166477738c19222a20c80d9358753"
+  },
+  {
+    "campaign": "Dashbot — Chatbot analytics",
+    "stage": 5,
+    "subject": "Re: Analytics for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/dashbot-chatbot-analytics",
+    "body_sha256": "2bb196ff247bf667746a20ca0ecd8ac28d2a2a14da4bd4cb7338d6eafc724aae"
+  },
+  {
+    "campaign": "Datorama — Marketing performance analytics",
+    "stage": 1,
+    "subject": "g'day from datorama",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/datorama-marketing-performance-analytics",
+    "body_sha256": "188fd1038f4f2ce51f87763ef3eb145fb63efe60ee82cb50ceaa8d9d7019590f"
+  },
+  {
+    "campaign": "Delighted — NPS kickoff",
+    "stage": 1,
+    "subject": "{!company} + Delighted",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/delighted-nps-kickoff",
+    "body_sha256": "18488c63bf6cb558a932f07fa93184775e19e67d9a3ff37a3be5bd6b7c491f33"
+  },
+  {
+    "campaign": "Digital Astronauts — Sales automation infrastructure",
+    "stage": 1,
+    "subject": "When's a good time?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/digital-astronauts-sales-automation-infrastructure",
+    "body_sha256": "30330dd7c4e056d1e54ad9ac5f638391870c9e545a82a24ed0a55008bce9fd18"
+  },
+  {
+    "campaign": "Dimmo — Demo CTA improvement",
+    "stage": 1,
+    "subject": "{{company}} demo?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/dimmo-demo-cta-improvement",
+    "body_sha256": "6aab8771aacbac1094e373719b1d95df7a3c200a324447635fbf65a1f45655f5"
+  },
+  {
+    "campaign": "Discoveroo — European outbound expansion",
+    "stage": 1,
+    "subject": "European sales outreach at {{company_name}}",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/discoveroo-european-outbound-expansion",
+    "body_sha256": "fb5f5dbb27a68e7ce17e2ed90ff86fca4c8701acd944d808255c0238fb626f86"
+  },
+  {
+    "campaign": "Discoveroo — European outbound expansion",
+    "stage": 2,
+    "subject": "Re: European sales outreach at {{company_name}}",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/discoveroo-european-outbound-expansion",
+    "body_sha256": "1e627fab94e885a4ffd3a45ce10808c4a76b348c42a5f04579c67aec90ea7d54"
+  },
+  {
+    "campaign": "Discoveroo — European outbound expansion",
+    "stage": 3,
+    "subject": "Re: European sales outreach at {{company_name}}",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/discoveroo-european-outbound-expansion",
+    "body_sha256": "2c203e3c467d57342ac9ede402dc77efb4689392f684804cee3fdb65d264d8ee"
+  },
+  {
+    "campaign": "Discoveroo — European outbound expansion",
+    "stage": 4,
+    "subject": "Re: European sales outreach at {{company_name}}",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/discoveroo-european-outbound-expansion",
+    "body_sha256": "b9edeb01b3e29b9e3dc87d8b8e8ddf153c331bcd66e558beeeec072cc34e1dad"
+  },
+  {
+    "campaign": "DiscoverOrg — Prospect data platform",
+    "stage": 1,
+    "subject": "{!first_name} - Hoping to help",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/discoverorg-prospect-data-platform",
+    "body_sha256": "9a95d004c6e60e3b0c0eff89be2214c20361e450e41db0b4fa7ff7dc9df1ba42"
+  },
+  {
+    "campaign": "DiscoverOrg — Prospect data platform",
+    "stage": 2,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/discoverorg-prospect-data-platform",
+    "body_sha256": "a5b5b2c8164bd6f49082f79e9e7bc52bc384596d7c5693e736cd6193b55f7900"
+  },
+  {
+    "campaign": "DiscoverOrg — Prospect data platform",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/discoverorg-prospect-data-platform",
+    "body_sha256": "864eae944ad14e7289a4688d74d54bcc223d8652ad13ad878516f5cd26fdf91f"
+  },
+  {
+    "campaign": "DiscoverOrg — Prospect data platform",
+    "stage": 4,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/discoverorg-prospect-data-platform",
+    "body_sha256": "5259600c86c03a87c2bb0f7eadb78c2fe502afe585c501d0abf5f529fe71b734"
+  },
+  {
+    "campaign": "DocuSign — Contact request follow-up",
+    "stage": 1,
+    "subject": "DocuSign Contact Us request",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/docusign-contact-request-follow-up",
+    "body_sha256": "c063dd15b670996f1a3071d5a472b526e2c6c125af33dc5f5daaac20c0fbc097"
+  },
+  {
+    "campaign": "DocuSign — Contact request follow-up",
+    "stage": 2,
+    "subject": "Reaching out one last time",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/docusign-contact-request-follow-up",
+    "body_sha256": "1179526eef813d01e9264ef94a6273dafa2605d206545985d7210ae961b03ea4"
+  },
+  {
+    "campaign": "DocuSign — CRM contract automation",
+    "stage": 1,
+    "subject": "Complete Your {{technology}} Integration",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/docusign-crm-contract-automation",
+    "body_sha256": "36fe0fe533674d7c8d4e56b476df88260e15a211b806a3e35492b6bbdda664b2"
+  },
+  {
+    "campaign": "DocuSign — CRM contract automation",
+    "stage": 2,
+    "subject": "Re: Complete Your {{technology}} Integration",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/docusign-crm-contract-automation",
+    "body_sha256": "b4d435efc3731d5a3443435eb75e0bf59639cdb12e913ce10884a620eb781b6a"
+  },
+  {
+    "campaign": "e2f — Global expansion localization",
+    "stage": 1,
+    "subject": "Globalization",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/e2f-global-expansion-localization",
+    "body_sha256": "795b30a6615f7bf550498fe72cbe23058be37159a52b964d2a03b2c30b43cbac"
+  },
+  {
+    "campaign": "Elastic — Site search demo",
+    "stage": 1,
+    "subject": "Elastic Site Search - Overview and Demo",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/elastic-site-search-demo",
+    "body_sha256": "d3cfb5607c96d3de47ae84b5d246aceffffe2392703ca9848ac8fd26dceab9f0"
+  },
+  {
+    "campaign": "Elastic — Site search demo",
+    "stage": 2,
+    "subject": "Re: Elastic Site Search - Overview and Demo",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/elastic-site-search-demo",
+    "body_sha256": "b92c9bdaa915a96e861f731ee03871325fefc7e4e05d13c482fb1d0fcefc0855"
+  },
+  {
+    "campaign": "ElleSpark — Sales and marketing alignment",
+    "stage": 1,
+    "subject": "Never seen a Former NFL Tightend CEO",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/ellespark-sales-and-marketing-alignment",
+    "body_sha256": "858076bed0c6d6f5ae5c5a5a57ad63335bdb787058b4b4c55cee5697cad51194"
+  },
+  {
+    "campaign": "Enlume — Mobile product development",
+    "stage": 1,
+    "subject": "Appropriate person",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/enlume-mobile-product-development",
+    "body_sha256": "95217173ac323812171c011265a53a2d8399549bcec42d9e728a95f5643d0952"
+  },
+  {
+    "campaign": "Enlume — Mobile product development",
+    "stage": 2,
+    "subject": "Re: Appropriate person",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/enlume-mobile-product-development",
+    "body_sha256": "dc40a89a05a8b3161abe859f339cbe08a8c2b0bdd651ad757d364098056304d1"
+  },
+  {
+    "campaign": "Etouches — Event management software",
+    "stage": 1,
+    "subject": "Can We Connect?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/etouches-event-management-software",
+    "body_sha256": "eccfb8d6bd3133344f401ee9135454a2a77fab5a5d725f7f70cbe6cf63545c13"
+  },
+  {
+    "campaign": "Etouches — Event management software",
+    "stage": 2,
+    "subject": "Meeting on Tuesday?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/etouches-event-management-software",
+    "body_sha256": "168484c564212f0b1a4c8f8c384cf66a78a14586882899b34ea6cc14eebe8a47"
+  },
+  {
+    "campaign": "Etouches — Event management software",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/etouches-event-management-software",
+    "body_sha256": "e6760a94d5bda1ca6f34daf9ea32a6e484ee610963d45ddcad22120903deb9ec"
+  },
+  {
+    "campaign": "Evernote — Evernote Business demo",
+    "stage": 1,
+    "subject": "Evernote Business",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/evernote-evernote-business-demo",
+    "body_sha256": "5d5ed77f1c3833c5a1217cbc482ed027f07283814825c58f4f124e14049ddd1c"
+  },
+  {
+    "campaign": "Evernote — Evernote Business demo",
+    "stage": 2,
+    "subject": "Evernote Business",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/evernote-evernote-business-demo",
+    "body_sha256": "16c3e0c4289721be93540ae9719a428d3366b38deef013757f0d955255b81eaf"
+  },
+  {
+    "campaign": "Evernote — Evernote Business demo",
+    "stage": 3,
+    "subject": "Evernote | Following up",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/evernote-evernote-business-demo",
+    "body_sha256": "8ef1ed064ec5ac0935ade89db76b6b5b30d6bc10361cbcade81d307b37ed2518"
+  },
+  {
+    "campaign": "Evernote — Evernote Business demo",
+    "stage": 4,
+    "subject": "Evernote Business - Request for Information",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/evernote-evernote-business-demo",
+    "body_sha256": "852d3370b8ee75971978a6f41180b5cc38ea3519ca4805f6c236f753a85afe38"
+  },
+  {
+    "campaign": "Evernote — Evernote Business demo",
+    "stage": 5,
+    "subject": "Evernote Business",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/evernote-evernote-business-demo",
+    "body_sha256": "01a1797944f714e97ac724f32271d5958a6a7ecabcab727dbe7664b22c81dbb7"
+  },
+  {
+    "campaign": "Evernote — Evernote Business demo",
+    "stage": 6,
+    "subject": "Evernote | Closing Request for Information",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/evernote-evernote-business-demo",
+    "body_sha256": "45d0d39d199f8b68fece29c43b5a5fe9273478e121a90b24d0174572d480c87d"
+  },
+  {
+    "campaign": "Front — Shared inbox collaboration",
+    "stage": 1,
+    "subject": "Front App",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/front-shared-inbox-collaboration",
+    "body_sha256": "dfe48b9ca0d694430b7a2dca5d9916caee3aef98813b18da475a8261f5a86997"
+  },
+  {
+    "campaign": "Front — Shared inbox collaboration",
+    "stage": 2,
+    "subject": "Re: Front App",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/front-shared-inbox-collaboration",
+    "body_sha256": "d4eff71f544d1278951df0b4d44161236d6b14f64a8315e899ab3e6845b15ac6"
+  },
+  {
+    "campaign": "FullStory — Website demo walkthrough",
+    "stage": 1,
+    "subject": "Magic Goggles",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/fullstory-website-demo-walkthrough",
+    "body_sha256": "84e5e899a9378751ff83e09b9d3cb824e9cfc9cccdfc0f4fc5fbf24095dc9d38"
+  },
+  {
+    "campaign": "FullStory — Website demo walkthrough",
+    "stage": 2,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/fullstory-website-demo-walkthrough",
+    "body_sha256": "1712625c730c71abf1214f0c5057887da304f2e24af4e88233531ec6817d66fe"
+  },
+  {
+    "campaign": "G2 — Dreamforce meetup invite",
+    "stage": 1,
+    "subject": "Let's Meet at Dreamforce!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/g2-dreamforce-meetup-invite",
+    "body_sha256": "ca15adbea73423d7fce4d34560c0273317d900737f79e36c4cc46687cc58a9e8"
+  },
+  {
+    "campaign": "G2 — Dreamforce meetup invite",
+    "stage": 2,
+    "subject": "Re: Let's Meet at Dreamforce!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/g2-dreamforce-meetup-invite",
+    "body_sha256": "a91ef7f63bb68c49bdc02419d8cc436a50a7e5f554752c858f497367b842021c"
+  },
+  {
+    "campaign": "Gong — Celebrate event invite",
+    "stage": 1,
+    "subject": "A (free) gift for team {{last_name}}'s top rep",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gong-celebrate-event-invite",
+    "body_sha256": "7a6bbd5f17cd28c8db2256d61317459bc7a9f5dd575bfbef4dd2266f7d2f4bb4"
+  },
+  {
+    "campaign": "Gong — Celebrate event invite",
+    "stage": 2,
+    "subject": "It’s #celebrate eve",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gong-celebrate-event-invite",
+    "body_sha256": "15cb898bfaa6144c398110fdfcca93182a1e56573d3a85c21f723da241ee26ea"
+  },
+  {
+    "campaign": "Gong — Celebrate event invite",
+    "stage": 3,
+    "subject": "Let’s get this #celebration on the road",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gong-celebrate-event-invite",
+    "body_sha256": "2593b7568661893111ef3e7c6e64b1dcf3b1f35d8acb30d4bb58fb3b8b6cada4"
+  },
+  {
+    "campaign": "Gong — Celebrate event invite",
+    "stage": 4,
+    "subject": "Pizza is better on the second day",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gong-celebrate-event-invite",
+    "body_sha256": "a1bc0bccc098346660979eefa0bc988f4d544a3779cf27ec451549eea9f66183"
+  },
+  {
+    "campaign": "Gong — Sales webinar invite",
+    "stage": 1,
+    "subject": "Double your close rates with these messaging techniques",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gong-sales-webinar-invite",
+    "body_sha256": "a42f9abe5f1348620c53f593a1faa4c0f0058dd6fa53b72a19f3f2bd4561fcf5"
+  },
+  {
+    "campaign": "Gong — Sales webinar invite",
+    "stage": 2,
+    "subject": "Hey you. Open that Chrome tab back up.",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gong-sales-webinar-invite",
+    "body_sha256": "be115f1edb7215cea2adc3684e87c076ed54f7abd7ea13ec6185769f218bf54e"
+  },
+  {
+    "campaign": "Gong — Sales webinar invite",
+    "stage": 3,
+    "subject": "In one hour… “it” happens",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gong-sales-webinar-invite",
+    "body_sha256": "f22486e8c8447cb7b723f685555d82643315e3a28e30a943737748779cf90afb"
+  },
+  {
+    "campaign": "Gong — Sales webinar invite",
+    "stage": 4,
+    "subject": "29 sales questions you can ask to win more deals",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gong-sales-webinar-invite",
+    "body_sha256": "8c29ea4450414a34ae2d9cebe45ce4424a0ab908427b3fafb791634bb04cf136"
+  },
+  {
+    "campaign": "Google Cloud — Cloud strategy consultation",
+    "stage": 1,
+    "subject": "Google: Meeting Requested",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-cloud-cloud-strategy-consultation",
+    "body_sha256": "b1bb59eecb64aaef8d49d657c054f162bc4e7892a87642cbf46ee07bcf9d3103"
+  },
+  {
+    "campaign": "Google Cloud — Cloud strategy consultation",
+    "stage": 2,
+    "subject": "Google: Lets Connect",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-cloud-cloud-strategy-consultation",
+    "body_sha256": "4083bc387a671322699dba0a0aacf282e8e8484530368d2fae2842796f7fa3da"
+  },
+  {
+    "campaign": "Google Cloud — Cloud strategy consultation",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-cloud-cloud-strategy-consultation",
+    "body_sha256": "9a612b5621437345b25451bfb94f6b07248d4e1ac3627b413c449c9f747dbe2b"
+  },
+  {
+    "campaign": "Google Cloud — Cloud strategy consultation",
+    "stage": 4,
+    "subject": "Check Out These Expert Insights!!!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-cloud-cloud-strategy-consultation",
+    "body_sha256": "1985fd53ebd91b16666d9f086bd3966b706935ff22b2717ed4cadcbc5ab95039"
+  },
+  {
+    "campaign": "Google Cloud — Cloud strategy consultation",
+    "stage": 5,
+    "subject": "Google: Last Attempt - Response Needed!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-cloud-cloud-strategy-consultation",
+    "body_sha256": "38f6916d5b10d9e63238c6620e39d8f80c9453ea560961eace4c574040c008bb"
+  },
+  {
+    "campaign": "Google — Google ads partnership",
+    "stage": 1,
+    "subject": "{{company_name}} / Google Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-google-ads-partnership",
+    "body_sha256": "d712f5e7d9ffc6e76f8eb8fed2ca214d206d6e013298f31a5bfb875438467ca8"
+  },
+  {
+    "campaign": "Google — Google ads partnership",
+    "stage": 2,
+    "subject": "Re: {{company_name}} / Google Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-google-ads-partnership",
+    "body_sha256": "921a8c9bec9eb997946f391808897c385a0e3399edbe622b95177347b9ddaf7d"
+  },
+  {
+    "campaign": "Google — Google ads partnership",
+    "stage": 3,
+    "subject": "Re: {{company_name}} / Google Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-google-ads-partnership",
+    "body_sha256": "9e2961a04dfb3642618b66d0129d47349bc3ea9797bf1d319dd2a4ba8be332b6"
+  },
+  {
+    "campaign": "Google — Google growth partnership",
+    "stage": 1,
+    "subject": "{!company}  x Google",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-google-growth-partnership",
+    "body_sha256": "6506c7fdb9d17bc414f74edf4bef0ce5fa89cfaf52a8ff0b8545c604f8dbbed5"
+  },
+  {
+    "campaign": "Google — Google growth partnership",
+    "stage": 2,
+    "subject": "Re: {!company}  x Google",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-google-growth-partnership",
+    "body_sha256": "7e2fbb8d91129667ebaf5e70aec795ac8246decdde3cb8d180ea78c79a8b75c5"
+  },
+  {
+    "campaign": "Google — Google growth partnership",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-google-growth-partnership",
+    "body_sha256": "563bce5c033ae164d18ff75fee8a50548f069261134f1033d69824870753fffb"
+  },
+  {
+    "campaign": "Google — Google growth partnership",
+    "stage": 4,
+    "subject": "Re: {!company}  x Google",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/google-google-growth-partnership",
+    "body_sha256": "f9473656c9ea10f2f2e3468d28ea1cdadc174ea6c3aadfc58d3f32b74b91285a"
+  },
+  {
+    "campaign": "Gorgias — Customer support inbox",
+    "stage": 1,
+    "subject": "{!company} - Respond faster to customers",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/gorgias-customer-support-inbox",
+    "body_sha256": "524afbd73682717fba8df80d8705e668d71a7361b4b78961753a986941dc8c57"
+  },
+  {
+    "campaign": "Gorgias — Customer support inbox",
+    "stage": 2,
+    "subject": "Re: {!company} - Respond faster to customers",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/gorgias-customer-support-inbox",
+    "body_sha256": "0b1b6ed196e059291e83cda8d514b0710441028f00ccb9f65ee84c35a071fede"
+  },
+  {
+    "campaign": "Gorgias — Customer support inbox",
+    "stage": 3,
+    "subject": "Re: {!company} - Respond faster to customers",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/gorgias-customer-support-inbox",
+    "body_sha256": "e1e484a4b08112238de28fc0a826b463663124034ae276f6ac9b8a1fbbcb80c0"
+  },
+  {
+    "campaign": "Gorgias — Customer support inbox",
+    "stage": 4,
+    "subject": "Re: {!company} - Respond faster to customers",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/gorgias-customer-support-inbox",
+    "body_sha256": "9f83542edd2fc20029a2a1deadee4d6fa0541e60c6b124c2324a5ec1049d62e2"
+  },
+  {
+    "campaign": "Gravity Video — Video partnership intro",
+    "stage": 1,
+    "subject": "Looking for the right person",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gravity-video-video-partnership-intro",
+    "body_sha256": "a1fd1200d13ae67fa2b1114ad27151283f46471b9660077b99202405f3034fd3"
+  },
+  {
+    "campaign": "Gravity Video — Video partnership intro",
+    "stage": 2,
+    "subject": "Re: Looking for the right person",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gravity-video-video-partnership-intro",
+    "body_sha256": "731202a38932c31f15df62022f02536f63fde6411f5445ede77d1816a04de1ca"
+  },
+  {
+    "campaign": "Gravity Video — Video partnership intro",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gravity-video-video-partnership-intro",
+    "body_sha256": "7296e179277fb202a1c24596a49ff09d964d2369db76b3f19dbcdbd0dd5ce276"
+  },
+  {
+    "campaign": "Gusto — Payroll provider switch",
+    "stage": 1,
+    "subject": "thoughts on Gusto?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gusto-payroll-provider-switch",
+    "body_sha256": "497328166b7dd24afbbc389c809f29584886fbe1b84578498d91f26bdb39e125"
+  },
+  {
+    "campaign": "Gusto — Payroll provider switch",
+    "stage": 2,
+    "subject": "Re: thoughts on Gusto?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/gusto-payroll-provider-switch",
+    "body_sha256": "4265b56fb15c1a484def5ca53bcfd719a348f5e5b9b2315114c4cf7f0ec3b187"
+  },
+  {
+    "campaign": "Highspot — Sales enablement",
+    "stage": 1,
+    "subject": "Sales Enablement at {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/highspot-sales-enablement",
+    "body_sha256": "c48c797065b87ec000bafbdbfc3bb97839dcf412652a919e3459ea7a23ce7858"
+  },
+  {
+    "campaign": "Hireplicity, Inc. — Remote engineering hiring",
+    "stage": 1,
+    "subject": "Ideas For Managing Salary Costs of Your Software Engineers",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hireplicity-inc-remote-engineering-hiring",
+    "body_sha256": "267486fd0e7b1ff546fce0123c2144136c69375fe1d44ebe2dd6d08885fdf38f"
+  },
+  {
+    "campaign": "Hireplicity, Inc. — Remote engineering hiring",
+    "stage": 2,
+    "subject": "Question About Hiring Software Engineers Remotely",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hireplicity-inc-remote-engineering-hiring",
+    "body_sha256": "e5f899e046c947c476fb1e92ebfdb0b0cea22f919381d96d92683ed6f9d5807d"
+  },
+  {
+    "campaign": "Hireplicity, Inc. — Remote engineering hiring",
+    "stage": 3,
+    "subject": "Time to part ways",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hireplicity-inc-remote-engineering-hiring",
+    "body_sha256": "d004278d786d65c9a8b7672db2630abfc0583e28fdb4dc5d9c09cacdb12370fe"
+  },
+  {
+    "campaign": "HubSpot — Demo scheduling",
+    "stage": 1,
+    "subject": "Following up",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-demo-scheduling",
+    "body_sha256": "2e17404e78d9040e277f981c2daec19d1b3cdb91408b54f2d95cbc27549793c8"
+  },
+  {
+    "campaign": "HubSpot — Demo scheduling",
+    "stage": 2,
+    "subject": "HubSpot | Demo Request",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-demo-scheduling",
+    "body_sha256": "75e615121d663a3997917fcc62709161cc707e4fdba5cea87026863cbb0334c5"
+  },
+  {
+    "campaign": "HubSpot — Demo scheduling",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-demo-scheduling",
+    "body_sha256": "9152a473e0349054a26c1318302ce3cba3e43546b02f025a1d39af8a6d5e5ecf"
+  },
+  {
+    "campaign": "HubSpot — Demo scheduling",
+    "stage": 4,
+    "subject": "HubSpot | Demo Request",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-demo-scheduling",
+    "body_sha256": "1fb8672ee4b6153d07967c37e7ee7079b5e386f2b132e11a59b8820d5e2149f9"
+  },
+  {
+    "campaign": "HubSpot — Demo scheduling",
+    "stage": 5,
+    "subject": "Last HubSpot Follow-Up for {!first_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-demo-scheduling",
+    "body_sha256": "ed279d9340d1e1bfc27f775f01963074f21a2306e0b521ebef74f6f6a461423b"
+  },
+  {
+    "campaign": "Hubspot — HubSpot expansion help",
+    "stage": 1,
+    "subject": "How's it going with HubSpot?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-hubspot-expansion-help",
+    "body_sha256": "9487901291d5e1e226f7c3abf5a340ba5b67ce24b57e85fb9f8bd7b524f1f284"
+  },
+  {
+    "campaign": "Hubspot — HubSpot expansion help",
+    "stage": 2,
+    "subject": "Re: How's it going with HubSpot?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-hubspot-expansion-help",
+    "body_sha256": "3c0867b65c89312a77d81d7669e09a7c2fad60dcfb98d7acb11df5d0c7a894f8"
+  },
+  {
+    "campaign": "Hubspot — HubSpot expansion help",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-hubspot-expansion-help",
+    "body_sha256": "5146c878853d100b5bc672b6352ac10292eb26b88fe2e5f5d23fbc11c466163f"
+  },
+  {
+    "campaign": "Hubspot — HubSpot expansion help",
+    "stage": 4,
+    "subject": "Re: How's it going with HubSpot?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-hubspot-expansion-help",
+    "body_sha256": "91e9f2d3da1e5a7e7671918c418a9cffed6487573767d8c40895bcde789fa82c"
+  },
+  {
+    "campaign": "HubSpot — New role follow-up",
+    "stage": 1,
+    "subject": "congrats on the new role. re: call follow-up",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-new-role-follow-up",
+    "body_sha256": "38e247ec38373540b406f72cb366c5b52960f5ae1a08e71ae50d6f570c0cf1ff"
+  },
+  {
+    "campaign": "Hubspot — Pricing page follow-up",
+    "stage": 1,
+    "subject": "{{company_name}} & HubSpot | meeting proposal",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-pricing-page-follow-up",
+    "body_sha256": "a49da3e8f73ac8fb6006fee1bfd067bc538ca84b949190a0fb2e0ef43abed1de"
+  },
+  {
+    "campaign": "Hubspot — Pricing page follow-up",
+    "stage": 2,
+    "subject": "One last note, {{first_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-pricing-page-follow-up",
+    "body_sha256": "57432429c5cd874e9c6a4c1380d6322944714146a4a597c0cd3697a2d4878efe"
+  },
+  {
+    "campaign": "Hubspot — Year end planning",
+    "stage": 1,
+    "subject": "End of year strategy meeting",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-year-end-planning",
+    "body_sha256": "92daf57f58f961e6831721a191be46e8631fa438ba82699c6d2cb312cdf15ac0"
+  },
+  {
+    "campaign": "Hubspot — Year end planning",
+    "stage": 2,
+    "subject": "Re: End of year strategy meeting",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-year-end-planning",
+    "body_sha256": "c1372ecc0baaae9b8fd5ee7379236a5207d87c0f2fe889bbb8adcc95066f7ff5"
+  },
+  {
+    "campaign": "Hubspot — Year end planning",
+    "stage": 3,
+    "subject": "Re: End of year strategy meeting",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-year-end-planning",
+    "body_sha256": "1ac0c7b5e5bbd3bb43ea42f7f9c25fcfef8607824dbeaa0dd8f1f149ef1de14f"
+  },
+  {
+    "campaign": "Hubspot — Year end planning",
+    "stage": 4,
+    "subject": "Re: End of year strategy meeting",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/hubspot-year-end-planning",
+    "body_sha256": "485ea54caec82cc6e6ff0b7b9d4f7dd6be306b377a112237e0830d0a051d0873"
+  },
+  {
+    "campaign": "Human Creative — SaaS explainer videos",
+    "stage": 1,
+    "subject": "{{first_name}} x Tom",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/human-creative-saas-explainer-videos",
+    "body_sha256": "cc57144577a98519264d4118050a634dbec3a68d41c16385a89311f61c1262ff"
+  },
+  {
+    "campaign": "Human Creative — SaaS explainer videos",
+    "stage": 2,
+    "subject": "Re: {{first_name}} x Tom",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/human-creative-saas-explainer-videos",
+    "body_sha256": "3c79ece40fb6083716b00b74caea85d42b60d84929516fbf3b2e7fa20984ad3a"
+  },
+  {
+    "campaign": "Human Creative — SaaS explainer videos",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/human-creative-saas-explainer-videos",
+    "body_sha256": "e5081e1bb43de1c52b69cd5615b60e579e14ae71967399dcbd31ffcf0e86110e"
+  },
+  {
+    "campaign": "Human Creative — SaaS explainer videos",
+    "stage": 4,
+    "subject": "Re: {{first_name}} x Tom",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/human-creative-saas-explainer-videos",
+    "body_sha256": "4c15ad415c286086b081af7498ad7dcbff6000835bf29ef2d61316f8cfa46ab3"
+  },
+  {
+    "campaign": "Incite Group — Customer service summit",
+    "stage": 1,
+    "subject": "Re: Call next week",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/incite-group-customer-service-summit",
+    "body_sha256": "e2da28f8f4ec137e60b8356b084804f0f19fecdeb0351b40f31988f2e24957e6"
+  },
+  {
+    "campaign": "Incite Group — Customer service summit",
+    "stage": 2,
+    "subject": "FW: Call on Monday",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/incite-group-customer-service-summit",
+    "body_sha256": "629e70e27595a909fb42c6d289e9d0ed8ebd11e2202fb86316370395df5a7ee6"
+  },
+  {
+    "campaign": "Inside.com — Newsletter partnership",
+    "stage": 1,
+    "subject": "{{company_name}} feature in Inside Newsletter",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/inside-com-newsletter-partnership",
+    "body_sha256": "18ff25a506fad40928f4fbaa812d8e637bc594d5deabebf4f36d9afba848c42f"
+  },
+  {
+    "campaign": "Inside.com — Newsletter partnership",
+    "stage": 2,
+    "subject": "Re: {{company_name}} feature in Inside Newsletter",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/inside-com-newsletter-partnership",
+    "body_sha256": "54d1af989861c846f474687ca7b0d4a9107addce3346f83efa71bee648c09f4c"
+  },
+  {
+    "campaign": "Inside.com — Newsletter partnership",
+    "stage": 3,
+    "subject": "Re: Re: {{company_name}} feature in Inside Newsletter",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/inside-com-newsletter-partnership",
+    "body_sha256": "e56bbfd9ce99df0c53f3ba2a4b79b928bf077cde18273a86ec8770e17875a578"
+  },
+  {
+    "campaign": "Insight Squared — Salesforce pipeline visibility",
+    "stage": 1,
+    "subject": "{!first_name} // InsightSquared",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/insight-squared-salesforce-pipeline-visibility",
+    "body_sha256": "3f929a72f13284864f71f3d060128cd1c83a68c3ce352b0a290e964890df04ac"
+  },
+  {
+    "campaign": "Ironclad — Contract management upgrade",
+    "stage": 1,
+    "subject": "Contracts",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/ironclad-contract-management-upgrade",
+    "body_sha256": "aa8185873326de093018ccc7c61cc68f3f05c5846e5fc4acf8f195b2460ba24b"
+  },
+  {
+    "campaign": "Ironclad — Contract management upgrade",
+    "stage": 2,
+    "subject": "Contracts",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/ironclad-contract-management-upgrade",
+    "body_sha256": "ab95c166184cdb611fd7741663e71a0667c6b7103f1f6861cde8b354fa152bc8"
+  },
+  {
+    "campaign": "Jumio — Identity verification",
+    "stage": 1,
+    "subject": "Are you really...you?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/jumio-identity-verification",
+    "body_sha256": "2455445cd6c13bb95b6cc181be3dd71257a7e12c75c4f5afa0ffed849c451191"
+  },
+  {
+    "campaign": "Jumio — Identity verification",
+    "stage": 2,
+    "subject": "What's your mothers maiden name?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/jumio-identity-verification",
+    "body_sha256": "5a995dc8ea872af4967ce2ef985ccd0ec1d1790d18fcae97f11dc317fba8e141"
+  },
+  {
+    "campaign": "Jumio — Identity verification",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/jumio-identity-verification",
+    "body_sha256": "3d4e024ed1fa32258dd04364e788fc55fac62a2f6ff4eba6c9d51e27d3220e93"
+  },
+  {
+    "campaign": "Jumio — Identity verification",
+    "stage": 4,
+    "subject": "15 minutes?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/jumio-identity-verification",
+    "body_sha256": "ae5acd2f48b94cf5958a95fd6f9bd785377fd207ab936533ea50003b6e204998"
+  },
+  {
+    "campaign": "Jumio — Identity verification",
+    "stage": 5,
+    "subject": "Questioning your beliefs?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/jumio-identity-verification",
+    "body_sha256": "8ae33ad42bcc1f54c2d57225472b25e98862f33bc36f04058bbafa123e9576d2"
+  },
+  {
+    "campaign": "Jumio — Identity verification",
+    "stage": 6,
+    "subject": "Just checking in",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/jumio-identity-verification",
+    "body_sha256": "1b3b3a164dabd543f8151b518c110e71a56eaa8e56ea230f45608a5e2ba560a3"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 1,
+    "subject": "{{company_name}} 🔥 KickFire Real-Time Sales Alerts",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "fcdcf5e4d2bddd3501c4e38cf41d6c00092766210a7578f33250a7058f2de182"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 2,
+    "subject": "{{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "c9794a67365d48cf33f803a629fba32991baa4856512afa4b37523382a17a5d6"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 3,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "006dbe035a1513c658d8551cd85ed40ae514ca65bd641fb6c72251c3e335b077"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 4,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "2212b7eaad68a45b32c1fd0f42424022bb521c025ca61d117a740b4273bb93e7"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 5,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "b18deb1125d62a780e295fc2cc5d8f262823f4031217e10ba2ed522709394e0c"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 6,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "39cbf7471520c644dcef824ca12b7728688520e398d5f20c150ccabf70b9621c"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 7,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "40e663f0536d14ed4e12c2933724a809b230b585b60b852cc8c4897ddcf5bc6e"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 8,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "97e68606cf689661cb77fd5f40722aed2f10fee2497efee5b21ac5d66c442e08"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 9,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "14d8db2bccd9ccd1ea0f06085e912af6c9bac17168c2a15cf904ab454d674866"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 10,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "957de5a324711f7b337d70ecf7c15198fc90be9ff96607edd24e17a240ea0f66"
+  },
+  {
+    "campaign": "KickFire — Website visitor identification",
+    "stage": 11,
+    "subject": "Re: {{company_name}} 🔥 KickFire B2B Remarketing Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/kickfire-website-visitor-identification",
+    "body_sha256": "b085bbc942fde66039f108009f58d4962c01b690d40f40103ff672096f77bf45"
+  },
+  {
+    "campaign": "Knowledge Tree — Sales content enablement",
+    "stage": 1,
+    "subject": "{!first_name}, your thoughts?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/knowledge-tree-sales-content-enablement",
+    "body_sha256": "90a1c4a51549a9d4838f41db3e77f9495a3318a4ebac67bbb53ad49e38a3ba83"
+  },
+  {
+    "campaign": "Lavender — Faster AE ramping",
+    "stage": 1,
+    "subject": "Ramping AEs",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/lavender-faster-ae-ramping",
+    "body_sha256": "ad39c480e4fa680aac8ea8ca2eafb1a44ade758323d6d85e2e64a253cd9d17a3"
+  },
+  {
+    "campaign": "LayerCI — Faster engineering workflow",
+    "stage": 1,
+    "subject": "LayerCI <> {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/layerci-faster-engineering-workflow",
+    "body_sha256": "f684f51cc384c4b2706df2a21975c11c4030093fb48266051e472f7404c6e47f"
+  },
+  {
+    "campaign": "LayerCI — Faster engineering workflow",
+    "stage": 2,
+    "subject": "Re: LayerCI <> {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/layerci-faster-engineering-workflow",
+    "body_sha256": "82cc39f54af7241723376e41b0c6305e79c78a4c58523d7580a6bf7cb97ea68e"
+  },
+  {
+    "campaign": "LayerCI — Faster engineering workflow",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/layerci-faster-engineering-workflow",
+    "body_sha256": "fe8aaa39ca39516cf4fd4922ed9f22774ca213d53dc6c87e93eb48fe11440d00"
+  },
+  {
+    "campaign": "LeadIQ — Trial onboarding support",
+    "stage": 1,
+    "subject": "Thanks for signing up, should we chat?",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/leadiq-trial-onboarding-support",
+    "body_sha256": "d6056a4364038d720a00c671effb177c1f7a88adc0f0963ddd66fb9035f61168"
+  },
+  {
+    "campaign": "LeadIQ — Trial onboarding support",
+    "stage": 2,
+    "subject": "LeadIQ features you don't know about",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/leadiq-trial-onboarding-support",
+    "body_sha256": "029c9d405a1f8762803b7bd3588b1a75a6125d1416c64af23f7e206ae6f9c83b"
+  },
+  {
+    "campaign": "LeadIQ — Trial onboarding support",
+    "stage": 3,
+    "subject": "Last call for LeadIQ meeting",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/leadiq-trial-onboarding-support",
+    "body_sha256": "a157742832d57985e661ef8182d1cc6c33b5030d6300a01fe05eb079c12bd7c5"
+  },
+  {
+    "campaign": "Leadspace — Data management platform",
+    "stage": 1,
+    "subject": "Leadspace checking in",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/leadspace-data-management-platform",
+    "body_sha256": "c0bba33abf32f856f6d7d79fe175ca8ece2fc8b17021ff93736bbce10330f545"
+  },
+  {
+    "campaign": "Left Productions — Video campaigns intro",
+    "stage": 1,
+    "subject": "Call <> {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-campaigns-intro",
+    "body_sha256": "1eb9ce99c5ace4855f9bf1f468e37f9547a879b5b8e5098a3fcecfdb665220b1"
+  },
+  {
+    "campaign": "Left Productions — Video campaigns intro",
+    "stage": 2,
+    "subject": "Re: Call <> {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-campaigns-intro",
+    "body_sha256": "6e21229522d1036ab62b11bf9f3e6b4115f28a7e84e5894f943c0e1dfc34c774"
+  },
+  {
+    "campaign": "Left Productions — Video campaigns intro",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-campaigns-intro",
+    "body_sha256": "5c4d394cbbf27adc4c7f6f0be43d52101f1e1eec8d496b4081eff00cab5c63d4"
+  },
+  {
+    "campaign": "Left Productions — Video marketing campaigns",
+    "stage": 1,
+    "subject": "Call",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-marketing-campaigns",
+    "body_sha256": "56d84f23258817de647b40e51fda36cd45d78ac625f9a761cca1464ff65c2bad"
+  },
+  {
+    "campaign": "Left Productions — Video marketing campaigns",
+    "stage": 2,
+    "subject": "Follow-up",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-marketing-campaigns",
+    "body_sha256": "0dbdd085582ba1025d60b0ff6217b88a1c6a51f56d6858265e36f0f59e0da893"
+  },
+  {
+    "campaign": "Left Productions — Video marketing campaigns",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-marketing-campaigns",
+    "body_sha256": "2d5c2c731642beae5005f7d6635590dafdccad301ac65e2ed024ecaaf4dabefe"
+  },
+  {
+    "campaign": "Left Productions — Video marketing campaigns",
+    "stage": 4,
+    "subject": "Expanding in the US!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-marketing-campaigns",
+    "body_sha256": "e5978bbaccf59d3a27fbcb6361e4f64d279a460459a6cd1079103fbe9c782040"
+  },
+  {
+    "campaign": "Left Productions — Video marketing campaigns",
+    "stage": 5,
+    "subject": "Apologies",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-marketing-campaigns",
+    "body_sha256": "3e0e879d541fee4048127dc79b54b0c1491c62fc7152d0128fec7b97e1b9d133"
+  },
+  {
+    "campaign": "Left Productions — Video marketing campaigns",
+    "stage": 6,
+    "subject": "This is my last email",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/left-productions-video-marketing-campaigns",
+    "body_sha256": "39814126a8a2480a599c2d14809a983a3c7dd533a989b622fab460853e5d38b8"
+  },
+  {
+    "campaign": "LightSpeed — App store partnership",
+    "stage": 1,
+    "subject": "Collaboration with Lightspeed",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/lightspeed-app-store-partnership",
+    "body_sha256": "502efe5086d94532cdad9781ca4e7a8b501933b90a485adaee56880977346ddf"
+  },
+  {
+    "campaign": "LinkedSelling — Founder mastermind invite",
+    "stage": 1,
+    "subject": "Your LinkedIn profile had me thinking",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/linkedselling-founder-mastermind-invite",
+    "body_sha256": "dfacf48ff79c266af689618519bda6997846989145584e7d4df76eb97c33d894"
+  },
+  {
+    "campaign": "LinkSquares — Contract review organization",
+    "stage": 1,
+    "subject": "Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/linksquares-contract-review-organization",
+    "body_sha256": "d62a938d6305d8e6d95edf492bd3ef9e8b67813101fc134920b88a6156cf0594"
+  },
+  {
+    "campaign": "LinkSquares — Contract review organization",
+    "stage": 2,
+    "subject": "Re: Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/linksquares-contract-review-organization",
+    "body_sha256": "16abc16ca71550cc1eff6b32e70474433897e82f13ac2fad4e05d781d8520964"
+  },
+  {
+    "campaign": "LinkSquares — Contract review organization",
+    "stage": 3,
+    "subject": "Please Advise",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/linksquares-contract-review-organization",
+    "body_sha256": "c4dfcb3713296a9313ee0913ee248bd460d1e638794e376d4a8bb5af574acf47"
+  },
+  {
+    "campaign": "Liveramp — Identity data partnership",
+    "stage": 1,
+    "subject": "Partnership opportunities",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/liveramp-identity-data-partnership",
+    "body_sha256": "07392b18c38c84bb4996fde4f10e4bc8d7ae3ed35e344b1469fe2144131f9016"
+  },
+  {
+    "campaign": "Liveramp — Identity data partnership",
+    "stage": 2,
+    "subject": "Re: Partnership opportunities",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/liveramp-identity-data-partnership",
+    "body_sha256": "f73406d1a787f563ed1c649041e54dcb4c5afbc2f2c511b9fe263de995d7a4b7"
+  },
+  {
+    "campaign": "LogDNA — Logging platform intro",
+    "stage": 1,
+    "subject": "Re: Do you have a technical contact?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/logdna-logging-platform-intro",
+    "body_sha256": "4d724e0faa6b8c3c7ce5a8f2c597c88a2b2fd67687b31e79d6a71b83baf9675f"
+  },
+  {
+    "campaign": "LogDNA — Logging platform intro",
+    "stage": 2,
+    "subject": "Do you have a technical contact?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/logdna-logging-platform-intro",
+    "body_sha256": "2946bfefe6c05c84eee4688eee66328414ed9b334cef4273af97e87b3129e1f6"
+  },
+  {
+    "campaign": "Lucid Chart — Diagramming collaboration",
+    "stage": 1,
+    "subject": "Make diagramming more exciting",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/lucid-chart-diagramming-collaboration",
+    "body_sha256": "496f54a6adc1059adc5717cf5f00b315d38bba3ee9439f4420d59f197954fbf3"
+  },
+  {
+    "campaign": "Luminati — Proxy network",
+    "stage": 1,
+    "subject": "Luminati <> {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/luminati-proxy-network",
+    "body_sha256": "8b88adad5999cec267a9c0e9400e064b2ea2ef96d429b2289745362fff695236"
+  },
+  {
+    "campaign": "Luminati — Proxy network",
+    "stage": 2,
+    "subject": "Re: Luminati <> {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/luminati-proxy-network",
+    "body_sha256": "509a08eeff710844e9423e14350248c49ad40bc9dc1f69239c73907f58e1e85e"
+  },
+  {
+    "campaign": "Luminati — Proxy network",
+    "stage": 3,
+    "subject": "Re: Luminati <> {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/luminati-proxy-network",
+    "body_sha256": "c3e5d08802e73704012da9e6439357937f39d67e2ca9dc884aa3c52b825c1427"
+  },
+  {
+    "campaign": "Luminati — Proxy network",
+    "stage": 4,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/luminati-proxy-network",
+    "body_sha256": "495cc115c1faec57ee1a3fa4641c662d0f23f0f3734a61a32d4864649e283d86"
+  },
+  {
+    "campaign": "Matt Wolach SaaS Coach — Scale SaaS revenue",
+    "stage": 1,
+    "subject": "Congrats {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/matt-wolach-saas-coach-scale-saas-revenue",
+    "body_sha256": "467742bb93f26338a2d0ac3e37f8e8e19270409217e3ac64b813e2357c40c0eb"
+  },
+  {
+    "campaign": "Matt Wolach SaaS Coach — Scale SaaS revenue",
+    "stage": 2,
+    "subject": "Re: Congrats {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/matt-wolach-saas-coach-scale-saas-revenue",
+    "body_sha256": "bf6ce20c2d73162f97c67befc9d7190f39d88a3866f5a23bd911f248b940beeb"
+  },
+  {
+    "campaign": "Matt Wolach SaaS Coach — Scale SaaS revenue",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/matt-wolach-saas-coach-scale-saas-revenue",
+    "body_sha256": "a1f29c32a486ac7120e3f38a22c877224bc89f5c9ca11001f276408f4d764540"
+  },
+  {
+    "campaign": "Matt Wolach SaaS Coach — Scale SaaS revenue",
+    "stage": 4,
+    "subject": "Re: Congrats {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/matt-wolach-saas-coach-scale-saas-revenue",
+    "body_sha256": "57eb54de3751577a1a3d6aca6286f3d259fb0fdd890c10efaf35d93305982216"
+  },
+  {
+    "campaign": "Matt Wolach SaaS Coach — Scale SaaS revenue",
+    "stage": 5,
+    "subject": "Re: Congrats {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/matt-wolach-saas-coach-scale-saas-revenue",
+    "body_sha256": "6b4b964c6f88f8a79aabbaf8f386e30f04475d6ff763d3e97f6080d743a113dd"
+  },
+  {
+    "campaign": "Midaxo — M&A pipeline management",
+    "stage": 1,
+    "subject": "your M&A pipeline",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/midaxo-m-and-a-pipeline-management",
+    "body_sha256": "962ec99636ab12d3b8e227a380adf2f7c46ec309b2f005d00670e2dd0ab6e779"
+  },
+  {
+    "campaign": "Mixpanel — Executive analytics outreach",
+    "stage": 1,
+    "subject": "Exec reach out",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/mixpanel-executive-analytics-outreach",
+    "body_sha256": "a1bd186972f721f7cd4338be67abee2e25aedaec442556ab25a0fdd07fa2acd3"
+  },
+  {
+    "campaign": "Mixpanel — User analytics answers",
+    "stage": 1,
+    "subject": "Get answers to all your user-related questions",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/mixpanel-user-analytics-answers",
+    "body_sha256": "cf60637535d002865cc6457f3eb80a5a4004a7339b179470430310b75987755e"
+  },
+  {
+    "campaign": "MonkeyLearn — Text analysis automation",
+    "stage": 1,
+    "subject": "Text Analysis for {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/monkeylearn-text-analysis-automation",
+    "body_sha256": "985c1df905cecf544a5dd7943f5e76c2ad64672fddfbd1a093ac960b10a883fc"
+  },
+  {
+    "campaign": "MonkeyLearn — Text analysis automation",
+    "stage": 2,
+    "subject": "Text analysis in spreadsheets?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/monkeylearn-text-analysis-automation",
+    "body_sha256": "73cc2464e7b7b8d2f85a132eb612f0b0798c5b3f171cb0c3b23ca8dcf2d277dd"
+  },
+  {
+    "campaign": "MonkeyLearn — Text analysis automation",
+    "stage": 3,
+    "subject": "Three strikes, and then you automate",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/monkeylearn-text-analysis-automation",
+    "body_sha256": "7d362141d6a887200fbd0beed04eb0ed9f608fce38882c84545b7d4816935d0e"
+  },
+  {
+    "campaign": "MonkeyLearn — Text analysis automation",
+    "stage": 4,
+    "subject": "What about that text to analyze?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/monkeylearn-text-analysis-automation",
+    "body_sha256": "f19267c71ef3b9ca1b481ab5a6df7ca83d716d92552f52c4a977ec3025298eb6"
+  },
+  {
+    "campaign": "Moonlight — Contract engineering talent",
+    "stage": 1,
+    "subject": "Available for software projects - need help?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/moonlight-contract-engineering-talent",
+    "body_sha256": "20b9bdd2a274028d0594c070ce1fbafd78c42c76872d15daa7589651721666db"
+  },
+  {
+    "campaign": "Netsuite — NetSuite intro call",
+    "stage": 1,
+    "subject": "Your New Territory Rep",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/netsuite-netsuite-intro-call",
+    "body_sha256": "0d12810c4dd4b15adca0b9acb8326d6f96540d7349c2937cee768afcc8c10fc2"
+  },
+  {
+    "campaign": "Netsuite — NetSuite intro call",
+    "stage": 2,
+    "subject": "Re: Your New Territory Rep",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/netsuite-netsuite-intro-call",
+    "body_sha256": "9bfbedc18b91afb5285ad1ba839896b2ccd89a809480e047603f99cc743045d9"
+  },
+  {
+    "campaign": "Netsuite — NetSuite intro call",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/netsuite-netsuite-intro-call",
+    "body_sha256": "02d7a5864c6caaf79f1accaf53a216747cd0868b4f2c5ebb1ba951b65d7fb987"
+  },
+  {
+    "campaign": "Netsuite — NetSuite intro call",
+    "stage": 4,
+    "subject": "Re: {{first_name}}, How about some donuts??",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/netsuite-netsuite-intro-call",
+    "body_sha256": "011d564db3b079adc42eb4f795a96c8a22bffedfa586ad0b2068dda39fe7d9b2"
+  },
+  {
+    "campaign": "Netsuite — NetSuite intro call",
+    "stage": 5,
+    "subject": "Re: {{first_name}}, How about some donuts??",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/netsuite-netsuite-intro-call",
+    "body_sha256": "cd245a485ddb7e0203909203e77faf46d6db55144173d07e18b08c3fa668c046"
+  },
+  {
+    "campaign": "Netsuite — NetSuite intro call",
+    "stage": 6,
+    "subject": "Re: {{first_name}}, How about some donuts??",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/netsuite-netsuite-intro-call",
+    "body_sha256": "24aadc29040eca6a3c563ae22e4b237e9ae4b8c8a4a6589618f93c29e84dd52e"
+  },
+  {
+    "campaign": "Netsuite — NetSuite intro call",
+    "stage": 7,
+    "subject": "Re: {{first_name}}, How about some donuts??",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/netsuite-netsuite-intro-call",
+    "body_sha256": "727fe601440a1502dafcb2c83d008cd5371184d4219ff840da97345d432ab62d"
+  },
+  {
+    "campaign": "Netsuite — NetSuite intro call",
+    "stage": 8,
+    "subject": "Re: {{first_name}}, How about some donuts??",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/netsuite-netsuite-intro-call",
+    "body_sha256": "689d71ac9d5f818db3d427242b6c8ca7388d4a46403ef6504842f7bb76b743eb"
+  },
+  {
+    "campaign": "Nylas — Email calendar APIs",
+    "stage": 1,
+    "subject": "Appropriate Person?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/nylas-email-calendar-apis",
+    "body_sha256": "a28aa69821292fec64d52f9bda5adbc45e5ffbadeff7228ecc98d5d092957b75"
+  },
+  {
+    "campaign": "Nylas — Email calendar APIs",
+    "stage": 2,
+    "subject": "Re: Appropriate Person?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/nylas-email-calendar-apis",
+    "body_sha256": "d10c937babd32877d5b6f33970b22a92856d32ba6229bb86ee688299015cb6cb"
+  },
+  {
+    "campaign": "Nylas — Email calendar APIs",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/nylas-email-calendar-apis",
+    "body_sha256": "4b21995671aebc0f3b32afe5d3ee053b946dc90945d4612ee06eedf260d10e83"
+  },
+  {
+    "campaign": "Nylas — Email calendar APIs",
+    "stage": 4,
+    "subject": "Re: Appropriate Person?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/nylas-email-calendar-apis",
+    "body_sha256": "b6e67b6345ab04a06ada330fcc7f1afe5eb60c3e74d7032014423140d23ac988"
+  },
+  {
+    "campaign": "Nylas — Email calendar APIs",
+    "stage": 5,
+    "subject": "Re: Appropriate Person?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/nylas-email-calendar-apis",
+    "body_sha256": "d796cc2f33ad4fdee36041c61d54ca5ad28b466307ea82d90ac9ef5953f42af8"
+  },
+  {
+    "campaign": "Nylas — Email calendar APIs",
+    "stage": 6,
+    "subject": "Re: Appropriate Person?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/nylas-email-calendar-apis",
+    "body_sha256": "c3c3059c72b7a48c81592c8efd60f0c48ab69a7041c749ebba8e8a0653763498"
+  },
+  {
+    "campaign": "OPSGenie — IT alerting",
+    "stage": 1,
+    "subject": "Possibly save $$ on IT side of {!company}?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/opsgenie-it-alerting",
+    "body_sha256": "ad4af555c92742ae2e5c85d5d4fc8f42b79bc16ccc6ec0981ffda2ef382442d6"
+  },
+  {
+    "campaign": "OPSGenie — IT alerting",
+    "stage": 2,
+    "subject": "Re: Possibly save $$ on IT side of {!company}?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/opsgenie-it-alerting",
+    "body_sha256": "6d984519ba17bd3bab14dafd380ff6a61a00725e1f6c02a02a4ac9c9bda0ff64"
+  },
+  {
+    "campaign": "OPSGenie — IT alerting",
+    "stage": 3,
+    "subject": "HubSpot's Alerting & On-Call Management Strategy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/opsgenie-it-alerting",
+    "body_sha256": "7f6553b8f5d5b39225648cf3bd420a1d8e4770c3baf7d2faa7b966296a4e7751"
+  },
+  {
+    "campaign": "Optimonk — Shopify lead capture",
+    "stage": 1,
+    "subject": "Appointment request",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/optimonk-shopify-lead-capture",
+    "body_sha256": "7e5e7961c74c849453dffd3cb23218c2cf467310f6fe561e3b10ff3ab02cbb11"
+  },
+  {
+    "campaign": "Optimonk — Shopify lead capture",
+    "stage": 2,
+    "subject": "Re: Appointment request",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/optimonk-shopify-lead-capture",
+    "body_sha256": "b193965c6ce7f34bf08b491722c5e43e316db3aa4210bf088d85c49f98c023be"
+  },
+  {
+    "campaign": "Optimonk — Shopify lead capture",
+    "stage": 3,
+    "subject": "Re: Appointment request",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/optimonk-shopify-lead-capture",
+    "body_sha256": "c7a53ace0ea485ed9c3ee7e568f68a99ed5cc3fbc9aef1084d597a5f4f8b87f6"
+  },
+  {
+    "campaign": "Optimonk — Shopify lead capture",
+    "stage": 4,
+    "subject": "Re: Appointment request",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/optimonk-shopify-lead-capture",
+    "body_sha256": "5dc0891eab567956fe19d00851b571c37a1d10614e437326ce2ed6a509efe62d"
+  },
+  {
+    "campaign": "Paddle — Subscription pricing optimization",
+    "stage": 1,
+    "subject": "Who doesn't want to hear about pricing optimization? ;)",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/paddle-subscription-pricing-optimization",
+    "body_sha256": "928374b961960739dc8721c08bd7a522958fdeb6480d3023ba3404ccb7ab8786"
+  },
+  {
+    "campaign": "Paddle — Subscription pricing optimization",
+    "stage": 2,
+    "subject": "They made it - moved to smart subscriptions, grew their recurring revenue",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/paddle-subscription-pricing-optimization",
+    "body_sha256": "945ee01e581877245b6d7d626a8abaf94b4f24bb60981663de311601a9d16575"
+  },
+  {
+    "campaign": "Paddle — Subscription pricing optimization",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/paddle-subscription-pricing-optimization",
+    "body_sha256": "530c9d8d4137849ee0ea58c9f5e8ab5fc7fab90cfbd9ff3560333b9f6820b85d"
+  },
+  {
+    "campaign": "Paddle — Subscription revenue delivery",
+    "stage": 1,
+    "subject": "Remember us? {{company_name}} & Paddle",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/paddle-subscription-revenue-delivery",
+    "body_sha256": "2a947eb9b000caa54fc63b63c7c62b95f72c5b1b670b42c0aceaaa2ec674b14a"
+  },
+  {
+    "campaign": "Paddle — Subscription revenue delivery",
+    "stage": 2,
+    "subject": "Re: Remember us? {{company_name}} & Paddle",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/paddle-subscription-revenue-delivery",
+    "body_sha256": "9ad558678eeb3886a679c6beffe1c6fe81f6043c9a4549f20d274ea37cc26707"
+  },
+  {
+    "campaign": "Paddle — Subscription revenue delivery",
+    "stage": 3,
+    "subject": "Re: Remember us? {{company_name}} & Paddle",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/paddle-subscription-revenue-delivery",
+    "body_sha256": "824f9a2d95aee986fa2e2e287484bd60499b2ab45533f5799c53624f35844ac4"
+  },
+  {
+    "campaign": "Paddle — Subscription revenue delivery",
+    "stage": 4,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/paddle-subscription-revenue-delivery",
+    "body_sha256": "92eba2cca2deb06f6df9164a1f5caf76a523b7ee08f163fa23f2e4749093d9e3"
+  },
+  {
+    "campaign": "PandaDoc — Post-event document workflow",
+    "stage": 1,
+    "subject": "PandaDoc post-{{conference_name}}",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/pandadoc-post-event-document-workflow",
+    "body_sha256": "bcbcf30a3134601d3ca985bc0adcd307d637575bfb2777b2b81ee4882f6509fc"
+  },
+  {
+    "campaign": "PandaDoc — Post-event document workflow",
+    "stage": 2,
+    "subject": "Re: PandaDoc post-{{conference_name}}",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/pandadoc-post-event-document-workflow",
+    "body_sha256": "11d97c46f1bfdb7a5f1fd8fdf4b3b3e0e1e4cc147fe717f84ee8a05508e58591"
+  },
+  {
+    "campaign": "PandaDoc — Post-event document workflow",
+    "stage": 3,
+    "subject": "Re: PandaDoc post-{{conference_name}}",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/pandadoc-post-event-document-workflow",
+    "body_sha256": "9e268c65affc1823a4e7c3bc94b25e554e53b32f5c7b2ee266c3624aa72eefb4"
+  },
+  {
+    "campaign": "PandaDoc — Post-event document workflow",
+    "stage": 4,
+    "subject": "PandaDoc + {{company_name}}",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/pandadoc-post-event-document-workflow",
+    "body_sha256": "096acf66bb7290c51c38f05f24729a4ba3aa567367261d2fe3c30d72e5d896f5"
+  },
+  {
+    "campaign": "Pavilion — GTM optimization",
+    "stage": 1,
+    "subject": "Optimizing GTM",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pavilion-gtm-optimization",
+    "body_sha256": "91a42464f8c83a9b8f77d252964a0201d4aa45a7431553655872b77383572336"
+  },
+  {
+    "campaign": "Pencil — AI video ads",
+    "stage": 1,
+    "subject": "Machine-generated FB Ads - examples",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pencil-ai-video-ads",
+    "body_sha256": "3652b1ccb47f13b9dd2c6a4e7e2507fb6684819a652da3e6b435b8f6c3f0471a"
+  },
+  {
+    "campaign": "Pencil — AI video ads",
+    "stage": 2,
+    "subject": "Re: Machine-generated FB Ads - examples",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pencil-ai-video-ads",
+    "body_sha256": "07455cbb9314e81cc7a2eb625a9f7686e7dc79cb7314b49bbeb454a05e4a0853"
+  },
+  {
+    "campaign": "Pencil Media Production — Animated explainer videos",
+    "stage": 1,
+    "subject": "{{company_name}} <> Pencil",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pencil-media-production-animated-explainer-videos",
+    "body_sha256": "19516984e14f457a78bd353e9e17a2727fba33ce2cec0a043fa183eed9a41bc1"
+  },
+  {
+    "campaign": "Pencil Media Production — Animated explainer videos",
+    "stage": 2,
+    "subject": "Re: {{company_name}} <> Pencil",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pencil-media-production-animated-explainer-videos",
+    "body_sha256": "25adb3c09a1af51d46110206d734abd338dd2dc5886327b411a6a06b73fdeab0"
+  },
+  {
+    "campaign": "Pencil Media Production — Animated explainer videos",
+    "stage": 3,
+    "subject": "Re: {{company_name}} <> Pencil",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pencil-media-production-animated-explainer-videos",
+    "body_sha256": "2d06593faab92636a1f24c522c7cea8c5a480a6b6c2c6bbfc55e9e7236ef4375"
+  },
+  {
+    "campaign": "Pencil Media Production — Animated explainer videos",
+    "stage": 4,
+    "subject": "Re: {{company_name}} <> Pencil",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pencil-media-production-animated-explainer-videos",
+    "body_sha256": "8f77d94cf2a8fc46bd112599928cc4326e188936a973243329628f52b8318818"
+  },
+  {
+    "campaign": "People Data Labs — People data evaluation",
+    "stage": 1,
+    "subject": "{{company_name}}'s Data Sourcing - Looking for your thoughts",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/people-data-labs-people-data-evaluation",
+    "body_sha256": "57a0ea8987b33cb4dc1c3de226d8b2eb6776a7b2e27cfa179eb678b9dc018718"
+  },
+  {
+    "campaign": "People Data Labs — People data evaluation",
+    "stage": 2,
+    "subject": "{{company_name}} + People Data Labs",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/people-data-labs-people-data-evaluation",
+    "body_sha256": "30720376548ed5d68a6c772da226e9db26d1412a241d504958cbccbbe1d20e34"
+  },
+  {
+    "campaign": "People Data Labs — People data evaluation",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/people-data-labs-people-data-evaluation",
+    "body_sha256": "032131ecc73968e2c1b29c169788c41b6c2ae94702f0da13ad37b0c4a6ca9dc3"
+  },
+  {
+    "campaign": "People Data Labs — People data evaluation",
+    "stage": 4,
+    "subject": "Re: {{company_name}}'s Access to Free PDL Data Sample",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/people-data-labs-people-data-evaluation",
+    "body_sha256": "b0376be363a312d5bf3f93728e6ae71289189050cf90caa198d08e7041b74190"
+  },
+  {
+    "campaign": "People Data Labs — People data evaluation",
+    "stage": 5,
+    "subject": "Data Licensing Question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/people-data-labs-people-data-evaluation",
+    "body_sha256": "c4b58dfbadb86184f9821c287f5115fd12ce31f92cd462df55a6381eacfa2adb"
+  },
+  {
+    "campaign": "People Data Labs — People data evaluation",
+    "stage": 6,
+    "subject": "Re: Data Licensing Question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/people-data-labs-people-data-evaluation",
+    "body_sha256": "f3acdb8d69498cb3313032e4abdc245aa455398fce5b6ea5215f06e0656e79a2"
+  },
+  {
+    "campaign": "Periscope — Self service analytics",
+    "stage": 1,
+    "subject": "A new team for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/periscope-self-service-analytics",
+    "body_sha256": "eb3ed051f66a90a9c9a232b9059de3257537e50050b29f1c918b98161c667238"
+  },
+  {
+    "campaign": "Periscope — Self service analytics",
+    "stage": 2,
+    "subject": "hey {!first_name}, quick question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/periscope-self-service-analytics",
+    "body_sha256": "03c3965a08c8ce1deb53b962e2add1e1cdfffb27b9eb4743163cdc88ad81a962"
+  },
+  {
+    "campaign": "Periscope — Self service analytics",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/periscope-self-service-analytics",
+    "body_sha256": "611d503290ea9a8b390802ecdeecf0a6e024bf8b3a29cf14ee5be80813dbbd6d"
+  },
+  {
+    "campaign": "Periscope — Self service analytics",
+    "stage": 4,
+    "subject": "RE: quick story that reminded me of {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/periscope-self-service-analytics",
+    "body_sha256": "7efd2d9875f222a5dd0ebf2b65ec0d332dc188032d3ee8f8433cd26c2020fe5c"
+  },
+  {
+    "campaign": "Periscope — Self service analytics",
+    "stage": 5,
+    "subject": "RE: quick story that reminded me of {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/periscope-self-service-analytics",
+    "body_sha256": "e1d34592a62f64f6a2494cddd98e569fe647d7f497e93982d91a93fa13c5e92e"
+  },
+  {
+    "campaign": "Periscope — Self service analytics",
+    "stage": 6,
+    "subject": "Persistent or Pest?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/periscope-self-service-analytics",
+    "body_sha256": "e7146c7f7aed868fa83a21a82c7a6eef214fffd1c6a5eb58618208809088e70e"
+  },
+  {
+    "campaign": "Periscope — Self service analytics",
+    "stage": 7,
+    "subject": "With all due respect, I can help",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/periscope-self-service-analytics",
+    "body_sha256": "bd723acbd257c16e1881ccb92d8280e546b4ff8c1ece315b77dfaa1b9bae5e0f"
+  },
+  {
+    "campaign": "PipeCandy — Ecommerce prospect data",
+    "stage": 1,
+    "subject": "Elementary, my dear {!first_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pipecandy-ecommerce-prospect-data",
+    "body_sha256": "b0b3d9dcf01f51ee1762acb7cbafdfbd0ce7cfb0a325eef049939f021f51b287"
+  },
+  {
+    "campaign": "PipeCandy — Ecommerce prospect data",
+    "stage": 2,
+    "subject": "RE: Elementary, my dear {!first_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pipecandy-ecommerce-prospect-data",
+    "body_sha256": "d7ac241360aa13630977ff9faa4899370a4287f2276b6d6c829bdd695cfcd5a9"
+  },
+  {
+    "campaign": "PipeCandy — Ecommerce prospect data",
+    "stage": 3,
+    "subject": "RE: Elementary, my dear {!first_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pipecandy-ecommerce-prospect-data",
+    "body_sha256": "a248bc4ef619e8678378b4e2603de41a1c9783601c7bcf15a9c578239cc9beae"
+  },
+  {
+    "campaign": "PipeCandy — Ecommerce prospect data",
+    "stage": 4,
+    "subject": "RE: Elementary, my dear {!first_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pipecandy-ecommerce-prospect-data",
+    "body_sha256": "dd2369ed6144f8d551ec25fabe82bb0285e664130cabb9368efe995c644b8dbd"
+  },
+  {
+    "campaign": "Pop Team — Custom office portraits",
+    "stage": 1,
+    "subject": "Hi {!first_name}!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pop-team-custom-office-portraits",
+    "body_sha256": "61c0b05947ddea4385a5166686ab23d8626b4a9e691252971992625f2dbce55a"
+  },
+  {
+    "campaign": "Pop Team — Custom office portraits",
+    "stage": 2,
+    "subject": "Just checking",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/pop-team-custom-office-portraits",
+    "body_sha256": "ee39e5da3cc3595b1f07e73854555b45bb10e84f086b1a1d9b8b8987db5cbc22"
+  },
+  {
+    "campaign": "Product Hunt — Product Hunt advertising",
+    "stage": 1,
+    "subject": "Following up on your enquiry",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/product-hunt-product-hunt-advertising",
+    "body_sha256": "a989dac80479a0bcb9694eebc530983a0667e49d0aa2d4b3cd4f9cfa99bc5e31"
+  },
+  {
+    "campaign": "Product Hunt — Product Hunt advertising",
+    "stage": 2,
+    "subject": "Re: Following up on your enquiry",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/product-hunt-product-hunt-advertising",
+    "body_sha256": "fe471f028b0a041b4a25b14e045dba4891d8c936abc74d3bbb99998afea67ab1"
+  },
+  {
+    "campaign": "Product Hunt — Product Hunt advertising",
+    "stage": 3,
+    "subject": "Re: Following up on your enquiry",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/product-hunt-product-hunt-advertising",
+    "body_sha256": "1377a563289096bdd1549fbe2ec2530260c0e8fc381264b0b099cb3c10f171f8"
+  },
+  {
+    "campaign": "ProfitWell — Free subscription metrics",
+    "stage": 1,
+    "subject": "accuracy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/profitwell-free-subscription-metrics",
+    "body_sha256": "e8235c1378e03a7c5c19da5f6f0c0b2b9bffda22282c0e82d81d9b548d2d6cf0"
+  },
+  {
+    "campaign": "ProfitWell — Free subscription metrics",
+    "stage": 2,
+    "subject": "Re: accuracy",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/profitwell-free-subscription-metrics",
+    "body_sha256": "d49b6942cc984607b5c164e314f4f96e06afabe562a669d8f1fb598b18686bb5"
+  },
+  {
+    "campaign": "ProfitWell — Trial conversion recovery",
+    "stage": 1,
+    "subject": "free to paid",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/profitwell-trial-conversion-recovery",
+    "body_sha256": "19b917d71ce1cd52bbfe0aae4e021b1121998fe2f6e98d227418e0f243114f2c"
+  },
+  {
+    "campaign": "ProfitWell — Trial conversion recovery",
+    "stage": 2,
+    "subject": "Re: free to paid",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/profitwell-trial-conversion-recovery",
+    "body_sha256": "430456a3a7b62b3f17e27b0ad36a551cde12fc2e840cbc8972985077524cc50c"
+  },
+  {
+    "campaign": "ProsperWorks — CRM for G Suite",
+    "stage": 1,
+    "subject": "Google's only recommended CRM",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/prosperworks-crm-for-g-suite",
+    "body_sha256": "9de634ba20b6924e9b79e48d79114129251cbd48a6f55fd24907b8dbda42b5e9"
+  },
+  {
+    "campaign": "ProsperWorks — CRM for G Suite",
+    "stage": 2,
+    "subject": "Re: Google's only recommended CRM",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/prosperworks-crm-for-g-suite",
+    "body_sha256": "d7cd189f9ca9f8f971dcb7eed45a3c1fdccc49a42af3c5129aa33a08a3e4e021"
+  },
+  {
+    "campaign": "ProsperWorks — CRM for G Suite",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/prosperworks-crm-for-g-suite",
+    "body_sha256": "cdfb9bd514edb8a6d68e361cacb21fb164e5bed541482d6a9e6823fa148c9765"
+  },
+  {
+    "campaign": "QuotaPath — Sales commission automation",
+    "stage": 1,
+    "subject": "{{company_name}} commissions",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/quotapath-sales-commission-automation",
+    "body_sha256": "38ca8c3428a35b6373b49f3458fa41994328904b595126e84c1cf472d60e03e0"
+  },
+  {
+    "campaign": "QuotaPath — Sales commission automation",
+    "stage": 2,
+    "subject": "Re: {{company_name}} commissions",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/quotapath-sales-commission-automation",
+    "body_sha256": "7da2a4c1cd0ba296c091d6f9778bb919b3a1540ced76f9ac4156bb12459eec58"
+  },
+  {
+    "campaign": "QuotaPath — Sales commission automation",
+    "stage": 3,
+    "subject": "Re: {{company_name}} commissions",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/quotapath-sales-commission-automation",
+    "body_sha256": "ac0680f1cec43495fc9a84f10147741f282d3e2b31e7ceb7575bf48c4ed576c4"
+  },
+  {
+    "campaign": "QuotaPath — Sales commission automation",
+    "stage": 4,
+    "subject": "Re: {{company_name}} commissions",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/quotapath-sales-commission-automation",
+    "body_sha256": "c5ffa78bbea5c70194f71eec84a179bca3c1a7ac682bdb2cff346bd3290d9b05"
+  },
+  {
+    "campaign": "Ramp — Conference follow-up",
+    "stage": 1,
+    "subject": "Follow-up to [conference]",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/ramp-conference-follow-up",
+    "body_sha256": "ac8a57b25a550f420686e30d5d50b9726eeb09db723dee389012ff65164ff136"
+  },
+  {
+    "campaign": "Refract — Personalized sales coaching",
+    "stage": 1,
+    "subject": "A poem for you, {{first_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/refract-personalized-sales-coaching",
+    "body_sha256": "d80eb036316390bc708607ae77aefb1750e5088c353706bb210d0e91604ba0ff"
+  },
+  {
+    "campaign": "ReIntent — Outbound prospect data",
+    "stage": 1,
+    "subject": "Re: Why Outbound Prospecting? It Generates Leads",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/reintent-outbound-prospect-data",
+    "body_sha256": "9736b1b3e5a9e7208ee5017bb989912bb7538ef8bfed3163fd99af340ea745ff"
+  },
+  {
+    "campaign": "ReIntent — Outbound prospect data",
+    "stage": 2,
+    "subject": "Why Outbound Prospecting? It Generates Leads",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/reintent-outbound-prospect-data",
+    "body_sha256": "1e0f0f5ccfa4cd806412581ecdb0cd2629d0094e0165297d19ac3f6bd6486491"
+  },
+  {
+    "campaign": "Rippling — HR automation lunch",
+    "stage": 1,
+    "subject": "{{company_name}} question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-hr-automation-lunch",
+    "body_sha256": "35619bf5e1cd2d4e6206051d9fa128f6a60045c93c541ea1cab5a6301ddbb991"
+  },
+  {
+    "campaign": "Rippling — HR automation lunch",
+    "stage": 2,
+    "subject": "Re: {{company_name}} question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-hr-automation-lunch",
+    "body_sha256": "ead9a134fe20248965d4d7a4afeae5ff5a9deeb98be03b90b2500c0dff3d561c"
+  },
+  {
+    "campaign": "Rippling — HR automation lunch",
+    "stage": 3,
+    "subject": "Re: {{company_name}} question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-hr-automation-lunch",
+    "body_sha256": "27f86a3c6433558c3ecc6a34ff2d3b0c933be0d83b6c11c62fad2ea463b4cb58"
+  },
+  {
+    "campaign": "Rippling — Multi-state compliance automation",
+    "stage": 1,
+    "subject": "issue for {{company_name}}?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-multi-state-compliance-automation",
+    "body_sha256": "5f6a88fba7ad5a7151e6f1ee60d95bbe75e76acd5ffed8ad6a7186eeacc08297"
+  },
+  {
+    "campaign": "Rippling — Remote HR lunch",
+    "stage": 1,
+    "subject": "{{company_name}} question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-remote-hr-lunch",
+    "body_sha256": "a64c83bba4ee4b09d55d2b6b4fc211f13044adef9d9cd2b1f3936d66a8da9ea8"
+  },
+  {
+    "campaign": "Rippling — Remote HR lunch",
+    "stage": 2,
+    "subject": "Re: {{company_name}} question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-remote-hr-lunch",
+    "body_sha256": "e68a0ce06c9490803aedb7390177ce2725d565edc98f01d639364335f1fb3bab"
+  },
+  {
+    "campaign": "Rippling — Remote HR lunch",
+    "stage": 3,
+    "subject": "Re: {{company_name}} question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-remote-hr-lunch",
+    "body_sha256": "d82ece589b54519fd7e4a5417c635985a1b0a8e1f38874bcbc4c375fe386dc28"
+  },
+  {
+    "campaign": "Rippling — Unified employee systems",
+    "stage": 1,
+    "subject": "{{company_name}} quick question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-unified-employee-systems",
+    "body_sha256": "d0d7b2c06fec304ab76c73dd815210c24b3cfd17444cd248a306f974daf89d94"
+  },
+  {
+    "campaign": "Rippling — Unified employee systems",
+    "stage": 2,
+    "subject": "Re: {{company_name}} quick question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-unified-employee-systems",
+    "body_sha256": "914cbf0c0c8239a11cf8328f58bb3978562e637891b21c63ad948a3be78b1ec3"
+  },
+  {
+    "campaign": "Rippling — Unified employee systems",
+    "stage": 3,
+    "subject": "Re: {{company_name}} quick question",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rippling-unified-employee-systems",
+    "body_sha256": "0a182bff5e69487e5bdfe1066fcb9c8c6a682f1dbbc9542fb752ff1ad8901c5b"
+  },
+  {
+    "campaign": "Rollworks — ABM demand generation",
+    "stage": 1,
+    "subject": "sales/mar-tech collab of the century",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rollworks-abm-demand-generation",
+    "body_sha256": "b3c1e6997fb4123c628fa17d8d7712c43a1af153a79602d591e1012f7ddb2982"
+  },
+  {
+    "campaign": "Rollworks — ABM demand generation",
+    "stage": 2,
+    "subject": "Re: sales/mar-tech collab of the century",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rollworks-abm-demand-generation",
+    "body_sha256": "22b2cf093f6620d8256c0308833724e8035d92a24b26195f197f918ab373b7b3"
+  },
+  {
+    "campaign": "Rollworks — ABM strategy intro",
+    "stage": 1,
+    "subject": "{{company_name}} / Rollworks",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rollworks-abm-strategy-intro",
+    "body_sha256": "b5b6c344e0d7b8a23bb4eb13047dbca2666a391dba13f909a0dc4fd30f9f4beb"
+  },
+  {
+    "campaign": "Rollworks — ABM strategy intro",
+    "stage": 2,
+    "subject": "Re: {{company_name}} / Rollworks",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rollworks-abm-strategy-intro",
+    "body_sha256": "22b2cf093f6620d8256c0308833724e8035d92a24b26195f197f918ab373b7b3"
+  },
+  {
+    "campaign": "Rollworks — Coffee card ABM",
+    "stage": 1,
+    "subject": "{{first_name}} - Have some Coffee on RollWorks!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rollworks-coffee-card-abm",
+    "body_sha256": "6c5fb629969d76d3688534961eddda72533c62bdc483738a0231db56405381fb"
+  },
+  {
+    "campaign": "Rollworks — Coffee card ABM",
+    "stage": 2,
+    "subject": "Enjoy the Coffee!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/rollworks-coffee-card-abm",
+    "body_sha256": "8bb31fdf0ab36481875f82d207b70677f3f333bcdc6ed65f8065261f007152bb"
+  },
+  {
+    "campaign": "Sales Impact Academy — Sales rep upskilling",
+    "stage": 1,
+    "subject": "Repeatable skilling",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/sales-impact-academy-sales-rep-upskilling",
+    "body_sha256": "d14e6cb319254116d987ee7a309f64c2ccd6205801a73030eb39cfed9d1adaf8"
+  },
+  {
+    "campaign": "SalesLabs — Reduce hiring churn",
+    "stage": 1,
+    "subject": "Do the maths",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/saleslabs-reduce-hiring-churn",
+    "body_sha256": "3bb3a9ab761dd5cc80c309150e545f646d406a70964e284ac9ef64629bcfb052"
+  },
+  {
+    "campaign": "salesprocess.io — Automated outbound pipeline",
+    "stage": 1,
+    "subject": "Time to Rethink Your Outreach, {{first_name}}:",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/salesprocess-io-automated-outbound-pipeline",
+    "body_sha256": "c70138e10c4cb206e89189c86e8ea249c6c2ffd87c9bba5015e986de9e80db9e"
+  },
+  {
+    "campaign": "salesprocess.io — Automated outbound pipeline",
+    "stage": 2,
+    "subject": "$10M ARR: Have you done the math,",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/salesprocess-io-automated-outbound-pipeline",
+    "body_sha256": "c1ba16e0b350766c6cc9fedd173d61de872c0039195dd8baa2dec11500e7f06a"
+  },
+  {
+    "campaign": "Scotch & Pretzels — Startup PR support",
+    "stage": 1,
+    "subject": "PR idea for {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/scotch-and-pretzels-startup-pr-support",
+    "body_sha256": "6ebaab5f7e7eaac50e264e2600296ede12a62af06b0b551780def80e4edc1a81"
+  },
+  {
+    "campaign": "Segment — Demo request follow-up",
+    "stage": 1,
+    "subject": "{{first_name}}, Your Segment Demo Request",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/segment-demo-request-follow-up",
+    "body_sha256": "13e69ec3a0ab50f775df06b1d76acde3e1c8d06b62d4b9bc06b663b0a4039184"
+  },
+  {
+    "campaign": "Segment — Demo request follow-up",
+    "stage": 2,
+    "subject": "Re: {{first_name}}, Your Segment Demo Request",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/segment-demo-request-follow-up",
+    "body_sha256": "81cc8e3c62ef4c2e89245e216c0590d2cba8f5faa4e00f20626660293a365c3d"
+  },
+  {
+    "campaign": "Segment — Demo request follow-up",
+    "stage": 3,
+    "subject": "{{company_name}}'s Segment Account",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/segment-demo-request-follow-up",
+    "body_sha256": "af04933ff5b31bfd7c6dd9a5165ae872a5ec005cc40b47119abe54b3502d829c"
+  },
+  {
+    "campaign": "Segment — Demo request follow-up",
+    "stage": 4,
+    "subject": "Re: {{company_name}}'s Segment Account",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/segment-demo-request-follow-up",
+    "body_sha256": "4379d982610376cedeaedd9920213df5111c3a95e3e5ccef9a3063b03a611387"
+  },
+  {
+    "campaign": "Segment — Demo request follow-up",
+    "stage": 5,
+    "subject": "How Segment helped Typeform Improve Data Quality by 75%",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/segment-demo-request-follow-up",
+    "body_sha256": "80b31831b9f469cf8331bda66289ce61abf8a57e3eda62902fd3cac82ea8867f"
+  },
+  {
+    "campaign": "Segment — Demo request follow-up",
+    "stage": 6,
+    "subject": "Re: How Segment helped Typeform Improve Data Quality by 75%",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/segment-demo-request-follow-up",
+    "body_sha256": "0f7f937e53301760b08ccef9df2649dd9adb2f85c1823545066d36fed3fd7edf"
+  },
+  {
+    "campaign": "Segment — Demo request follow-up",
+    "stage": 7,
+    "subject": "Checking in one last time",
+    "relationship": "Warm / lifecycle / event follow-up",
+    "source_url": "https://goodsalesemails.com/campaigns/segment-demo-request-follow-up",
+    "body_sha256": "1ac952878ab33c9b7bc13be0b6205c72ddda56721bb91a82a22a754e810b2583"
+  },
+  {
+    "campaign": "Sisense — Embedded analytics monetization",
+    "stage": 1,
+    "subject": "Quick Connect?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/sisense-embedded-analytics-monetization",
+    "body_sha256": "db12e04962e4e57abc0ccf1e076acb9d7d9bb4b7ca32b21302a43650f058e146"
+  },
+  {
+    "campaign": "Sisense — Embedded analytics monetization",
+    "stage": 2,
+    "subject": "Re: Quick Connect?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/sisense-embedded-analytics-monetization",
+    "body_sha256": "1a77ef6d82546f8da4b76a7bd666b99f740ac970b844214793f99af3aa63c7dd"
+  },
+  {
+    "campaign": "Sisense — Embedded analytics monetization",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/sisense-embedded-analytics-monetization",
+    "body_sha256": "259b9679798387e82d2ffa52c858957fa800d99811061f979c6294f2a1822d7e"
+  },
+  {
+    "campaign": "Sisense — Embedded analytics monetization",
+    "stage": 4,
+    "subject": "Re: White Labeling - {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/sisense-embedded-analytics-monetization",
+    "body_sha256": "50e9b4b56ad45a94b1f09a5ea314a4774c96713866296b6b6b3eb1a509641958"
+  },
+  {
+    "campaign": "Sisense — Embedded analytics monetization",
+    "stage": 5,
+    "subject": "Top Tier Embedded Analytics",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/sisense-embedded-analytics-monetization",
+    "body_sha256": "439062eff4a535f0325a392e392d4d24b737e7eb1d438b8972c7426babaca937"
+  },
+  {
+    "campaign": "Sisense — Embedded analytics monetization",
+    "stage": 6,
+    "subject": "Re: Top Tier Embedded Analytics",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/sisense-embedded-analytics-monetization",
+    "body_sha256": "85467b2bc3fab4ecaf3ff7f1aab43036463acc1638a35080440a7c5908e563b9"
+  },
+  {
+    "campaign": "Sisense — Startup analytics program",
+    "stage": 1,
+    "subject": "John from Sisense Startup Program + AWS",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/sisense-startup-analytics-program",
+    "body_sha256": "5634a003c6d3191dfa749ea5e52491a4e3b28529ef4d4139b6ccafa5af98a707"
+  },
+  {
+    "campaign": "Sopro — Sales prospecting help",
+    "stage": 1,
+    "subject": "Sopro brief chat",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/sopro-sales-prospecting-help",
+    "body_sha256": "7a7de0db3157ca67beaae7c076be5ff7248497b24edcb0c79aca517e51298578"
+  },
+  {
+    "campaign": "Sopro — Sales prospecting help",
+    "stage": 2,
+    "subject": "Sopro intro",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/sopro-sales-prospecting-help",
+    "body_sha256": "74167dc946ba6a053b15ec0491c62ae4ea8206ca49728760e68f388b9872bae7"
+  },
+  {
+    "campaign": "Sopro — Sales prospecting help",
+    "stage": 3,
+    "subject": "Hopefully of interest – John/Sopro",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/sopro-sales-prospecting-help",
+    "body_sha256": "bc49a676a45036d81bb3b6de6684a6b003fae6910f6de5744207247e431522ac"
+  },
+  {
+    "campaign": "Square63 — Nearshore development support",
+    "stage": 1,
+    "subject": "{!first_name} - quick Minute",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/square63-nearshore-development-support",
+    "body_sha256": "cfdc8765f09cef9042b3fabba611ef46dbb3ab5b53d36428ee85272c988de496"
+  },
+  {
+    "campaign": "Square63 — Nearshore development support",
+    "stage": 2,
+    "subject": "We'll make this quick, {!first_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/square63-nearshore-development-support",
+    "body_sha256": "2fbeb2408a7ff5c577ecd465eb471868bef68ced6f9271968a3ba59e848b55c4"
+  },
+  {
+    "campaign": "Square63 — Nearshore development support",
+    "stage": 3,
+    "subject": "We're flexible!",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/square63-nearshore-development-support",
+    "body_sha256": "af414929bb3f2fed1977d267ba05b2ace96def58969aa6214d1c6147290afcfc"
+  },
+  {
+    "campaign": "Stemx — Video interview platform",
+    "stage": 1,
+    "subject": "Intro",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/stemx-video-interview-platform",
+    "body_sha256": "22e80c1d4898dc133625fe573e728a5b7dde511f00b8a969c02fad92e58b375f"
+  },
+  {
+    "campaign": "Stripe — Climate contribution launch",
+    "stage": 1,
+    "subject": "Empowering you to fight climate change | Stripe",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/stripe-climate-contribution-launch",
+    "body_sha256": "08b4e178623b52b4f3782a70e940245da1f4775599d946ea83444cfbcfb17095"
+  },
+  {
+    "campaign": "Stripe — Climate contribution launch",
+    "stage": 2,
+    "subject": "Re: Empowering you to fight climate change | Stripe",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/stripe-climate-contribution-launch",
+    "body_sha256": "d7b5e7d327adbcf038d130fbaa1c50fc49c096301d9d67c04be69e00284ae0c3"
+  },
+  {
+    "campaign": "Stripe — Climate contribution launch",
+    "stage": 3,
+    "subject": "Re: Empowering you to fight climate change | Stripe",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/stripe-climate-contribution-launch",
+    "body_sha256": "8d981a7503449923916028c9a5ef97538b7c51e3829b97b78d6b1205853d9570"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 1,
+    "subject": "Interested in learning more?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "0fa695b91b78f18e244f250298b236f231c9e42f1abc76ce4907f1b14268d02b"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 2,
+    "subject": "Re: Interested in learning more?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "0ba406bda7a227be9591c5f7d069d1be4f0cc6387b869adb509c801447e08cef"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 3,
+    "subject": "Re: Interested in learning more?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "82bfd1bf631758275de5294d0eac8222d5c0fea9a8093a27d4f9c478464ffddd"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 4,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "5f2d766c3e785c1bc8812fa64be01a871140be28b725503dbb5da3dabb647d7d"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 5,
+    "subject": "A little refresh",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "552cdef25e2072a79b9989b28e9e102bcf4ed1e9fcab57e6bf6782887f45a828"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 6,
+    "subject": "Re: A little refresh",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "51c38834adf1a47d3813ac594e4f6e47bd81b0b1704b1e9fe26c96c93a61bdb9"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 7,
+    "subject": "Re: A little refresh",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "d65da8ba50ce1fdd650fb46919a3409c700cbb6d675f2647d50cd8778ec18080"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 8,
+    "subject": "Re: A little refresh",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "eeeef236b9f0c46b8d8a0b7b2b66d83e56676a30ed6368f821208cf6a02d8f03"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 9,
+    "subject": "Re: A little refresh",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "0a66b76bb000d788dada5e11987a58a00be3e0019874a011e6b32b4ac712581f"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 10,
+    "subject": "Re: A little refresh",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "587c05611713ba309279d9dc29d704fba8e306f2e51f608e4ce65ca835be31e1"
+  },
+  {
+    "campaign": "SurveyMonkey — Demo nurture sequence",
+    "stage": 11,
+    "subject": "Is our time up?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/surveymonkey-demo-nurture-sequence",
+    "body_sha256": "0c3892cc274d564238a79adf681bb804274d9c5d3b6baffa8653f601365d48b4"
+  },
+  {
+    "campaign": "Swiftstack — Backup and recovery",
+    "stage": 1,
+    "subject": "SwiftStack for hybrid cloud backup and recovery",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/swiftstack-backup-and-recovery",
+    "body_sha256": "9df736b1e778865c8bf530794c5ab7051c7f4a0a16b8575d5704e4d99fcdb25e"
+  },
+  {
+    "campaign": "Swiftstack — Backup and recovery",
+    "stage": 2,
+    "subject": "Re: SwiftStack for hybrid cloud backup and recovery",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/swiftstack-backup-and-recovery",
+    "body_sha256": "be6155a6bfd20e41130b5626ec0ab779b71bc0ca4abe2b3f77f62c13d47530d3"
+  },
+  {
+    "campaign": "Swiftstack — Backup and recovery",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/swiftstack-backup-and-recovery",
+    "body_sha256": "22a84b833936fdc0f314e4b186b4fa5c89369c7fda7cc0a0a2d8e323113b5bb2"
+  },
+  {
+    "campaign": "Swiftstack — Backup and recovery",
+    "stage": 4,
+    "subject": "Re: SwiftStack for hybrid cloud backup and recovery",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/swiftstack-backup-and-recovery",
+    "body_sha256": "3b8d773947fb7b5d71fcdc1897a1f17424acfb1e27e8422cf42ae9fd0601673b"
+  },
+  {
+    "campaign": "Swiftype — Site search",
+    "stage": 1,
+    "subject": "Swiftype Site Search | {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/swiftype-site-search",
+    "body_sha256": "c8acebe1b78827ed43bb204abb7f4385cbb2c57bb515b553dfb69110d7f6791d"
+  },
+  {
+    "campaign": "Swiftype — Site search",
+    "stage": 2,
+    "subject": "Swiftype Site Search | CompanyABC",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/swiftype-site-search",
+    "body_sha256": "e272a89f38995c07fe4ec541aea8209892cf74524b69a9cd19ec5749fe78b829"
+  },
+  {
+    "campaign": "Syften — Social listening alerts",
+    "stage": 1,
+    "subject": "I can monitor Slack communities, Reddit, HN, Twitter, Facebook groups and other places for you",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/syften-social-listening-alerts",
+    "body_sha256": "e290ccba11237143eff81cb19bb43eca7b499331a4142146909392340f759be3"
+  },
+  {
+    "campaign": "Syften — Social listening alerts",
+    "stage": 2,
+    "subject": "Too many Slack communities?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/syften-social-listening-alerts",
+    "body_sha256": "c7c300570a41e5ef2e168de1775decaa0dc314f2b97de19fa9bda82f9ac2fcb4"
+  },
+  {
+    "campaign": "Talkdesk — Contact center platform",
+    "stage": 1,
+    "subject": "Talkdesk meets {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/talkdesk-contact-center-platform",
+    "body_sha256": "9035536b5384eed3d86045372d629d8e5d6c6a74d8ac88daed9a1df753fda3c6"
+  },
+  {
+    "campaign": "Talkdesk — Contact center platform",
+    "stage": 2,
+    "subject": "Talkdesk meeting",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/talkdesk-contact-center-platform",
+    "body_sha256": "97855bcb4e4dbfd15a217c78b07243f6a06a3d61e973fe33cf949b943425a648"
+  },
+  {
+    "campaign": "Talkdesk — Contact center platform",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/talkdesk-contact-center-platform",
+    "body_sha256": "9a103438db553c4c5da0838351a23d37de626c29795e2fdd4832f90d13622919"
+  },
+  {
+    "campaign": "Talkdesk — Contact center platform",
+    "stage": 4,
+    "subject": "Friendly call",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/talkdesk-contact-center-platform",
+    "body_sha256": "a053d7de5ba4d52e456a0ab4b7a7c7d71371c14f7fd0977ff2a5e4a53f1645ff"
+  },
+  {
+    "campaign": "Teem — Vision alignment intro",
+    "stage": 1,
+    "subject": "Teem <> {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/teem-vision-alignment-intro",
+    "body_sha256": "af0d4ca61cfc967088692d4ce9a7459dd9791f5c3c584f52ccf8fa505808fd2f"
+  },
+  {
+    "campaign": "The Data Incubator — Data science training",
+    "stage": 1,
+    "subject": "Data Science & Analytics Training/Hiring at {!company}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/the-data-incubator-data-science-training",
+    "body_sha256": "eceda9c9dd72c832a76d6c2f60166279211ae0a0294b57a8f5533dd9fec4a401"
+  },
+  {
+    "campaign": "The Data Incubator — Data science training",
+    "stage": 2,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/the-data-incubator-data-science-training",
+    "body_sha256": "658f5fb1e15916578734a0a35f3be97a67fb8742103eca4fe37a4ba5aa83f11b"
+  },
+  {
+    "campaign": "Trademark Now — Trademark clearance",
+    "stage": 1,
+    "subject": "{!company} Trademarks",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/trademark-now-trademark-clearance",
+    "body_sha256": "0433b6e9d3c567fd3f55294ab1d4f8828626f51c481cff0008d56dd2a8b064b1"
+  },
+  {
+    "campaign": "Trademark Now — Trademark clearance",
+    "stage": 2,
+    "subject": "Re: {!company} Trademarks",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/trademark-now-trademark-clearance",
+    "body_sha256": "2db2ea50350a5c823046079df15759965583ec74530be5f94065c5f963eecc8f"
+  },
+  {
+    "campaign": "Trademark Now — Trademark clearance",
+    "stage": 3,
+    "subject": "Re: {!company} Trademarks",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/trademark-now-trademark-clearance",
+    "body_sha256": "809edbd524200f4872090aa3422e73655e3b90a8b1bf98a2ae7cd4998c886e0c"
+  },
+  {
+    "campaign": "Tray — Product integrations platform",
+    "stage": 1,
+    "subject": "Integrations at {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/tray-product-integrations-platform",
+    "body_sha256": "d3fc382317b87e3271e7fc38cc508435b4701414f9e623663a50a6a79b510383"
+  },
+  {
+    "campaign": "Tray — Product integrations platform",
+    "stage": 2,
+    "subject": "Re: Integrations at {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/tray-product-integrations-platform",
+    "body_sha256": "80998aed3327baa715a0473383a78e861268d5f9beb96c87ec7b28e605d15677"
+  },
+  {
+    "campaign": "Upcounsel — Fractional legal help",
+    "stage": 1,
+    "subject": "Legal for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/upcounsel-fractional-legal-help",
+    "body_sha256": "66eba3b80154758421add5da95b20a0a64f3063036f605874350488a7ad4cad0"
+  },
+  {
+    "campaign": "Upcounsel — Fractional legal help",
+    "stage": 2,
+    "subject": "Re: Legal for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/upcounsel-fractional-legal-help",
+    "body_sha256": "4d1b293880f816c50c035dbaeaf0949d56b2b0b9fd6d025349f5edd5520e1c86"
+  },
+  {
+    "campaign": "Upcounsel — Fractional legal help",
+    "stage": 3,
+    "subject": "Re: Legal for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/upcounsel-fractional-legal-help",
+    "body_sha256": "1b74feca6f0754bacc85f80fcef62de7ff6b981a866b9f0c363a0f0e96b1748e"
+  },
+  {
+    "campaign": "Upcounsel — Fractional legal help",
+    "stage": 4,
+    "subject": "Re: Legal for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/upcounsel-fractional-legal-help",
+    "body_sha256": "ae1a0acfd0a6824c9a6abf561fc12c0502c4937d58492820bbe83b1e7fa3be34"
+  },
+  {
+    "campaign": "User — SaaStock recap chat",
+    "stage": 1,
+    "subject": "Any insights from SaaStock {{first_name}}?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/user-saastock-recap-chat",
+    "body_sha256": "0f5bbd22ade1575c99788dea71fa7b36b360bdd51a8176d55ffd9ec47d16f61a"
+  },
+  {
+    "campaign": "User — SaaStock recap chat",
+    "stage": 2,
+    "subject": "Re: Any insights from SaaStock {{first_name}}?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/user-saastock-recap-chat",
+    "body_sha256": "03dbf3de3ff47fa79f73dab4d7b4ab06c9ddee36279b4ce7eac8701c5a30712c"
+  },
+  {
+    "campaign": "User — SaaStock recap chat",
+    "stage": 3,
+    "subject": "Re: Any insights from SaaStock {{first_name}}?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/user-saastock-recap-chat",
+    "body_sha256": "5f6287a32984fcbd41c716b07e96f73470190b81c95ff2d226dc8e97fd3591d7"
+  },
+  {
+    "campaign": "Usersnap — User testing feedback",
+    "stage": 1,
+    "subject": "An idea for {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/usersnap-user-testing-feedback",
+    "body_sha256": "2d9320b520d9ab95e8918c45003ef4072b543d359c96345123084e784f342dcc"
+  },
+  {
+    "campaign": "Usersnap — User testing feedback",
+    "stage": 2,
+    "subject": "Re: An idea for {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/usersnap-user-testing-feedback",
+    "body_sha256": "ec50e580658a631f4a986fb42d2207dd9786a0655f521cd4513ce9cdbaae840a"
+  },
+  {
+    "campaign": "Usersnap — User testing feedback",
+    "stage": 3,
+    "subject": "Re: An idea for {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/usersnap-user-testing-feedback",
+    "body_sha256": "6e5669a8b87459b40107388f71007efb46273ee0531f76fe3cbd3543645e5236"
+  },
+  {
+    "campaign": "Vaporware — Churn prediction analytics",
+    "stage": 1,
+    "subject": "product at {{company_name}}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/vaporware-churn-prediction-analytics",
+    "body_sha256": "d31e96d8f28e4a39522afc35a636a9cb6ba9a50965007928030cf88a08818680"
+  },
+  {
+    "campaign": "Vaporware — Churn prediction analytics",
+    "stage": 2,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/vaporware-churn-prediction-analytics",
+    "body_sha256": "2b37298ebc320ce9380972d857b7a512d89686a980571e8aaa2a3a678282c52f"
+  },
+  {
+    "campaign": "Vaporware — Software modernization partner",
+    "stage": 1,
+    "subject": "(no subject)",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/vaporware-software-modernization-partner",
+    "body_sha256": "7c9bfa4820d6b19b5410abe11e7f36124c21730b0d7f199f9d36df64aa5b63b3"
+  },
+  {
+    "campaign": "Velocify — Sales acceleration CRM",
+    "stage": 1,
+    "subject": "{!company} & Velocify",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/velocify-sales-acceleration-crm",
+    "body_sha256": "f6e1a4120997533084b19abeee686b26464c6b9ab6f69d5492dd4fa72e873117"
+  },
+  {
+    "campaign": "Velocify — Sales acceleration CRM",
+    "stage": 2,
+    "subject": "Re: {!company} & Velocify",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/velocify-sales-acceleration-crm",
+    "body_sha256": "f7593e6c0ee83286de94bf9e9ff5b0fd3e5e37a47bf9c53c2bcfeb528a1e0ea5"
+  },
+  {
+    "campaign": "Velocify — Sales acceleration CRM",
+    "stage": 3,
+    "subject": "How about today?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/velocify-sales-acceleration-crm",
+    "body_sha256": "7bfd8b97caf8475428a9abd7993e4dddea215d4e817cf8ead2882919c6ad6cf0"
+  },
+  {
+    "campaign": "Velocify — Sales acceleration CRM",
+    "stage": 4,
+    "subject": "{!company} Sales",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/velocify-sales-acceleration-crm",
+    "body_sha256": "3cc2c2724840441a13d7d23ce680928daf24592b47395bfd1063038bdcfc9658"
+  },
+  {
+    "campaign": "Venture out NY — RetailTech program invite",
+    "stage": 1,
+    "subject": "Time To Connect",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/venture-out-ny-retailtech-program-invite",
+    "body_sha256": "1749609d49473a0ce4e553da236610a733ceb730d09c7293d75632c14418fdf0"
+  },
+  {
+    "campaign": "Venture out NY — RetailTech program invite",
+    "stage": 2,
+    "subject": "Re: Time To Connect",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/venture-out-ny-retailtech-program-invite",
+    "body_sha256": "caf79d20690126a41b5338927ffd00c3e8c734d44bedae658930a31a5d94220c"
+  },
+  {
+    "campaign": "Venture out NY — RetailTech program invite",
+    "stage": 3,
+    "subject": "Re: Time To Connect",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/venture-out-ny-retailtech-program-invite",
+    "body_sha256": "dd73875461cb96ce9a8ca4262920c73f398fc439532cc4b2470a1bd5d9a68937"
+  },
+  {
+    "campaign": "Venture out NY — RetailTech program invite",
+    "stage": 4,
+    "subject": "Re: Time To Connect",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/venture-out-ny-retailtech-program-invite",
+    "body_sha256": "96f156b16dfe2ada34ab99aa88a58d800841be692d822274fdac18b0f7586e5d"
+  },
+  {
+    "campaign": "Venture out NY — RetailTech program invite",
+    "stage": 5,
+    "subject": "Re: Time To Connect",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/venture-out-ny-retailtech-program-invite",
+    "body_sha256": "a46202c9ff00dcf3da8d99801395b076b790064b1e7e88dd37b0c3bf23d7b274"
+  },
+  {
+    "campaign": "Venture out NY — RetailTech program invite",
+    "stage": 6,
+    "subject": "Time To Connect [URGENT]",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/venture-out-ny-retailtech-program-invite",
+    "body_sha256": "e0fa23cdebffdf1ce2bc95c01835e4da579f2ac8eedbdf46ab75c4b39013acf1"
+  },
+  {
+    "campaign": "Vettery — Recruiting contact request",
+    "stage": 1,
+    "subject": "Hi - Quick Introduction",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/vettery-recruiting-contact-request",
+    "body_sha256": "acc84c9c843385c57653e92de25f82f86047523c0c53a74d6050a484d17531ed"
+  },
+  {
+    "campaign": "Vettery — Recruiting contact request",
+    "stage": 2,
+    "subject": "Re: Hi - Quick Introduction",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/vettery-recruiting-contact-request",
+    "body_sha256": "f82a7a1c3383a5b26806e41c0deaf04ca66ad915be8c8d81afd3bc7ea9882c04"
+  },
+  {
+    "campaign": "Vidon — Personalized video prospecting",
+    "stage": 1,
+    "subject": "{{first_name}} - Let's talk about your prospecting",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/vidon-personalized-video-prospecting",
+    "body_sha256": "358878492397f6dca759fe7e27c5c79f0162b28db9fd86d9beca128f51621337"
+  },
+  {
+    "campaign": "Vidon — Personalized video prospecting",
+    "stage": 2,
+    "subject": "Re: {{first_name}} - Let's talk about your prospecting",
+    "relationship": "Cold / outbound (publisher label)",
+    "source_url": "https://goodsalesemails.com/campaigns/vidon-personalized-video-prospecting",
+    "body_sha256": "80fe77553c2dcaeea2cef335c9214fa2a205c0c869fccefed0d6b6ee81851ba7"
+  },
+  {
+    "campaign": "Wavefront — Real-time monitoring",
+    "stage": 1,
+    "subject": "Wavefront - metrics monitoring",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/wavefront-real-time-monitoring",
+    "body_sha256": "fea20676e2243cd19d29b72f72de9fa412cbb4a828fe75f53259d7434c744693"
+  },
+  {
+    "campaign": "Workato — Conference integration chat",
+    "stage": 1,
+    "subject": "{{conference}} meeting",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/workato-conference-integration-chat",
+    "body_sha256": "8bef6d3208a277a49251fecbdcf153804aada938a9dbe13e5127d8472cdfe194"
+  },
+  {
+    "campaign": "Workato — Conference integration chat",
+    "stage": 2,
+    "subject": "Re: {{conference}} meeting",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/workato-conference-integration-chat",
+    "body_sha256": "d468fc2e58c5a1f2f4caa32ffa58ab4b99155ebad51bef97fae4a38f159e7f24"
+  },
+  {
+    "campaign": "Workato — Conference integration chat",
+    "stage": 3,
+    "subject": "Any thoughts on {{conference}}?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/workato-conference-integration-chat",
+    "body_sha256": "d74287426ea8fccd6b11ee213e6239c21ec45d18b489a03b4d2d381081c75df0"
+  },
+  {
+    "campaign": "Yesware — Salesforce for SDRs",
+    "stage": 1,
+    "subject": "Make your new SDR love Salesforce",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yesware-salesforce-for-sdrs",
+    "body_sha256": "ca825b787962cc081a72f730e768af6a6839d4e01283f1807e5227c45f4c9422"
+  },
+  {
+    "campaign": "Yieldify — Website conversion optimization",
+    "stage": 1,
+    "subject": "Who/When/How?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yieldify-website-conversion-optimization",
+    "body_sha256": "eeb66feba710b569aff20b252abc0d8c99384beb4097293ceba6f4947599b7c2"
+  },
+  {
+    "campaign": "Yieldify — Website conversion optimization",
+    "stage": 2,
+    "subject": "Three Thoughts",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yieldify-website-conversion-optimization",
+    "body_sha256": "27aa19ebb4e44fb7198e6f1e1fc9def6ff8a97aa9e8338cf8443308d7b48bf07"
+  },
+  {
+    "campaign": "Yieldify — Website conversion optimization",
+    "stage": 3,
+    "subject": "Re: Three Thoughts",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yieldify-website-conversion-optimization",
+    "body_sha256": "f4172a550fa5af3aee530c3920828969eea13359a24d76c6fe8c400a3fc1e149"
+  },
+  {
+    "campaign": "Yieldify — Website conversion optimization",
+    "stage": 4,
+    "subject": "Re: Three Thoughts",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yieldify-website-conversion-optimization",
+    "body_sha256": "0221c86e27c0b475769e018f85fc4095f718a34814aa81c210dbf286c149ba75"
+  },
+  {
+    "campaign": "Yodel — Slack phone system",
+    "stage": 1,
+    "subject": "Hello {!first_name}, I have a question about your Slack integrations",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yodel-slack-phone-system",
+    "body_sha256": "06c38b47b818330015718e8136bc76b69f5caef2bb975142239eb8d91b96cb86"
+  },
+  {
+    "campaign": "Yodel — Slack phone system",
+    "stage": 2,
+    "subject": "Hello {!first_name}, circling around",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yodel-slack-phone-system",
+    "body_sha256": "e798af46b952c77aac18ab2039e73ccf626539b2a5c4f8f373421c8de296c51f"
+  },
+  {
+    "campaign": "Yodel — Slack phone system",
+    "stage": 3,
+    "subject": "{!first_name}, any feedback on this?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yodel-slack-phone-system",
+    "body_sha256": "9cc4b5a4774784f2b9770ed6d68072e9bdcdb3dc648d4ec9a89d8ef793fc3617"
+  },
+  {
+    "campaign": "Yodel — Slack phone system",
+    "stage": 4,
+    "subject": "{!first_name}, here are some eye opening stats I dug up",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yodel-slack-phone-system",
+    "body_sha256": "8b2054f1b381500c32164fafd6f0c465b992a8920c048ddb581975d3e92e0625"
+  },
+  {
+    "campaign": "Yodel — Slack phone system",
+    "stage": 5,
+    "subject": "Hi {!first_name}, am I bugging you?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yodel-slack-phone-system",
+    "body_sha256": "2b926dfa5837203af9c9f7ea922514a04aaf619a3406545f503593a0cb1356e2"
+  },
+  {
+    "campaign": "Yodel — Slack phone system",
+    "stage": 6,
+    "subject": "{!first_name}, quick chat this week about making Slack more awesome?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/yodel-slack-phone-system",
+    "body_sha256": "1fd10a6f5f77e5d0d2260f2521841d3d63aeac7b1f5a4f09714946b6ff8d097f"
+  },
+  {
+    "campaign": "Zendesk — Zendesk evaluation support",
+    "stage": 1,
+    "subject": "{{company_name}} - Zendesk",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zendesk-zendesk-evaluation-support",
+    "body_sha256": "304faf74e552a5f7dc04164473a1c0e7bdaeff0d3c2b5bb34d71cb5a26a11c81"
+  },
+  {
+    "campaign": "Zendesk — Zendesk evaluation support",
+    "stage": 2,
+    "subject": "{{company_name}} - Zendesk",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zendesk-zendesk-evaluation-support",
+    "body_sha256": "8891a2717a82d3733c759fcfa28618cd9d413c0c60e53eda520292d5282e6fdb"
+  },
+  {
+    "campaign": "Zendesk — Zendesk evaluation support",
+    "stage": 3,
+    "subject": "",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zendesk-zendesk-evaluation-support",
+    "body_sha256": "8fb7697646cf90690defd54106a5221ab560233a9b30fc6242fecaf8de4cbf1a"
+  },
+  {
+    "campaign": "Zenefits — HR and benefits automation",
+    "stage": 1,
+    "subject": "Something of interest for {!company_name}",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zenefits-hr-and-benefits-automation",
+    "body_sha256": "bb6d1f4986c9fec763d25a81deaff3012cfb9b987a19803cfe9774fb2d05bf39"
+  },
+  {
+    "campaign": "Zenefits — HR and benefits automation",
+    "stage": 2,
+    "subject": "Got an extra $83K to spare on compliance?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zenefits-hr-and-benefits-automation",
+    "body_sha256": "62068f304ecc924a2179bff10c8e00ef6cfda06685ff72887017eb1700f0fa44"
+  },
+  {
+    "campaign": "Zenefits — HR and benefits automation",
+    "stage": 3,
+    "subject": "Goodbye cost and complexity. Hello effortless health benefits.",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zenefits-hr-and-benefits-automation",
+    "body_sha256": "7de90a9a656da78aa0b38f6585e655df82413c7dd34a3d9f08a22d30be7777b9"
+  },
+  {
+    "campaign": "Zenefits — HR and benefits automation",
+    "stage": 4,
+    "subject": "Automate more of your business with our Integrated Apps",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zenefits-hr-and-benefits-automation",
+    "body_sha256": "ec08073935c9e01cc9344024e35fc40e7e221a731e496fa7ce78b265beb2c7d1"
+  },
+  {
+    "campaign": "Zenefits — HR and benefits automation",
+    "stage": 5,
+    "subject": "Raise your business IQ with real-time HR data",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zenefits-hr-and-benefits-automation",
+    "body_sha256": "0ea2d838d230f7f4c936b25b7226b997996118cd9f043be00db283db7c272e62"
+  },
+  {
+    "campaign": "Zenefits — HR and benefits automation",
+    "stage": 6,
+    "subject": "Put HR in your employees’ pockets",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zenefits-hr-and-benefits-automation",
+    "body_sha256": "8b2613f4cd9c441dbb704afb694df58b266addebcfd94c7cd4a717b4af10c3f8"
+  },
+  {
+    "campaign": "Zoom — Cloud phone migration",
+    "stage": 1,
+    "subject": "{{company_name}}: how else can we help?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zoom-cloud-phone-migration",
+    "body_sha256": "5c30b4a9d81f514cfdf3260f6aa94f92356ec3e2781223d0252f4ba51d400a40"
+  },
+  {
+    "campaign": "Zoom — Cloud phone migration",
+    "stage": 2,
+    "subject": "Re: {{company_name}}: how else can we help?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zoom-cloud-phone-migration",
+    "body_sha256": "d4062629671cc8da9a21a1a9318828c2b2b7eae23204abdcc1bf265928ba1712"
+  },
+  {
+    "campaign": "Zoom — Cloud phone migration",
+    "stage": 3,
+    "subject": "Re: {{company_name}}: how else can we help?",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zoom-cloud-phone-migration",
+    "body_sha256": "242aacb8eafd454b837e5601313c05494f65e03d311e3369f0b45ca142f01869"
+  },
+  {
+    "campaign": "Zoom — Zoom evaluation support",
+    "stage": 1,
+    "subject": "{!first_name} - Zoom contact",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zoom-zoom-evaluation-support",
+    "body_sha256": "faa5e09e49d7d36b0a290e9689a2bf20fe20219bfbbacd46ef5f6c1274d9cbd6"
+  },
+  {
+    "campaign": "Zoom — Zoom evaluation support",
+    "stage": 2,
+    "subject": "Re: {!first_name} - Zoom contact",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zoom-zoom-evaluation-support",
+    "body_sha256": "3fc576da86d87492074bb4df267fb8e14d7aa4c4a2685f799dc2ae5bfe5ce685"
+  },
+  {
+    "campaign": "Zoom — Zoom evaluation support",
+    "stage": 3,
+    "subject": "Fwd: Re: {!first_name} - Zoom contact",
+    "relationship": "Relationship not established",
+    "source_url": "https://goodsalesemails.com/campaigns/zoom-zoom-evaluation-support",
+    "body_sha256": "5c213eb4c4a09107a619234e1c76ce8614793c799734cc3b7deebc7538a9f629"
+  }
+]
