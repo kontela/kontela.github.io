@@ -1,0 +1,11 @@
+{
+  "candidates": 19,
+  "caption_tracks_retrieved": 19,
+  "selected_videos": 17,
+  "excluded_videos": 2,
+  "full_source_hours_retrieved": 9.78,
+  "selected_full_source_hours": 9.04,
+  "linked_topic_minutes": 83.6,
+  "caveat": "Full source duration includes unrelated podcast material; overlapping uploads and ranges are not independent evidence. Only selected topic passages reviewed; no audio verification.",
+  "new_api_spend_usd": 0
+}
