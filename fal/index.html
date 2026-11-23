@@ -35,6 +35,7 @@
     .panel li { margin-bottom:12px; }
     .panel ul, .panel ol { padding-left:24px; }
     .film { display:block; width:100%; max-width:360px; max-height:72vh; aspect-ratio:4 / 7; object-fit:contain; background:#f3f4f6; border-radius:10px; margin:24px auto 12px; }
+    code { overflow-wrap:anywhere; font-size:0.9em; }
     .caption { color:var(--muted); }
     .choice { padding:18px 0; border-bottom:1px solid var(--line); }
     .choice h3 { margin:0 0 8px; }
@@ -86,6 +87,16 @@
         <li><strong>Translate a few signals into the film.</strong> Atrium supplies the opening, Dalida the setting, coffee the central metaphor, paper the material and Radiohead the soundtrack. The rest of the research informed the pitch rather than becoming extra visual references.</li>
         <li><strong>Make the destination useful.</strong> The short film leads here, where the introduction and CV explain who I am. The film opens the conversation; the page supplies the substance.</li>
       </ol>
+      <h3>The actual photo-to-image-to-video pipeline</h3>
+      <p>I collected real Dalida interiors and food photographs, then used them as visual inputs to create stills before animating those stills. The coffee reference included a Google Maps photo screenshot I supplied. The saved collection also contains photographs scraped from Dalida’s official website and the restaurant’s design portfolios.</p>
+      <ol>
+        <li><strong>Collect the real references.</strong> For the early coffee shot, the inputs were Dalida’s actual lounge-and-dessert-table photograph and the Google Maps screenshot of a white coffee cup. The restaurant photo supplied the furniture, room and dishes; the screenshot supplied the cup’s shape. Other collected photographs anchored the dining room, bar and lighting.</li>
+        <li><strong>Create a reference-guided still on fal.</strong> <strong>Nano Banana Pro Edit</strong> (<code>fal-ai/nano-banana-pro/edit</code>) combined those references into a vertical coffee-table image. The saved request used 9:16, 1K, one PNG. Its prompt asked to preserve the mustard sofa, teal chair, botanical mural and actual desserts, and add a small, mostly finished Turkish coffee cup with visible grounds. Screenshot interface and text were excluded.</li>
+        <li><strong>Animate the generated image.</strong> The resulting still became the <code>image_url</code> for <strong>Kling 2.5 Turbo Pro image-to-video</strong> (<code>fal-ai/kling-video/v2.5-turbo/pro/image-to-video</code>). The early coffee animation requested five seconds, a forward camera push into the cup, and a coffee-ground ending image via <code>tail_image_url</code>. The Atrium/restaurant shot used the same still-first approach.</li>
+        <li><strong>Refine toward the final paper-style film.</strong> Later painted-paper stills were created with the built-in image generator rather than Nano Banana on fal. The final visual generation used <strong>MiniMax H3 Max reference-to-video</strong> (<code>minimax/h3-max/reference-to-video</code>) on fal: an Atrium close-up pinned as <code>image_url</code>, with a connected restaurant scene and a coffee-ground doorway image as the two references. The accepted request specified 14 seconds, 768P, 9:16, seed 19112030 and prompt expansion disabled. No reference video was supplied. It returned 14.4 seconds at 768 × 1344.</li>
+        <li><strong>Finish locally.</strong> I kept the approved visual take, slowed its later section to reach 17.965 seconds, and added the chosen “House of Cards” excerpt. The film above is that final edit, rather than the earlier five-second Kling tests.</li>
+      </ol>
+      <p>The reusable technique is to establish the scene in a still first, review it, then feed that approved image to the video model. This made the visual brief concrete before spending on motion.</p>
       <h3>What making it taught me</h3>
       <ul>
         <li><strong>Approve the still before animating.</strong> The strongest improvement came from a connected starting image: instrument, restaurant, diners and coffee in one believable space. More prompt wording could not reliably repair a contradictory image.</li>
