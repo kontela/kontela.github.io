@@ -36,6 +36,18 @@
     .panel ul, .panel ol { padding-left:24px; }
     .film { display:block; width:100%; max-width:360px; max-height:72vh; aspect-ratio:4 / 7; object-fit:contain; background:#f3f4f6; border-radius:10px; margin:24px auto 12px; }
     code { overflow-wrap:anywhere; font-size:0.9em; }
+    .process-images { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; margin:24px 0; }
+    figure { margin:0; min-width:0; }
+    figure img { width:100%; height:360px; object-fit:contain; background:#f3f4f6; border-radius:8px; }
+    figcaption { font-size:14px; color:var(--muted); margin-top:10px; }
+    .table-scroll { overflow-x:auto; margin:20px 0; }
+    table { width:100%; border-collapse:collapse; font-size:16px; }
+    th, td { text-align:left; vertical-align:top; padding:12px; border-bottom:1px solid var(--line); }
+    td:last-child { white-space:nowrap; }
+    blockquote { margin:4px 16px 24px; padding-left:18px; border-left:3px solid var(--line); }
+    .prompt-detail { margin:28px 0; }
+    .prompt-detail p { padding:0 16px; }
+    @media(max-width:600px) { .process-images { grid-template-columns:1fr; } }
     .caption { color:var(--muted); }
     .choice { padding:18px 0; border-bottom:1px solid var(--line); }
     .choice h3 { margin:0 0 8px; }
@@ -59,6 +71,11 @@
     <section class="panel" id="cold-genmedia" role="tabpanel" aria-labelledby="tab-genmedia" hidden>
       <h2>Cold genmedia</h2>
       <p>A short film made specifically for fal. Here is how interviews, public posts, company research and a lot of iteration became an 18-second invitation to this page.</p>
+      <div class="choice" id="step-zero">
+        <h3>Step 0: Umut’s $50 credit on Twitter</h3>
+        <p>This started with Umut giving me $50 in fal credits on Twitter. That gave me a way to try the tools. I decided to use the credit to make something specifically for fal: a short, personal film that could open a conversation about joining the company.</p>
+        <p><a href="https://x.com/ermanique/status/2093725577198870649">The tweet where it started</a>. The $50 was the starting credit, rather than a claim about the final cost of every experiment.</p>
+      </div>
       <video class="film" poster="cold-genmedia.jpg" controls playsinline preload="none" aria-label="My 18-second cold genmedia film for fal">
         <source src="cold-genmedia.mp4" type="video/mp4">
         <a href="cold-genmedia.mp4">Watch the film</a>
@@ -97,6 +114,56 @@
         <li><strong>Finish locally.</strong> I kept the approved visual take, slowed its later section to reach 17.965 seconds, and added the chosen “House of Cards” excerpt. The film above is that final edit, rather than the earlier five-second Kling tests.</li>
       </ol>
       <p>The reusable technique is to establish the scene in a still first, review it, then feed that approved image to the video model. This made the visual brief concrete before spending on motion.</p>
+      <h3>How the idea changed through the attempts</h3>
+      <div class="choice"><h3>First, cut the dancing</h3>
+        <p>The first idea was people dancing, a reveal of Atrium making the music, then a transition into Turkish coffee and the fortune. I initially suggested Tarkan’s “Şımarık.” The dance scene felt artificial and cheesy when I saw it. That pushed me toward a quieter scene anchored in a real place.</p>
+        <p>I also considered a San Francisco bridge view. Dalida gave the story a more specific connection to the founders, so I kept the restaurant and dropped the extra establishing scene.</p></div>
+      <div class="choice"><h3>Then, research the room instead of inventing one</h3>
+        <p>I wanted them to recognize Dalida from its atmosphere rather than a big restaurant sign. The collection grew beyond a few photos: official room, bar, lounge and food images; interior-design portfolio photographs; and a restaurant video used to check the room’s windows, columns, console, pendant lights and direction of view.</p>
+        <p>The instrument’s position was invented for the film. I wanted it on a separate console, with diners and the coffee table in the same visible space. Treating it as another dining table, or carrying the amplifier and home wall from the original Atrium photo into the restaurant, broke that connection.</p></div>
+      <div class="choice"><h3>A montage was easier than the camera journey I wanted</h3>
+        <p>Early versions combined separate instrument, restaurant and coffee shots. The coffee-to-door ending worked well enough that I kept asking to preserve it, but the room-to-table cuts felt disconnected. I wanted the camera to pull away from Atrium, reveal people eating, approach a table, enter the cup and keep moving through the fortune.</p>
+        <p>Several H3 attempts still cut between scenes despite “one continuous shot” in the prompt. One switched around 3.2 seconds; another jumped from instrument to room around 2.25 seconds. A correct URL at the end did not make the camera route work.</p></div>
+      <div class="choice"><h3>I paused generation to study the workflow</h3>
+        <p>We collected public tutorial transcripts and read the relevant sections alongside model documentation. The production archive reached 16 tutorial videos. This led to a more concrete distinction between an appearance reference, an actual first frame and a motion guide.</p>
+        <p>One experiment used a locally rendered 3D camera rehearsal as a video reference for <strong>Seedance 2.5</strong> (<code>bytedance/seedance-2.5/reference-to-video</code>). The guide described the route; the real room, instrument, food and grounds images described appearance. Drafts ran at 480p. A later guide used smoother curves because stopping at each waypoint had made the camera hesitate.</p>
+        <p>This produced a useful earlier branch: a roughly 22-second film with a continued coffee ending, local URL correction and, in some versions, <strong>Topaz Proteus</strong> enhancement through <code>fal-ai/topaz/upscale/video</code>. It also introduced new problems: room occupancy, seating, daylight versus evening light and the cup’s state all needed review. The final paper film took a different route.</p></div>
+      <div class="choice"><h3>The paper treatment became more than a filter</h3>
+        <p>I first wanted texture without changing the composition. Some attempts barely changed the photographic look; others repainted the room or altered the viewpoint. The useful shift was to approve a paper-style scene with the instrument and diners already connected.</p>
+        <p>Even a tight instrument close-up could lose the relationship to the restaurant. The final opening was cropped from the approved connected image, keeping its perspective. That close-up became the actual first frame; the wider image remained a reference for the reveal.</p></div>
+      <div class="choice"><h3>The last problem was the doorway</h3>
+        <p>“Follow the bird” made the bird fly out as a separate object. Describing a warm space beyond the door introduced a corridor and another door. The successful revision kept the bird and envelope as flat coffee-ground markings, specified one opening, and put only featureless ivory light beyond it.</p>
+        <p>The accepted H3 take ran 14.4 seconds. An attempt to request 18 seconds hit the endpoint’s 15-second limit, so I kept the approved generation and retimed it locally. That preserved the take rather than gambling on another generation for a timing change.</p></div>
+      <h3>Two intermediate images from the process</h3>
+      <div class="process-images">
+        <figure><img src="coffee-reference-still.jpg" alt="Generated vertical Dalida lounge scene with desserts and a white Turkish coffee cup in the foreground" loading="lazy" width="768" height="1376"><figcaption>The earlier Nano Banana Pro Edit still: real lounge and food references combined with the cup reference, then used as Kling’s image input.</figcaption></figure>
+        <figure><img src="connected-paper-scene.jpg" alt="Painted-paper restaurant scene connecting the Atrium instrument on a console with two diners at a table" loading="lazy" width="768" height="1364"><figcaption>The later connected paper scene. A close crop of this approved scene supplied the final H3 opening frame; the wide scene guided the reveal.</figcaption></figure>
+      </div>
+      <h3>Research that continued beyond the film</h3>
+      <p>The short film grew into a broader effort to understand fal and the role I might fit. Much of this work continued after the visual was approved; it informed my application preparation rather than the original restaurant concept.</p>
+      <ul>
+        <li><strong>Founder interviews.</strong> The collection reached 15 founder interviews and talks, representing about 8.5 hours of source material, plus a teammate interview. Captions, timestamps and original links made the material searchable. Relevant passages covered creative tools, developer marketing, hiring, agency and the founders’ working relationship. <a href="/fal-research/">Browse the public source index</a> · <a href="/fal-founder/">Read the founder research brief</a>.</li>
+        <li><strong>Turkish sources.</strong> The Komünite interview helped resolve who said what: Burkay discussed music and synthesizers, while Görkem discussed tennis and cycling. Their account of friendship and small projects before the company helped shape the relaxed shared-table scene. <a href="https://www.youtube.com/watch?v=VZlsdrcIqk4&amp;t=2250s">Music and synthesizers, around 37:30</a> · <a href="https://www.youtube.com/watch?v=VZlsdrcIqk4&amp;t=32s">The friendship story</a>.</li>
+        <li><strong>Company and hiring structure.</strong> I collected job descriptions and historical careers snapshots to understand what the company needed and how hiring changed. One review captured 51 then-current listings; a later refresh found 50. Historical listings showed that BDR and SDR roles had already been advertised, which corrected an early assumption about these being new functions.</li>
+        <li><strong>LinkedIn career research.</strong> I started with public team directories, tested a small employee-profile collection, then expanded and reconciled it against known missing profiles. The final saved set contained 209 profiles, with 153 included in the employee analysis after exclusions. Experience and education timelines helped me compare entry paths. It remained a partial, self-reported dataset rather than a verified org chart.</li>
+        <li><strong>Understand the work behind the title.</strong> I also collected 17 BDR/SDR learning videos and searched for non-founder employee interviews. A generic “GTM” title did not establish BDR duties. Interview evidence about prior collaborations and working relationships was more useful than guessing how someone had been hired from a profile alone.</li>
+      </ul>
+      <h3>What the experiments actually cost</h3>
+      <p>The starting $50 credit let me experiment, but a reservation in a local script was only an estimate. I later checked billing by saved request ID. These are historical charges from this project, not current model prices or a complete project total:</p>
+      <div class="table-scroll"><table>
+        <thead><tr><th scope="col">Experiment</th><th scope="col">Recorded charge</th></tr></thead>
+        <tbody>
+          <tr><td>H3 Max, earlier 12-second native 1080p reference-image attempt</td><td>$1.97</td></tr>
+          <tr><td>Seedance, 12-second 480p dining/seating draft</td><td>$2.97</td></tr>
+          <tr><td>Seedance, 12-second native 720p occupied-room edit</td><td>$6.67</td></tr>
+          <tr><td>H3 Max, 12-second 1080p attempt with a video reference</td><td>$3.62</td></tr>
+        </tbody>
+      </table></div>
+      <p>Reference inputs and editing settings changed the charge. An enhanced 1080p export also differed from a video generated natively at 1080p. Those distinctions mattered when deciding whether to regenerate, upscale or keep an approved take.</p>
+      <details class="prompt-detail"><summary>The ending instruction that worked</summary>
+        <blockquote>Inside the existing coffee cup, the bird and envelope remain flat, motionless silhouettes made of coffee grounds on the porcelain wall. The camera moves past these markings directly toward the single doorway-shaped opening in the grounds. Continue straight through it until its edges and all coffee grounds leave the frame completely. Beyond the opening is only soft, featureless ivory-white light. Once this pale light fills the entire screen, ermanreads.com/fal gently appears in the center. No flying bird, separate envelope, corridor, room or second door. Only the camera moves.</blockquote>
+        <p>This wording is retained from the accepted request. It improved the ending; the URL still begins appearing slightly before the doorway edges completely leave the frame.</p>
+      </details>
       <h3>What making it taught me</h3>
       <ul>
         <li><strong>Approve the still before animating.</strong> The strongest improvement came from a connected starting image: instrument, restaurant, diners and coffee in one believable space. More prompt wording could not reliably repair a contradictory image.</li>
