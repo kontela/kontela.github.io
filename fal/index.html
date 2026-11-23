@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>my pitch to join fal — Erman Avsar</title>
-  <meta name="description" content="my pitch to join fal, with a short video introduction and my CV.">
+  <meta name="description" content="my pitch to join fal, with my CV and the research and production process behind my cold genmedia film.">
   <style>
     :root { color-scheme: light; --ink: #1f2933; --muted: #616e7c; --line: #d9e2ec; --link: #1265d8; }
     * { box-sizing: border-box; }
@@ -12,7 +12,7 @@
     main { max-width: 960px; margin: 0 auto; padding: 48px 24px 80px; }
     a { color: var(--link); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    a:focus-visible, summary:focus-visible { outline: 3px solid var(--link); outline-offset: 5px; }
+    a:focus-visible, summary:focus-visible, button:focus-visible { outline: 3px solid var(--link); outline-offset: 5px; }
     .back { display: inline-block; margin-bottom: 36px; font-size: 14px; color: var(--muted); }
     h1 { margin: 0 0 28px; font-size: clamp(28px, 4vw, 40px); line-height: 1.2; letter-spacing: -0.025em; }
     .video { width: 100%; height: auto; aspect-ratio: 16 / 9; display: block; border: 0; border-radius: 14px; background: #f3f4f6; }
@@ -23,21 +23,112 @@
     .cv-content p { margin: 0 0 16px; font-size: 14px; }
     .cv-preview { display: block; width: 100%; height: 78vh; min-height: 420px; border: 1px solid var(--line); border-radius: 8px; }
     @media (max-width: 600px) { main { padding: 28px 18px 56px; } .back { margin-bottom: 28px; } .video { border-radius: 10px; } .cv-preview { height: 65vh; } }
+    .tabs { display:flex; gap:24px; border-bottom:1px solid var(--line); margin-top:28px; }
+    .tabs button { font:inherit; font-weight:500; color:var(--muted); background:none; border:0; border-bottom:3px solid transparent; padding:16px 2px; cursor:pointer; }
+    .tabs button[aria-selected="true"] { color:var(--ink); border-bottom-color:var(--link); }
+    [hidden] { display:none !important; }
+    .panel { padding-top:24px; }
+    .panel h2 { font-size:26px; line-height:1.3; margin:0 0 14px; }
+    .panel h3 { font-size:20px; margin:32px 0 10px; }
+    .panel p, .panel li { font-size:16px; }
+    .panel p { margin:0 0 16px; }
+    .panel li { margin-bottom:12px; }
+    .panel ul, .panel ol { padding-left:24px; }
+    .film { display:block; width:100%; max-width:360px; max-height:72vh; aspect-ratio:4 / 7; object-fit:contain; background:#f3f4f6; border-radius:10px; margin:24px auto 12px; }
+    .caption { color:var(--muted); }
+    .choice { padding:18px 0; border-bottom:1px solid var(--line); }
+    .choice h3 { margin:0 0 8px; }
+    .choice p:last-child { margin-bottom:0; }
   </style>
 </head>
 <body>
   <main>
-    <a class="back" href="/">← Erman Reads</a>
+    <a class="back" href="/">Erman Reads</a>
     <h1>my pitch to join fal</h1>
     <iframe class="video" src="https://www.youtube-nocookie.com/embed/VJLXnJNCQsA?rel=0" title="my pitch to join fal — Erman Avsar" width="912" height="513" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p class="video-link"><a href="https://youtu.be/VJLXnJNCQsA">Watch on YouTube ↗</a></p>
-    <details>
-      <summary>View my CV</summary>
-      <div class="cv-content">
-        <p><a href="Erman_Avsar_CV.pdf" target="_blank" rel="noopener">Open CV as PDF ↗</a> · <a href="Erman_Avsar_CV.pdf" download>Download CV</a></p>
-        <iframe class="cv-preview" src="Erman_Avsar_CV.pdf" title="Erman Avsar’s CV" loading="lazy"></iframe>
-      </div>
-    </details>
+    <p class="video-link"><a href="https://youtu.be/VJLXnJNCQsA">Watch on YouTube</a></p>
+    <div class="tabs" role="tablist" aria-label="More about my pitch">
+      <button id="tab-cv" role="tab" aria-selected="true" aria-controls="cv" tabindex="0">CV</button>
+      <button id="tab-genmedia" role="tab" aria-selected="false" aria-controls="cold-genmedia" tabindex="-1">Cold genmedia</button>
+    </div>
+    <section class="panel" id="cv" role="tabpanel" aria-labelledby="tab-cv">
+      <p><a href="Erman_Avsar_CV.pdf" target="_blank" rel="noopener">Open CV as PDF</a> · <a href="Erman_Avsar_CV.pdf" download>Download CV</a></p>
+      <iframe class="cv-preview" src="Erman_Avsar_CV.pdf" title="Erman Avsar’s CV" loading="lazy"></iframe>
+    </section>
+    <section class="panel" id="cold-genmedia" role="tabpanel" aria-labelledby="tab-genmedia" hidden>
+      <h2>Cold genmedia</h2>
+      <p>A short film made specifically for fal. Here is how interviews, public posts, company research and a lot of iteration became an 18-second invitation to this page.</p>
+      <video class="film" poster="cold-genmedia.jpg" controls playsinline preload="none" aria-label="My 18-second cold genmedia film for fal">
+        <source src="cold-genmedia.mp4" type="video/mp4">
+        <a href="cold-genmedia.mp4">Watch the film</a>
+      </video>
+      <p class="caption">Atrium → restaurant → Turkish coffee → a fortune in the grounds → a doorway to ermanreads.com/fal. <a href="cold-genmedia.mp4">Open the film</a>.</p>
+      <h3>Why these details?</h3>
+      <div class="choice"><h3>The opening: Atrium</h3>
+        <p>Burkay posted an instrument photo with a joke about an automatic offer to work at fal if you recognized it. That became my opening reference: Atrium. It gave the film a shared point of recognition before any introduction.</p>
+        <p><a href="https://x.com/burkaygur/status/2121404919240630348">The original post</a>. The instrument’s placement in the restaurant is my fictional staging.</p></div>
+      <div class="choice"><h3>The restaurant: Dalida</h3>
+        <p>The Sourcery interview opens at Dalida, with a story about a wedding there. I used real restaurant photographs and food references to build a recognizable setting, without putting its name across the screen. The room should carry the reference.</p>
+        <p><a href="https://www.youtube.com/watch?v=pPzJ1wE8Lnw&amp;t=90s">Sourcery, around 1:30</a> · <a href="https://www.dalidasf.com/">Dalida</a>. The film is an illustrated, AI-generated interpretation of the setting.</p></div>
+      <div class="choice"><h3>The central idea: fal inside the cup</h3>
+        <p>In the same interview, the founders explain the name’s two meanings: Features and Labels, and the Turkish tradition of reading fortunes in coffee grounds. That made Turkish coffee the story’s center. A bird, an envelope and a doorway appear as markings in the grounds; the camera travels into the doorway and reveals this page.</p>
+        <p><a href="https://www.youtube.com/watch?v=pPzJ1wE8Lnw&amp;t=2669s">The name’s explanation, around 44:29</a>. Turning those symbols into an invitation was my interpretation.</p></div>
+      <div class="choice"><h3>The texture: painted paper</h3>
+        <p>Burkay had shared Kevin Ngo’s animation using paintings and paper textures. That was a concrete visual reference for the handmade treatment. I wanted the people, room and objects to belong to the same illustrated world.</p>
+        <p><a href="https://x.com/kevin_t_ngo/status/2119436039488156158">Kevin Ngo’s paper-texture animation</a>. Sharing this work is a taste signal, not a complete description of someone’s preferences.</p></div>
+      <div class="choice"><h3>The music: House of Cards</h3>
+        <p>An older MIT profile listed Radiohead’s <em>In Rainbows</em>—the whole album. I chose “House of Cards” from it after trying other soundtrack directions. The final edit uses a short excerpt from the official music-video recording, at its original speed, softened toward the reveal.</p>
+        <p><a href="https://sound.media.mit.edu/people.php">The historical MIT profile</a> · <a href="https://www.youtube.com/watch?v=8nTFjVm9sTQ">Radiohead’s official video</a>. The album preference is historical; the track selection is mine.</p></div>
+      <h3>From research to a creative brief</h3>
+      <ol>
+        <li><strong>Understand the company and the role.</strong> I collected founder interviews, hiring discussions, job listings, public team pages and LinkedIn career histories. The company and career research helped me understand functions, backgrounds and where my experience might fit. Public profiles provide a partial picture, so I kept confirmed roles separate from inferred reporting lines.</li>
+        <li><strong>Keep the source with the observation.</strong> Interview transcripts, timestamps and public posts made it possible to return to the original context. A caption can misattribute a speaker; a repost is not authorship; an old favorite is not necessarily a current one.</li>
+        <li><strong>Translate a few signals into the film.</strong> Atrium supplies the opening, Dalida the setting, coffee the central metaphor, paper the material and Radiohead the soundtrack. The rest of the research informed the pitch rather than becoming extra visual references.</li>
+        <li><strong>Make the destination useful.</strong> The short film leads here, where the introduction and CV explain who I am. The film opens the conversation; the page supplies the substance.</li>
+      </ol>
+      <h3>What making it taught me</h3>
+      <ul>
+        <li><strong>Approve the still before animating.</strong> The strongest improvement came from a connected starting image: instrument, restaurant, diners and coffee in one believable space. More prompt wording could not reliably repair a contradictory image.</li>
+        <li><strong>Give each reference a job.</strong> An opening frame, a style reference and a motion reference do different things. A list of images does not automatically become a storyboard. The original instrument photo kept pulling its home background into the restaurant.</li>
+        <li><strong>Describe the camera precisely.</strong> Position, direction, speed and destination all matter. “One shot” still produced cuts in several attempts. A short film needs a physically plausible route and consistent lighting.</li>
+        <li><strong>Track the same objects.</strong> I needed the existing cup beside the diner, already finished, with wet grounds on exposed porcelain. Otherwise the model invented another cup or turned a full drink into grounds.</li>
+        <li><strong>Be literal about the metaphor.</strong> “Follow the bird” produced a flying bird. The intended bird and envelope were flat, motionless coffee-ground markings. Only the camera should move through the single doorway.</li>
+        <li><strong>Change one thing when asking for one thing.</strong> A texture edit should preserve the viewpoint and composition. Rebuilding the restaurant at the same time made it harder to judge the requested change.</li>
+        <li><strong>Preserve an approved take.</strong> Earlier versions used Kling and Seedance experiments; the approved paper-film visual came from H3 Max. Its 14.4-second take became about 18 seconds through a local retime: the first six seconds stayed unchanged and the rest slowed to 70%. Timing and soundtrack changes did not require another visual generation.</li>
+        <li><strong>Choose music by listening.</strong> Generated scores, live excerpts and added effects did not settle the choice. I picked the final passage. A successful audio decode or loudness measurement cannot judge whether music fits the film.</li>
+        <li><strong>Save the experiment.</strong> Exact prompts, inputs, request IDs, outputs and actual billing made revisions traceable. A delayed job should be polled using its existing ID rather than submitted twice. Quoted base prices were not always the final charge.</li>
+        <li><strong>Review the actual ending.</strong> Check the URL’s spelling, legibility, cup continuity and doorway passage. The accepted take reveals the URL slightly before the doorway edges fully disappear; it is the version I chose after reviewing the tradeoff.</li>
+      </ul>
+      <h3>A reusable cold genmedia workflow</h3>
+      <p>Research the company and recipient. Save evidence. Choose a small number of meaningful details. Write one clear visual journey. Approve the starting image. Generate and review within a budget. Preserve what works with local edits. Send the film with a useful destination and a clear reason to talk.</p>
+      <p>My takeaway: personalization works when the details belong in the story. Each reference should earn its place in the short time you are asking someone to give you.</p>
+      <p>Related research: <a href="/emails/">cold outreach examples</a> · <a href="/emails/videos/">video discussions of outreach</a>.</p>
+    </section>
+    <script>
+      const tabs = [...document.querySelectorAll('[role="tab"]')];
+      function selectTab(tab, focus=false) {
+        tabs.forEach(item => {
+          const active = item === tab;
+          item.setAttribute('aria-selected', String(active));
+          item.tabIndex = active ? 0 : -1;
+          document.getElementById(item.getAttribute('aria-controls')).hidden = !active;
+        });
+        if (focus) tab.focus();
+      }
+      tabs.forEach((tab,index) => {
+        tab.addEventListener('click', () => { selectTab(tab); history.replaceState(null,'', '#' + tab.getAttribute('aria-controls')); });
+        tab.addEventListener('keydown', event => {
+          let next;
+          if (event.key === 'ArrowRight') next = tabs[(index+1)%tabs.length];
+          if (event.key === 'ArrowLeft') next = tabs[(index+tabs.length-1)%tabs.length];
+          if (event.key === 'Home') next = tabs[0];
+          if (event.key === 'End') next = tabs[tabs.length-1];
+          if (next) { event.preventDefault(); next.click(); next.focus(); }
+        });
+      });
+      function fromHash() { selectTab(location.hash === '#cold-genmedia' ? tabs[1] : tabs[0]); }
+      window.addEventListener('hashchange',fromHash); fromHash();
+    </script>
   </main>
 </body>
 </html>
