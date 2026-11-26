@@ -1,12 +1,14 @@
 {
-  "indexed_source_records": 573,
+  "indexed_source_records": 616,
   "sections": {
     "Outreach screenshots": 36,
     "Reference materials": 1,
     "Published exchanges": 2,
     "Sales campaigns": 154,
     "Historical correspondence": 280,
-    "Disclosure articles": 100
+    "Disclosure articles": 100,
+    "Public founder correspondence": 3,
+    "Public court exhibits": 40
   },
   "sales_email_stages": 453,
   "historical_featured_author_records": 242,
